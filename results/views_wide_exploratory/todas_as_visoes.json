@@ -1,0 +1,158 @@
+{
+  "task": "PTB-XL diagnostic superclasses",
+  "labels": [
+    "NORM",
+    "MI",
+    "STTC",
+    "CD",
+    "HYP"
+  ],
+  "feature_count": 3198,
+  "families": [
+    "catch22",
+    "image_spectrogram",
+    "image_scalogram",
+    "image_gasf",
+    "image_gadf",
+    "image_mtf",
+    "image_recurrence",
+    "graph_hvg",
+    "graph_lphvg1",
+    "graph_takens",
+    "graph_transition"
+  ],
+  "protocol": {
+    "regime": "exploratory",
+    "train_folds": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "validation_fold": 8,
+    "test_fold": 9,
+    "classifier": "boosting lr=0.06 folhas=31 msl=20 l2=1.0 mf=0.5",
+    "preprocessing": "median imputation",
+    "grid": "ampla",
+    "random_state": 42
+  },
+  "selection_metric": "validation macro-AUROC",
+  "selected_c": null,
+  "model_comparison_validation": [
+    {
+      "modelo": "logistica C=0.001",
+      "familia_modelo": "linear",
+      "val_auroc": 0.9067613208088119
+    },
+    {
+      "modelo": "logistica C=0.01",
+      "familia_modelo": "linear",
+      "val_auroc": 0.9012011666852192
+    },
+    {
+      "modelo": "logistica C=0.1",
+      "familia_modelo": "linear",
+      "val_auroc": 0.8872644394802289
+    },
+    {
+      "modelo": "logistica C=1.0",
+      "familia_modelo": "linear",
+      "val_auroc": 0.8731660367916649
+    },
+    {
+      "modelo": "logistica C=10.0",
+      "familia_modelo": "linear",
+      "val_auroc": 0.8621248162110856
+    },
+    {
+      "modelo": "boosting lr=0.1 folhas=31 msl=20 l2=0.0 mf=1.0",
+      "familia_modelo": "nao-linear",
+      "val_auroc": 0.9092702013575462
+    },
+    {
+      "modelo": "boosting lr=0.05 folhas=63 msl=20 l2=0.0 mf=1.0",
+      "familia_modelo": "nao-linear",
+      "val_auroc": 0.9112595373355259
+    },
+    {
+      "modelo": "boosting lr=0.03 folhas=127 msl=80 l2=0.0 mf=1.0",
+      "familia_modelo": "nao-linear",
+      "val_auroc": 0.9096982842861987
+    },
+    {
+      "modelo": "boosting lr=0.1 folhas=15 msl=80 l2=0.0 mf=1.0",
+      "familia_modelo": "nao-linear",
+      "val_auroc": 0.9109417449683596
+    },
+    {
+      "modelo": "boosting lr=0.06 folhas=127 msl=80 l2=1.0 mf=0.5",
+      "familia_modelo": "nao-linear",
+      "val_auroc": 0.9089679675459965
+    },
+    {
+      "modelo": "boosting lr=0.1 folhas=63 msl=20 l2=1.0 mf=1.0",
+      "familia_modelo": "nao-linear",
+      "val_auroc": 0.908381252587984
+    },
+    {
+      "modelo": "boosting lr=0.06 folhas=31 msl=20 l2=1.0 mf=0.5",
+      "familia_modelo": "nao-linear",
+      "val_auroc": 0.9142821300069783
+    },
+    {
+      "modelo": "boosting lr=0.06 folhas=31 msl=80 l2=1.0 mf=1.0",
+      "familia_modelo": "nao-linear",
+      "val_auroc": 0.9117593484974368
+    },
+    {
+      "modelo": "boosting lr=0.06 folhas=15 msl=20 l2=1.0 mf=0.5",
+      "familia_modelo": "nao-linear",
+      "val_auroc": 0.9135093698152396
+    },
+    {
+      "modelo": "boosting lr=0.03 folhas=127 msl=80 l2=0.0 mf=0.5",
+      "familia_modelo": "nao-linear",
+      "val_auroc": 0.911202066617929
+    },
+    {
+      "modelo": "boosting lr=0.1 folhas=31 msl=80 l2=1.0 mf=0.5",
+      "familia_modelo": "nao-linear",
+      "val_auroc": 0.9127551788679483
+    },
+    {
+      "modelo": "boosting lr=0.1 folhas=15 msl=20 l2=0.0 mf=1.0",
+      "familia_modelo": "nao-linear",
+      "val_auroc": 0.910678436024642
+    }
+  ],
+  "best_linear_validation": {
+    "modelo": "logistica C=0.001",
+    "familia_modelo": "linear",
+    "val_auroc": 0.9067613208088119
+  },
+  "validation_macro_auroc": 0.9142821300069783,
+  "test": {
+    "macro_auroc": 0.9006959796636581,
+    "macro_average_precision": 0.7562977502412843,
+    "per_label": {
+      "NORM": {
+        "auroc": 0.9220251361652182
+      },
+      "MI": {
+        "auroc": 0.9070430330704303
+      },
+      "STTC": {
+        "auroc": 0.9171934112447092
+      },
+      "CD": {
+        "auroc": 0.9040679355639986
+      },
+      "HYP": {
+        "auroc": 0.8531503822739338
+      }
+    }
+  }
+}

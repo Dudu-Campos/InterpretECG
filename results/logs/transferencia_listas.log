@@ -1,0 +1,9 @@
+PTB-XL: 2,952 features das 15 familias de `melhor + multiplex`; treino 14,955
+
+lista do chapman8: 134 features, 0 sem par no PTB-XL
+lista do PTB-XL mais proxima: k=134 (val registrada 0.9372)
+
+  selecao no PTB-XL (consonante)                 k= 134  val 0.9372  teste 0.9178  (3.0 min)
+  selecao no chapman8 (transferida)              k= 134  val 0.9197  teste 0.9078  (2.7 min)
+  placebo: 134 sorteadas, semente 0              k= 134  val 0.9157  teste 0.9024  (3.4 min)
+  placebo: 134 sorteadas, semente 1              k= 134  val 0.9133  teste 0.9043  (4.7 min)

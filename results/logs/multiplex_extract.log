@@ -1,0 +1,8 @@
+[Parallel(n_jobs=48)]: Using backend LokyBackend with 48 concurrent workers.
+[Parallel(n_jobs=48)]: Done  34 out of 107 | elapsed:  5.2min remaining: 11.2min
+[Parallel(n_jobs=48)]: Done  56 out of 107 | elapsed:  9.5min remaining:  8.7min
+[Parallel(n_jobs=48)]: Done  78 out of 107 | elapsed: 10.1min remaining:  3.7min
+[Parallel(n_jobs=48)]: Done 100 out of 107 | elapsed: 11.1min remaining:   46.4s
+[Parallel(n_jobs=48)]: Done 107 out of 107 | elapsed: 11.2min finished
+graph_hvg_multiplex: (21388, 99) -> /exp/duducampos/InterpretECG/data/features/views/graph_hvg_multiplex.parquet
+graph_lphvg1_multiplex: (21388, 99) -> /exp/duducampos/InterpretECG/data/features/views/graph_lphvg1_multiplex.parquet

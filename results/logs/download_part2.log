@@ -1,0 +1,5 @@
++ curl -sL -C - -o data/code15/exams_part2.zip 'https://zenodo.org/records/4916206/files/exams_part2.zip?download=1'
++ unzip -tq data/code15/exams_part2.zip
+No errors detected in compressed data of data/code15/exams_part2.zip.
++ echo 'part2 ok'
+part2 ok

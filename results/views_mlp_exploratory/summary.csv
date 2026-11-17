@@ -1,0 +1,37 @@
+conjunto,n_features,mlp,mlp_teste,mlp_sementes,mlp_dp,rasos_modelo,rasos_teste,ganho_mlp
+catch22 + amplitude + interderivacao + visoes abs sem recorrencia,2919,mlp 1024x1024 dropout=0.6 entrada=0.3 wd=0.05,0.9123,0.9095,0.0009,,,
+catch22 + amplitude + interderivacao + visoes abs,3327,mlp 1024x1024 dropout=0.6 entrada=0.3 wd=0.05,0.9109,0.9083,0.0009,,,
+catch22 + visoes abs,3228,mlp 1024x1024 dropout=0.6 entrada=0.3 wd=0.05,0.9089,0.9063,0.0014,,,
+todas + amplitude + interderivacao,3297,mlp 1024x1024 dropout=0.6 entrada=0.3 wd=0.05,0.9089,0.9059,0.0004,,,
+todas as visoes,3198,mlp 512x512 dropout=0.5 entrada=0.2 wd=0.01,0.9030,0.8993,0.0013,boosting lr=0.1 folhas=31,0.8969,0.0062
+todas + placebo,3297,mlp 1024x1024 dropout=0.6 entrada=0.3 wd=0.05,0.9021,0.8991,0.0007,,,
+visao: imagem abs,1788,mlp 256x256x256 dropout=0.5 entrada=0.2 wd=0.01,0.9014,0.8981,0.0010,,,
+imagem + grafo,2934,mlp 512x512 dropout=0.5 entrada=0.2 wd=0.01,0.9000,0.8966,0.0011,boosting lr=0.05 folhas=63,0.8898,0.0102
+catch22 + grafo,1422,mlp 1024x1024 dropout=0.6 entrada=0.3 wd=0.05,0.8979,0.8950,0.0007,boosting lr=0.05 folhas=63,0.8918,0.0061
+catch22 + imagem,2040,mlp 256x256x256 dropout=0.5 entrada=0.2 wd=0.01,0.8961,0.8924,0.0021,boosting lr=0.05 folhas=63,0.8910,0.0051
+catch22 + amplitude + interderivacao,363,mlp 256x256x256 dropout=0.5 entrada=0.2 wd=0.01,0.8958,0.8931,0.0014,,,
+catch22 + amplitude,324,mlp 1024x1024 dropout=0.5 entrada=0.2 wd=0.01,0.8934,0.8902,0.0006,,,
+visao: imagem,1776,mlp 256x256x256 dropout=0.5 entrada=0.2 wd=0.01,0.8883,0.8846,0.0005,logistica C=0.01,0.8781,0.0102
+visao: grafo,1158,mlp 1024x1024 dropout=0.5 entrada=0.2 wd=0.01,0.8874,0.8839,0.0007,boosting lr=0.1 folhas=31,0.8733,0.0141
+visao: grafo abs,1176,mlp 512x512 dropout=0.5 entrada=0.2 wd=0.01,0.8850,0.8820,0.0001,,,
+image_scalogram_abs,336,mlp 512x512 dropout=0.5 entrada=0.0 wd=0.01,0.8816,0.8784,0.0014,,,
+image_gasf_abs,336,mlp 512x512 dropout=0.5 entrada=0.0 wd=0.01,0.8809,0.8772,0.0012,,,
+catch22 + interderivacao,303,mlp 1024x1024 dropout=0.5 entrada=0.2 wd=0.01,0.8768,0.8732,0.0016,,,
+catch22,264,mlp 1024x1024 dropout=0.5 entrada=0.2 wd=0.01,0.8697,0.8660,0.0025,boosting lr=0.05 folhas=63,0.8715,-0.0018
+catch22 + placebo,363,mlp 1024x1024 dropout=0.6 entrada=0.3 wd=0.05,0.8655,0.8626,0.0011,,,
+image_spectrogram_abs,336,mlp 512x512 dropout=0.5 entrada=0.0 wd=0.01,0.8652,0.8620,0.0020,,,
+image_gadf_abs,336,mlp 512x512 dropout=0.5 entrada=0.0 wd=0.01,0.8652,0.8609,0.0011,,,
+image_scalogram,336,mlp 512x512 dropout=0.5 entrada=0.0 wd=0.01,0.8634,0.8604,0.0015,logistica C=1.0,0.8477,0.0157
+graph_hvg,276,mlp 512x512 dropout=0.5 entrada=0.0 wd=0.01,0.8619,0.8590,0.0010,boosting lr=0.05 folhas=63,0.8506,0.0113
+image_gadf,336,mlp 512x512 dropout=0.5 entrada=0.0 wd=0.01,0.8603,0.8562,0.0007,logistica C=1.0,0.8469,0.0134
+graph_lphvg1,276,mlp 512x512 dropout=0.5 entrada=0.2 wd=0.01,0.8594,0.8577,0.0013,boosting lr=0.05 folhas=63,0.8474,0.0120
+graph_takens,300,mlp 512x512 dropout=0.5 entrada=0.2 wd=0.01,0.8466,0.8441,0.0007,boosting lr=0.05 folhas=63,0.8320,0.0146
+image_spectrogram,336,mlp 512x512 dropout=0.5 entrada=0.0 wd=0.01,0.8366,0.8332,0.0010,logistica C=1.0,0.8184,0.0183
+image_gasf,336,mlp 512x512 dropout=0.5 entrada=0.0 wd=0.01,0.8357,0.8312,0.0017,logistica C=1.0,0.8258,0.0099
+image_recurrence,96,mlp 512x512 dropout=0.5 entrada=0.0 wd=0.01,0.8298,0.8273,0.0006,boosting lr=0.05 folhas=63,0.8138,0.0160
+image_recurrence_abs,108,mlp 512x512 dropout=0.5 entrada=0.0 wd=0.01,0.8244,0.8219,0.0008,,,
+graph_takens_abs,300,mlp 512x512 dropout=0.5 entrada=0.0 wd=0.01,0.8187,0.8159,0.0015,,,
+graph_transition_abs,324,mlp 1024x1024 dropout=0.5 entrada=0.2 wd=0.01,0.7991,0.7957,0.0015,,,
+image_mtf_abs,336,mlp 512x512 dropout=0.5 entrada=0.0 wd=0.01,0.7828,0.7769,0.0014,,,
+graph_transition,306,mlp 512x512 dropout=0.5 entrada=0.0 wd=0.01,0.7765,0.7711,0.0013,boosting lr=0.05 folhas=63,0.7556,0.0209
+image_mtf,336,mlp 512x512 dropout=0.5 entrada=0.0 wd=0.01,0.7395,0.7348,0.0038,logistica C=1.0,0.7289,0.0105

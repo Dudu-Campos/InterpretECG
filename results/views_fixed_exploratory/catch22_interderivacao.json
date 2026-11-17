@@ -1,0 +1,101 @@
+{
+  "task": "PTB-XL diagnostic superclasses",
+  "labels": [
+    "NORM",
+    "MI",
+    "STTC",
+    "CD",
+    "HYP"
+  ],
+  "feature_count": 303,
+  "families": [
+    "catch22",
+    "series_interlead"
+  ],
+  "protocol": {
+    "regime": "exploratory",
+    "train_folds": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "validation_fold": 8,
+    "test_fold": 9,
+    "classifier": "boosting lr=0.03 folhas=127 msl=80 l2=0.0 mf=0.5",
+    "preprocessing": "median imputation",
+    "grid": "fixa",
+    "fixed_boosting": {
+      "learning_rate": 0.03,
+      "max_leaf_nodes": 127,
+      "min_samples_leaf": 80,
+      "l2_regularization": 0.0,
+      "max_features": 0.5
+    },
+    "random_state": 42
+  },
+  "selection_metric": "validation macro-AUROC",
+  "selected_c": null,
+  "model_comparison_validation": [
+    {
+      "modelo": "logistica C=0.001",
+      "familia_modelo": "linear",
+      "val_auroc": 0.8601025047265622
+    },
+    {
+      "modelo": "logistica C=0.01",
+      "familia_modelo": "linear",
+      "val_auroc": 0.8662479481388402
+    },
+    {
+      "modelo": "logistica C=0.1",
+      "familia_modelo": "linear",
+      "val_auroc": 0.8678138151160877
+    },
+    {
+      "modelo": "logistica C=1.0",
+      "familia_modelo": "linear",
+      "val_auroc": 0.8679883651206783
+    },
+    {
+      "modelo": "logistica C=10.0",
+      "familia_modelo": "linear",
+      "val_auroc": 0.8681192562336355
+    },
+    {
+      "modelo": "boosting lr=0.03 folhas=127 msl=80 l2=0.0 mf=0.5",
+      "familia_modelo": "nao-linear",
+      "val_auroc": 0.8971372880758521
+    }
+  ],
+  "best_linear_validation": {
+    "modelo": "logistica C=10.0",
+    "familia_modelo": "linear",
+    "val_auroc": 0.8681192562336355
+  },
+  "validation_macro_auroc": 0.8971372880758521,
+  "test": {
+    "macro_auroc": 0.8843595138672378,
+    "macro_average_precision": 0.7239437936252235,
+    "per_label": {
+      "NORM": {
+        "auroc": 0.9119223143910921
+      },
+      "MI": {
+        "auroc": 0.8889845948065126
+      },
+      "STTC": {
+        "auroc": 0.9048512005094205
+      },
+      "CD": {
+        "auroc": 0.9006038580841731
+      },
+      "HYP": {
+        "auroc": 0.8154356015449908
+      }
+    }
+  }
+}

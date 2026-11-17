@@ -1,0 +1,103 @@
+{
+  "task": "code15",
+  "dataset": "code15",
+  "labels": [
+    "1dAVb",
+    "RBBB",
+    "LBBB",
+    "SB",
+    "ST",
+    "AF"
+  ],
+  "feature_count": null,
+  "families": [
+    "raw_signal"
+  ],
+  "protocol": {
+    "regime": "confirmatory",
+    "train_folds": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "validation_fold": 9,
+    "test_fold": 10,
+    "classifier": "transformer (DeepECG-Kit@5ecd8c17, lr 1e-3)",
+    "preprocessing": "standardization by scalar train mean/std",
+    "training": {
+      "epochs": 50,
+      "batch": 128,
+      "max_lr": 0.001,
+      "weight_decay": 0.01,
+      "schedule": "one-cycle",
+      "crop": 250,
+      "eval_stride": 125,
+      "aggregate": "max",
+      "early_stopping": null,
+      "precision": "bf16"
+    },
+    "random_state": 42
+  },
+  "split_sizes": {
+    "train": 74096,
+    "validation": 9262,
+    "test": 9261
+  },
+  "selection_metric": null,
+  "selected_c": null,
+  "validation": {
+    "macro_auroc": 0.9385575573516873,
+    "macro_average_precision": 0.5295743214761303,
+    "per_label": {
+      "1dAVb": {
+        "auroc": 0.7187314028878378
+      },
+      "RBBB": {
+        "auroc": 0.9882949774240894
+      },
+      "LBBB": {
+        "auroc": 0.9953532701797833
+      },
+      "SB": {
+        "auroc": 0.9846526102215398
+      },
+      "ST": {
+        "auroc": 0.9929679707249388
+      },
+      "AF": {
+        "auroc": 0.9513451126719344
+      }
+    }
+  },
+  "validation_macro_auroc": 0.9385575573516873,
+  "test": {
+    "macro_auroc": 0.9431456500301608,
+    "macro_average_precision": 0.510131065410827,
+    "per_label": {
+      "1dAVb": {
+        "auroc": 0.73717929089444
+      },
+      "RBBB": {
+        "auroc": 0.9846351824511984
+      },
+      "LBBB": {
+        "auroc": 0.9954953719219054
+      },
+      "SB": {
+        "auroc": 0.9854913128109004
+      },
+      "ST": {
+        "auroc": 0.9916777559201291
+      },
+      "AF": {
+        "auroc": 0.9643949861823924
+      }
+    }
+  },
+  "training_minutes": 19.157575689483203
+}

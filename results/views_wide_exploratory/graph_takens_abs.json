@@ -1,0 +1,148 @@
+{
+  "task": "PTB-XL diagnostic superclasses",
+  "labels": [
+    "NORM",
+    "MI",
+    "STTC",
+    "CD",
+    "HYP"
+  ],
+  "feature_count": 300,
+  "families": [
+    "graph_takens_abs"
+  ],
+  "protocol": {
+    "regime": "exploratory",
+    "train_folds": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "validation_fold": 8,
+    "test_fold": 9,
+    "classifier": "boosting lr=0.05 folhas=63 msl=20 l2=0.0 mf=1.0",
+    "preprocessing": "median imputation",
+    "grid": "ampla",
+    "random_state": 42
+  },
+  "selection_metric": "validation macro-AUROC",
+  "selected_c": null,
+  "model_comparison_validation": [
+    {
+      "modelo": "logistica C=0.001",
+      "familia_modelo": "linear",
+      "val_auroc": 0.8034877290980255
+    },
+    {
+      "modelo": "logistica C=0.01",
+      "familia_modelo": "linear",
+      "val_auroc": 0.8116973944934587
+    },
+    {
+      "modelo": "logistica C=0.1",
+      "familia_modelo": "linear",
+      "val_auroc": 0.8106537460537261
+    },
+    {
+      "modelo": "logistica C=1.0",
+      "familia_modelo": "linear",
+      "val_auroc": 0.8103048267028099
+    },
+    {
+      "modelo": "logistica C=10.0",
+      "familia_modelo": "linear",
+      "val_auroc": 0.8100456739804811
+    },
+    {
+      "modelo": "boosting lr=0.1 folhas=31 msl=20 l2=0.0 mf=1.0",
+      "familia_modelo": "nao-linear",
+      "val_auroc": 0.8239958785353856
+    },
+    {
+      "modelo": "boosting lr=0.05 folhas=63 msl=20 l2=0.0 mf=1.0",
+      "familia_modelo": "nao-linear",
+      "val_auroc": 0.8325625574771468
+    },
+    {
+      "modelo": "boosting lr=0.03 folhas=127 msl=80 l2=0.0 mf=1.0",
+      "familia_modelo": "nao-linear",
+      "val_auroc": 0.8322794895530645
+    },
+    {
+      "modelo": "boosting lr=0.1 folhas=15 msl=80 l2=0.0 mf=1.0",
+      "familia_modelo": "nao-linear",
+      "val_auroc": 0.8259143156248996
+    },
+    {
+      "modelo": "boosting lr=0.06 folhas=127 msl=80 l2=1.0 mf=0.5",
+      "familia_modelo": "nao-linear",
+      "val_auroc": 0.825709851058108
+    },
+    {
+      "modelo": "boosting lr=0.1 folhas=63 msl=20 l2=1.0 mf=1.0",
+      "familia_modelo": "nao-linear",
+      "val_auroc": 0.8282639183417346
+    },
+    {
+      "modelo": "boosting lr=0.06 folhas=31 msl=20 l2=1.0 mf=0.5",
+      "familia_modelo": "nao-linear",
+      "val_auroc": 0.8309268708506765
+    },
+    {
+      "modelo": "boosting lr=0.06 folhas=31 msl=80 l2=1.0 mf=1.0",
+      "familia_modelo": "nao-linear",
+      "val_auroc": 0.829311163230078
+    },
+    {
+      "modelo": "boosting lr=0.06 folhas=15 msl=20 l2=1.0 mf=0.5",
+      "familia_modelo": "nao-linear",
+      "val_auroc": 0.8286018441702524
+    },
+    {
+      "modelo": "boosting lr=0.03 folhas=127 msl=80 l2=0.0 mf=0.5",
+      "familia_modelo": "nao-linear",
+      "val_auroc": 0.8302881750875422
+    },
+    {
+      "modelo": "boosting lr=0.1 folhas=31 msl=80 l2=1.0 mf=0.5",
+      "familia_modelo": "nao-linear",
+      "val_auroc": 0.8274467461596522
+    },
+    {
+      "modelo": "boosting lr=0.1 folhas=15 msl=20 l2=0.0 mf=1.0",
+      "familia_modelo": "nao-linear",
+      "val_auroc": 0.8278824492702569
+    }
+  ],
+  "best_linear_validation": {
+    "modelo": "logistica C=0.01",
+    "familia_modelo": "linear",
+    "val_auroc": 0.8116973944934587
+  },
+  "validation_macro_auroc": 0.8325625574771468,
+  "test": {
+    "macro_auroc": 0.8111818368557812,
+    "macro_average_precision": 0.5821091619040856,
+    "per_label": {
+      "NORM": {
+        "auroc": 0.864024687776122
+      },
+      "MI": {
+        "auroc": 0.785110234767769
+      },
+      "STTC": {
+        "auroc": 0.8320199835187474
+      },
+      "CD": {
+        "auroc": 0.8006118116354337
+      },
+      "HYP": {
+        "auroc": 0.7741424665808339
+      }
+    }
+  }
+}

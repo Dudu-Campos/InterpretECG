@@ -1,0 +1,69 @@
+{
+  "reader": "LDA binaria por rotulo, shrinkage Ledoit-Wolf, z-score do treino, corte +-5",
+  "value": "AUROC macro; validacao = fold 8 (decisao), teste = fold 9 (descricao)",
+  "players": {
+    "catch22": [
+      "catch22"
+    ],
+    "amplitude+inter": [
+      "series_amplitude",
+      "series_interlead"
+    ],
+    "espectro+escalograma": [
+      "image_spectrogram",
+      "image_scalogram"
+    ],
+    "gaf": [
+      "image_gasf",
+      "image_gadf"
+    ],
+    "mtf": [
+      "image_mtf"
+    ],
+    "rqa": [
+      "image_recurrence"
+    ],
+    "visibilidade": [
+      "graph_hvg",
+      "graph_lphvg1"
+    ],
+    "takens": [
+      "graph_takens"
+    ],
+    "transicao": [
+      "graph_transition"
+    ]
+  },
+  "shapley": {
+    "validation": {
+      "catch22": 0.05063637792850911,
+      "amplitude+inter": 0.053643373938032306,
+      "espectro+escalograma": 0.05354542474301954,
+      "gaf": 0.053871262903349454,
+      "mtf": 0.025636708740269454,
+      "rqa": 0.037035766609267474,
+      "visibilidade": 0.053921544335725796,
+      "takens": 0.04050119105274828,
+      "transicao": 0.029569168230411964
+    },
+    "test": {
+      "catch22": 0.049568541345632405,
+      "amplitude+inter": 0.05293782078976781,
+      "espectro+escalograma": 0.05049767782271644,
+      "gaf": 0.05246194474857041,
+      "mtf": 0.025204511444407118,
+      "rqa": 0.03628180777652676,
+      "visibilidade": 0.05079766651654865,
+      "takens": 0.04075901149777651,
+      "transicao": 0.026906595660319953
+    }
+  },
+  "full": {
+    "validation": 0.8983608184813333,
+    "test": 0.8854155776022662
+  },
+  "base_catch22_amplitude_inter": {
+    "validation": 0.8806671356294535,
+    "test": 0.872908543692253
+  }
+}

@@ -1,0 +1,10 @@
+treino 74,096 / validacao 9,262 / teste 9,261  [confirmatory]
+lstm_bidir: 2,330,758 parametros, lr 0.001
+  epoca 10  perda 0.0871  val AUROC 0.6197  (4.3 min)
+  epoca 20  perda 0.0726  val AUROC 0.7203  (8.6 min)
+  epoca 30  perda 0.0676  val AUROC 0.7813  (12.9 min)
+  epoca 40  perda 0.0505  val AUROC 0.9316  (17.2 min)
+  epoca 50  perda 0.0461  val AUROC 0.9412  (21.5 min)
+Registrado uso #124 do fold 10 em /exp/duducampos/InterpretECG/results/test_fold_usage.jsonl
+
+validacao 0.9412  teste 0.9466  -> results/external/code15/deep/lstm_bidir_confirmatory_seed44/

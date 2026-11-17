@@ -1,0 +1,95 @@
+{
+  "task": "PTB-XL diagnostic superclasses",
+  "labels": [
+    "NORM",
+    "MI",
+    "STTC",
+    "CD",
+    "HYP"
+  ],
+  "feature_count": null,
+  "families": [
+    "raw_signal"
+  ],
+  "protocol": {
+    "regime": "confirmatory",
+    "train_folds": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "validation_fold": 9,
+    "test_fold": 10,
+    "classifier": "xresnet1d101 (Strodthoff et al. 2021, fastai_model)",
+    "preprocessing": "standardization by scalar train mean/std",
+    "training": {
+      "epochs": 50,
+      "batch": 128,
+      "max_lr": 0.01,
+      "weight_decay": 0.01,
+      "schedule": "one-cycle",
+      "crop": 250,
+      "eval_stride": 125,
+      "aggregate": "max",
+      "early_stopping": null,
+      "precision": "bf16"
+    },
+    "random_state": 44
+  },
+  "split_sizes": {
+    "train": 17084,
+    "validation": 2146,
+    "test": 2158
+  },
+  "selection_metric": null,
+  "selected_c": null,
+  "validation": {
+    "macro_auroc": 0.932154170168074,
+    "macro_average_precision": 0.8193180627299613,
+    "per_label": {
+      "NORM": {
+        "auroc": 0.9480651131303273
+      },
+      "MI": {
+        "auroc": 0.9330277662469443
+      },
+      "STTC": {
+        "auroc": 0.9295490832303256
+      },
+      "CD": {
+        "auroc": 0.9394049520033771
+      },
+      "HYP": {
+        "auroc": 0.9107239362293962
+      }
+    }
+  },
+  "validation_macro_auroc": 0.932154170168074,
+  "test": {
+    "macro_auroc": 0.9275992329096712,
+    "macro_average_precision": 0.8195459953345574,
+    "per_label": {
+      "NORM": {
+        "auroc": 0.945697067653819
+      },
+      "MI": {
+        "auroc": 0.9316881501582994
+      },
+      "STTC": {
+        "auroc": 0.9333977818606903
+      },
+      "CD": {
+        "auroc": 0.9220824356585535
+      },
+      "HYP": {
+        "auroc": 0.9051307292169936
+      }
+    }
+  },
+  "training_minutes": 11.596150420598375
+}

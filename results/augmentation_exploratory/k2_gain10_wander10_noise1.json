@@ -1,0 +1,31 @@
+{
+  "tag": "k2_gain10_wander10_noise1",
+  "families": [
+    "catch22",
+    "series_amplitude",
+    "series_interlead",
+    "graph_hvg_dir",
+    "graph_lphvg1_dir",
+    "graph_hvg_dir_mv",
+    "graph_lphvg1_dir_mv"
+  ],
+  "augmented_rows": 29910,
+  "regime": "exploratory (folds 1-7 + copias / 8 / 9)",
+  "boosting": {
+    "learning_rate": 0.03,
+    "max_leaf_nodes": 127,
+    "min_samples_leaf": 80,
+    "l2_regularization": 0.0,
+    "max_features": 0.5
+  },
+  "validation_macro_auroc": 0.9313959091111148,
+  "test_macro_auroc": 0.918618993775004,
+  "test_per_label": {
+    "NORM": 0.9358302451633322,
+    "MI": 0.9216087818827545,
+    "STTC": 0.9216754223320972,
+    "CD": 0.9173613787787016,
+    "HYP": 0.8966191407181346
+  },
+  "minutes": 4.4
+}

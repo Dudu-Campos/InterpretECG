@@ -1,0 +1,99 @@
+{
+  "set": "catch22 + visoes abs",
+  "families": [
+    "catch22",
+    "image_spectrogram_abs",
+    "image_scalogram_abs",
+    "image_gasf_abs",
+    "image_gadf_abs",
+    "image_mtf_abs",
+    "image_recurrence_abs",
+    "graph_hvg",
+    "graph_lphvg1",
+    "graph_takens_abs",
+    "graph_transition_abs"
+  ],
+  "source": "AT",
+  "target": "CS",
+  "regime": "exploratory, folds 1-7/8/9 restritos por aparelho",
+  "feature_count": 3228,
+  "split_sizes": {
+    "train": 5832,
+    "validation": 827,
+    "test_id": 997,
+    "test_ood": 1149
+  },
+  "prevalence": {
+    "train": {
+      "NORM": 0.456,
+      "MI": 0.228,
+      "STTC": 0.275,
+      "CD": 0.228,
+      "HYP": 0.142
+    },
+    "test_id": {
+      "NORM": 0.401,
+      "MI": 0.257,
+      "STTC": 0.296,
+      "CD": 0.265,
+      "HYP": 0.15
+    },
+    "test_ood": {
+      "NORM": 0.483,
+      "MI": 0.247,
+      "STTC": 0.203,
+      "CD": 0.201,
+      "HYP": 0.103
+    }
+  },
+  "readers": {
+    "boosting": {
+      "test_id": {
+        "macro": 0.911105753478861,
+        "per_label": {
+          "NORM": 0.9336013400335008,
+          "MI": 0.8940199055330635,
+          "STTC": 0.9105461393596987,
+          "CD": 0.9163617760138906,
+          "HYP": 0.9009996064541519
+        }
+      },
+      "test_ood": {
+        "macro": 0.8843985650030914,
+        "per_label": {
+          "NORM": 0.9201140534473867,
+          "MI": 0.8968085972482291,
+          "STTC": 0.9020793897707892,
+          "CD": 0.8625281762536665,
+          "HYP": 0.8404626082953854
+        }
+      },
+      "drop_macro": 0.026707188475769583,
+      "minutes": 2.7
+    },
+    "mlp": {
+      "test_id": {
+        "macro": 0.9024509165032667,
+        "per_label": {
+          "NORM": 0.9279145728643217,
+          "MI": 0.8821851804993252,
+          "STTC": 0.9105461393596986,
+          "CD": 0.8984249038819299,
+          "HYP": 0.8931837859110587
+        }
+      },
+      "test_ood": {
+        "macro": 0.8821315784193342,
+        "per_label": {
+          "NORM": 0.9142293808960474,
+          "MI": 0.8880810876821623,
+          "STTC": 0.9036864891204528,
+          "CD": 0.8575814164049458,
+          "HYP": 0.8470795179930626
+        }
+      },
+      "drop_macro": 0.020319338083932492,
+      "minutes": 0.1
+    }
+  }
+}

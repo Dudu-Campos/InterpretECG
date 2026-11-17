@@ -1,0 +1,147 @@
+{
+  "model": "ECG-IMN (Thambawita et al., CBMS 2026), configuracao do repositorio original",
+  "source": "github.com/vlbthambawita/mesomorphic_ecg@53d9bc74",
+  "task": "code15_multilabel5_confirmatory_seed46",
+  "dataset": "code15",
+  "labels": [
+    "1dAVb",
+    "RBBB",
+    "LBBB",
+    "SB",
+    "ST",
+    "AF"
+  ],
+  "regime": "confirmatory (folds 1-8 / 9 early stopping / 10)",
+  "seed": 46,
+  "cache": "/exp/duducampos/InterpretECG/data/external/code15/signals.npz",
+  "n_test": 9261,
+  "best_epoch": 13,
+  "validation_macro_auroc": 0.9850647540581283,
+  "test_macro_auroc": 0.9855381490546985,
+  "test_per_label": {
+    "1dAVb": 0.9761627719580982,
+    "RBBB": 0.9900942942637184,
+    "LBBB": 0.9969815914894374,
+    "SB": 0.9795309976270713,
+    "ST": 0.9920186841643104,
+    "AF": 0.9784405548255564
+  },
+  "history": [
+    {
+      "epoch": 1,
+      "loss": 12.273471007898888,
+      "val_auroc": 0.923510021885039
+    },
+    {
+      "epoch": 2,
+      "loss": 1.305285811012479,
+      "val_auroc": 0.9474370467223258
+    },
+    {
+      "epoch": 3,
+      "loss": 0.9742616049572183,
+      "val_auroc": 0.9598702103780807
+    },
+    {
+      "epoch": 4,
+      "loss": 0.7549811510147209,
+      "val_auroc": 0.9478754777110853
+    },
+    {
+      "epoch": 5,
+      "loss": 0.6606919957270173,
+      "val_auroc": 0.9613626617700247
+    },
+    {
+      "epoch": 6,
+      "loss": 0.5596104184541987,
+      "val_auroc": 0.9666491899404326
+    },
+    {
+      "epoch": 7,
+      "loss": 0.47006327029002354,
+      "val_auroc": 0.973582185088287
+    },
+    {
+      "epoch": 8,
+      "loss": 0.41848236626088103,
+      "val_auroc": 0.9776332384840732
+    },
+    {
+      "epoch": 9,
+      "loss": 0.3926632972707608,
+      "val_auroc": 0.9787333106039825
+    },
+    {
+      "epoch": 10,
+      "loss": 0.3728649342217079,
+      "val_auroc": 0.979245924673216
+    },
+    {
+      "epoch": 11,
+      "loss": 0.2644763944159054,
+      "val_auroc": 0.9845780454046302
+    },
+    {
+      "epoch": 12,
+      "loss": 0.2424152039525474,
+      "val_auroc": 0.9850218756719592
+    },
+    {
+      "epoch": 13,
+      "loss": 0.2314052819845384,
+      "val_auroc": 0.9850647540581283
+    },
+    {
+      "epoch": 14,
+      "loss": 0.22068145104228729,
+      "val_auroc": 0.9846498282207548
+    },
+    {
+      "epoch": 15,
+      "loss": 0.2113371289629547,
+      "val_auroc": 0.984629417844671
+    },
+    {
+      "epoch": 16,
+      "loss": 0.2026375995302293,
+      "val_auroc": 0.9849585986544911
+    },
+    {
+      "epoch": 17,
+      "loss": 0.19205299372075443,
+      "val_auroc": 0.9844471471278166
+    },
+    {
+      "epoch": 18,
+      "loss": 0.18617154261023322,
+      "val_auroc": 0.9841237325003206
+    },
+    {
+      "epoch": 19,
+      "loss": 0.17666723295750292,
+      "val_auroc": 0.9846687236136354
+    },
+    {
+      "epoch": 20,
+      "loss": 0.16778865992212233,
+      "val_auroc": 0.9836969387601092
+    },
+    {
+      "epoch": 21,
+      "loss": 0.14563450759955535,
+      "val_auroc": 0.9844376237316327
+    },
+    {
+      "epoch": 22,
+      "loss": 0.13888317981448559,
+      "val_auroc": 0.9844399059485668
+    },
+    {
+      "epoch": 23,
+      "loss": 0.13674086487219897,
+      "val_auroc": 0.9842735485487192
+    }
+  ],
+  "finished": "2026-11-14T06:56:44.344288+00:00"
+}

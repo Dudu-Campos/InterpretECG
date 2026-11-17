@@ -1,0 +1,32 @@
+{
+  "set": "base + direcionado + tsfresh",
+  "families": [
+    "catch22",
+    "series_amplitude",
+    "series_interlead",
+    "graph_hvg_dir",
+    "graph_lphvg1_dir",
+    "graph_hvg_dir_mv",
+    "graph_lphvg1_dir_mv",
+    "tsfresh"
+  ],
+  "n_features": 9973,
+  "regime": "exploratory (folds 1-7 / 8 / 9)",
+  "boosting": {
+    "learning_rate": 0.03,
+    "max_leaf_nodes": 127,
+    "min_samples_leaf": 80,
+    "l2_regularization": 0.0,
+    "max_features": 0.5
+  },
+  "validation_macro_auroc": 0.934903993863602,
+  "test_macro_auroc": 0.919540206355396,
+  "test_per_label": {
+    "NORM": 0.9385276132951763,
+    "MI": 0.9219950648032839,
+    "STTC": 0.9208654062254187,
+    "CD": 0.9167532380130805,
+    "HYP": 0.8995597094400204
+  },
+  "minutes": 26.4
+}

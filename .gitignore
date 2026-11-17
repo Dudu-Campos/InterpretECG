@@ -1,0 +1,40 @@
+# Ambiente
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Dados brutos e derivados: 188 GB no total, nenhum deles nosso.
+# O PTB-XL, o Chapman e o CODE-15% vêm do PhysioNet/Zenodo; as features são
+# reproduzíveis pelos scripts de extração. Ver README para como refazer.
+data/
+export/
+
+# `logs` é um link simbólico para o scratchpad da sessão em /tmp, que some no
+# reboot. Os logs que importam estão em results/logs/.
+/logs
+
+# Pesos e predições: 3,1 GB de checkpoints e 105 MB de escores por registro.
+# Os escores são reconstruíveis reajustando com a semente e a lista registradas.
+*.pt
+*.pkl
+*.npz
+*.parquet
+
+# Telemetria do teste de estresse da GPU (120 MB), não é resultado científico.
+results/gpu_stress/gpu_journal.jsonl
+
+# O que FICA versionado, de propósito, e por quê:
+#   results/**/*.md     pré-registros e RESULTS.md — o registro do protocolo
+#   results/*.jsonl     experiments.jsonl e test_fold_usage.jsonl — auditoria
+#                       de quantas vezes o fold selado foi lido
+#   results/**/*.json   métricas e steps.json das podas; os steps carregam as
+#                       LISTAS de features de cada passo, que são o que torna
+#                       o resultado reproduzível
+#   results/**/*.csv    tabelas finais
+#   results/pareto/*.pdf, *.png   figuras do artigo
+#   results/logs/*.log  logs de execução
+
+# Backups de edicao, nao versionados
+*.bak

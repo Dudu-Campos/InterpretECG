@@ -1,0 +1,39 @@
+{
+  "dataset": "chapman",
+  "conjunto": "catch22",
+  "k": 264,
+  "labels": [
+    "SB",
+    "AFIB",
+    "GSVT",
+    "SR"
+  ],
+  "split_sizes": {
+    "train": 8517,
+    "validation": 1065,
+    "test": 1064
+  },
+  "validation_macro_auroc": 0.9674880151512473,
+  "test_macro_auroc": 0.9641723164292499,
+  "test_per_label": {
+    "SB": 0.9845720270398934,
+    "AFIB": 0.9522882752222156,
+    "GSVT": 0.9740381607757272,
+    "SR": 0.9457908026791637
+  },
+  "iterations_per_label": [
+    436,
+    388,
+    297,
+    469
+  ],
+  "boosting": {
+    "learning_rate": 0.03,
+    "max_leaf_nodes": 127,
+    "min_samples_leaf": 80,
+    "l2_regularization": 0.0,
+    "max_features": 0.5
+  },
+  "seed": 42,
+  "finished": "2026-11-13T17:30:13.151652+00:00"
+}

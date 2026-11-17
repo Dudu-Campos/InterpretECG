@@ -1,0 +1,9 @@
+23 famílias, 21,388 registros em comum, 14,955 no treino do regime exploratory
+  graph_hvg             24 colunas constantes excluídas
+  graph_hvg_dir_mv       6 colunas constantes excluídas
+  graph_hvg_line        24 colunas constantes excluídas
+  graph_lphvg1          24 colunas constantes excluídas
+  graph_lphvg1_dir_mv    2 colunas constantes excluídas
+  graph_lphvg1_line     23 colunas constantes excluídas
+  graph_transition      18 colunas constantes excluídas
+49,097 arestas; 4,486 nós; layout...

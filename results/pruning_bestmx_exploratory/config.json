@@ -1,0 +1,39 @@
+{
+  "families": [
+    "catch22",
+    "series_amplitude",
+    "series_interlead",
+    "graph_hvg",
+    "graph_lphvg1",
+    "graph_hvg_line",
+    "graph_lphvg1_line",
+    "graph_hvg_line_mv",
+    "graph_lphvg1_line_mv",
+    "graph_hvg_dir",
+    "graph_lphvg1_dir",
+    "graph_hvg_dir_mv",
+    "graph_lphvg1_dir_mv",
+    "graph_hvg_multiplex",
+    "graph_lphvg1_multiplex"
+  ],
+  "schedule": [
+    2150,
+    1075,
+    537,
+    268,
+    134,
+    67,
+    33
+  ],
+  "repeats": 2,
+  "seed": 42,
+  "boosting": {
+    "learning_rate": 0.03,
+    "max_leaf_nodes": 127,
+    "min_samples_leaf": 80,
+    "l2_regularization": 0.0,
+    "max_features": 0.5
+  },
+  "regime": "exploratory (1-7 / 8 / 9)",
+  "ranking": "importancia por permutacao no fold 8, reajuste a cada passo"
+}

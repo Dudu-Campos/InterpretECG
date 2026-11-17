@@ -1,0 +1,196 @@
+{
+  "regime": "exploratory",
+  "n_features": 3198,
+  "n_records_train": 14955,
+  "threshold": 0.5,
+  "repeats": 100,
+  "alpha": 0.9,
+  "view": {
+    "razoes": [
+      {
+        "grupo": "imagem",
+        "n": 1776,
+        "intra": 0.07947131546431473,
+        "inter": 0.045251140475995794,
+        "razao": 1.7562279011834316
+      },
+      {
+        "grupo": "serie",
+        "n": 264,
+        "intra": 0.030571361243111723,
+        "inter": 0.03207841861829888,
+        "razao": 0.9530195863730181
+      },
+      {
+        "grupo": "grafo",
+        "n": 1158,
+        "intra": 0.039049357308402886,
+        "inter": 0.04389141467667381,
+        "razao": 0.8896809910562248
+      }
+    ],
+    "coesao": 0.8531238582389478,
+    "por_grupo": [
+      {
+        "grupo": "grafo",
+        "n": 932,
+        "recuperado": 0.6566523605150214
+      },
+      {
+        "grupo": "imagem",
+        "n": 1695,
+        "recuperado": 0.9976401179941002
+      },
+      {
+        "grupo": "serie",
+        "n": 110,
+        "recuperado": 0.2909090909090909
+      }
+    ],
+    "densidade": 1.0582935886383478,
+    "arestas": 54100,
+    "isolados": 461
+  },
+  "family": {
+    "razoes": [
+      {
+        "grupo": "image_spectrogram",
+        "n": 336,
+        "intra": 0.1725547278927966,
+        "inter": 0.02277117273739966,
+        "razao": 7.577770801825702
+      },
+      {
+        "grupo": "image_scalogram",
+        "n": 336,
+        "intra": 0.1782139737489445,
+        "inter": 0.04025594940616961,
+        "razao": 4.427022002408208
+      },
+      {
+        "grupo": "graph_takens",
+        "n": 300,
+        "intra": 0.031619719720741665,
+        "inter": 0.012668037708861716,
+        "razao": 2.496023492148481
+      },
+      {
+        "grupo": "image_mtf",
+        "n": 336,
+        "intra": 0.17016826025570952,
+        "inter": 0.06892992846504717,
+        "razao": 2.468713721964735
+      },
+      {
+        "grupo": "image_recurrence",
+        "n": 96,
+        "intra": 0.08433497512086228,
+        "inter": 0.03547587526821963,
+        "razao": 2.377248608617477
+      },
+      {
+        "grupo": "graph_transition",
+        "n": 306,
+        "intra": 0.13389005805142115,
+        "inter": 0.06499248879795524,
+        "razao": 2.0600851041056534
+      },
+      {
+        "grupo": "image_gadf",
+        "n": 336,
+        "intra": 0.14128844391465847,
+        "inter": 0.07161947949609555,
+        "razao": 1.9727655787048974
+      },
+      {
+        "grupo": "image_gasf",
+        "n": 336,
+        "intra": 0.13550206491977695,
+        "inter": 0.07062409152949194,
+        "razao": 1.918637988613172
+      },
+      {
+        "grupo": "graph_lphvg1",
+        "n": 276,
+        "intra": 0.06286376605860462,
+        "inter": 0.036990455765843346,
+        "razao": 1.6994590836226586
+      },
+      {
+        "grupo": "graph_hvg",
+        "n": 276,
+        "intra": 0.06460191473133474,
+        "inter": 0.04046841677689042,
+        "razao": 1.5963538946308817
+      },
+      {
+        "grupo": "catch22",
+        "n": 264,
+        "intra": 0.030571361243111723,
+        "inter": 0.03207841861829888,
+        "razao": 0.9530195863730181
+      }
+    ],
+    "coesao": 0.5115089514066496,
+    "por_grupo": [
+      {
+        "grupo": "catch22",
+        "n": 110,
+        "recuperado": 0.3181818181818182
+      },
+      {
+        "grupo": "graph_hvg",
+        "n": 221,
+        "recuperado": 0.19457013574660634
+      },
+      {
+        "grupo": "graph_lphvg1",
+        "n": 211,
+        "recuperado": 0.12796208530805686
+      },
+      {
+        "grupo": "graph_takens",
+        "n": 235,
+        "recuperado": 0.948936170212766
+      },
+      {
+        "grupo": "graph_transition",
+        "n": 265,
+        "recuperado": 0.12452830188679245
+      },
+      {
+        "grupo": "image_gadf",
+        "n": 335,
+        "recuperado": 0.11641791044776119
+      },
+      {
+        "grupo": "image_gasf",
+        "n": 332,
+        "recuperado": 0.0391566265060241
+      },
+      {
+        "grupo": "image_mtf",
+        "n": 297,
+        "recuperado": 0.9865319865319865
+      },
+      {
+        "grupo": "image_recurrence",
+        "n": 81,
+        "recuperado": 0.7283950617283951
+      },
+      {
+        "grupo": "image_scalogram",
+        "n": 318,
+        "recuperado": 0.9716981132075472
+      },
+      {
+        "grupo": "image_spectrogram",
+        "n": 332,
+        "recuperado": 0.9819277108433735
+      }
+    ],
+    "densidade": 1.0582935886383478,
+    "arestas": 54100,
+    "isolados": 461
+  }
+}

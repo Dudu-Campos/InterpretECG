@@ -1,0 +1,12 @@
+/exp/duducampos/InterpretECG/scripts/train_cnn.py:218: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  y_treino = torch.as_tensor(alvos["train"], device=dispositivo)
+treino 17,084 / validacao 2,146 / teste 2,158  [confirmatory]
+lstm_bidir: 2,330,629 parametros, lr 0.001
+  epoca 10  perda 0.3018  val AUROC 0.9117  (1.0 min)
+  epoca 20  perda 0.2492  val AUROC 0.9279  (2.0 min)
+  epoca 30  perda 0.2085  val AUROC 0.9283  (3.0 min)
+  epoca 40  perda 0.1556  val AUROC 0.9236  (4.0 min)
+  epoca 50  perda 0.1327  val AUROC 0.9206  (4.9 min)
+Registrado uso #11 do fold 10 em /exp/duducampos/InterpretECG/results/test_fold_usage.jsonl
+
+validacao 0.9206  teste 0.9207  -> results/deep_lstm_bidir_confirmatory_seed45/

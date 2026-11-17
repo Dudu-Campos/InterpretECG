@@ -1,0 +1,398 @@
+{
+  "regime": "exploratory",
+  "n_features": 5334,
+  "n_records_train": 14955,
+  "threshold": 0.58,
+  "repeats": 100,
+  "alpha": 0.9,
+  "view": {
+    "razoes": [
+      {
+        "grupo": "imagem",
+        "n": 1776,
+        "intra": 0.07947131546431473,
+        "inter": 0.03215972658997779,
+        "razao": 2.4711440018610435
+      },
+      {
+        "grupo": "serie",
+        "n": 363,
+        "intra": 0.02727328647205993,
+        "inter": 0.022290095351547783,
+        "razao": 1.2235607807826683
+      },
+      {
+        "grupo": "grafo",
+        "n": 3195,
+        "intra": 0.028822856877103863,
+        "inter": 0.029532938222856513,
+        "razao": 0.9759562919072138
+      }
+    ],
+    "coesao": 0.9063753901025412,
+    "por_grupo": [
+      {
+        "grupo": "grafo",
+        "n": 2679,
+        "recuperado": 0.8898842851810377
+      },
+      {
+        "grupo": "imagem",
+        "n": 1663,
+        "recuperado": 0.9993986770895971
+      },
+      {
+        "grupo": "serie",
+        "n": 144,
+        "recuperado": 0.1388888888888889
+      }
+    ],
+    "densidade": 0.3451917094649687,
+    "arestas": 49097,
+    "isolados": 848
+  },
+  "invariance": {
+    "razoes": [
+      {
+        "grupo": "escala",
+        "n": 672,
+        "intra": 0.10333498018326998,
+        "inter": 0.028583861454443724,
+        "razao": 3.615151170109147
+      },
+      {
+        "grupo": "mV",
+        "n": 940,
+        "intra": 0.052603735156041796,
+        "inter": 0.018535058892502124,
+        "razao": 2.8380667933740025
+      },
+      {
+        "grupo": "afim",
+        "n": 1371,
+        "intra": 0.05466765540387368,
+        "inter": 0.03164118087551513,
+        "razao": 1.727737520889339
+      },
+      {
+        "grupo": "monotonica",
+        "n": 2351,
+        "intra": 0.04417963522375181,
+        "inter": 0.030756819216907715,
+        "razao": 1.436417560352446
+      }
+    ],
+    "coesao": 0.9099420419081587,
+    "por_grupo": [
+      {
+        "grupo": "afim",
+        "n": 1012,
+        "recuperado": 0.9308300395256917
+      },
+      {
+        "grupo": "escala",
+        "n": 635,
+        "recuperado": 0.9826771653543307
+      },
+      {
+        "grupo": "mV",
+        "n": 863,
+        "recuperado": 0.9177288528389339
+      },
+      {
+        "grupo": "monotonica",
+        "n": 1976,
+        "recuperado": 0.8724696356275303
+      }
+    ],
+    "densidade": 0.3451917094649687,
+    "arestas": 49097,
+    "isolados": 848
+  },
+  "family": {
+    "razoes": [
+      {
+        "grupo": "image_spectrogram",
+        "n": 336,
+        "intra": 0.1725547278927966,
+        "inter": 0.022541276332198344,
+        "razao": 7.655055789645615
+      },
+      {
+        "grupo": "series_interlead",
+        "n": 39,
+        "intra": 0.10372423320327302,
+        "inter": 0.015573229354637877,
+        "razao": 6.66041903328052
+      },
+      {
+        "grupo": "graph_lphvg1_multiplex",
+        "n": 98,
+        "intra": 0.1490228827366382,
+        "inter": 0.02337046680903021,
+        "razao": 6.37654711625429
+      },
+      {
+        "grupo": "graph_hvg_multiplex",
+        "n": 98,
+        "intra": 0.13291273252163308,
+        "inter": 0.023032378488580845,
+        "razao": 5.7706907077586225
+      },
+      {
+        "grupo": "series_amplitude",
+        "n": 60,
+        "intra": 0.1007736720654884,
+        "inter": 0.018279726105718517,
+        "razao": 5.512865536533558
+      },
+      {
+        "grupo": "image_scalogram",
+        "n": 336,
+        "intra": 0.1782139737489445,
+        "inter": 0.03501853810501622,
+        "razao": 5.089132310849272
+      },
+      {
+        "grupo": "image_mtf",
+        "n": 336,
+        "intra": 0.17016826025570952,
+        "inter": 0.047683760386539285,
+        "razao": 3.5686837379492107
+      },
+      {
+        "grupo": "image_recurrence",
+        "n": 96,
+        "intra": 0.08433497512086228,
+        "inter": 0.027310765143579798,
+        "razao": 3.0879755538701086
+      },
+      {
+        "grupo": "graph_takens",
+        "n": 300,
+        "intra": 0.031619719720741665,
+        "inter": 0.010413938945380936,
+        "razao": 3.036288179389267
+      },
+      {
+        "grupo": "graph_lphvg1_dir_mv",
+        "n": 190,
+        "intra": 0.05074441248261002,
+        "inter": 0.016901769546579713,
+        "razao": 3.00231359460695
+      },
+      {
+        "grupo": "graph_transition",
+        "n": 306,
+        "intra": 0.13389005805142115,
+        "inter": 0.04551772253411309,
+        "razao": 2.9414929086374597
+      },
+      {
+        "grupo": "graph_lphvg1_line_mv",
+        "n": 252,
+        "intra": 0.07449869916759794,
+        "inter": 0.027029587804322942,
+        "razao": 2.756190723547885
+      },
+      {
+        "grupo": "image_gadf",
+        "n": 336,
+        "intra": 0.14128844391465847,
+        "inter": 0.05188499042616156,
+        "razao": 2.723108219817994
+      },
+      {
+        "grupo": "graph_lphvg1_dir",
+        "n": 168,
+        "intra": 0.05150106956804155,
+        "inter": 0.018927182503504565,
+        "razao": 2.721010882549771
+      },
+      {
+        "grupo": "image_gasf",
+        "n": 336,
+        "intra": 0.13550206491977695,
+        "inter": 0.05095969491128355,
+        "razao": 2.659004634067657
+      },
+      {
+        "grupo": "graph_hvg_dir_mv",
+        "n": 186,
+        "intra": 0.04818353956839192,
+        "inter": 0.0186806817549804,
+        "razao": 2.5793244700796776
+      },
+      {
+        "grupo": "graph_hvg_line_mv",
+        "n": 252,
+        "intra": 0.07048012496818845,
+        "inter": 0.027465335169617015,
+        "razao": 2.566148366037626
+      },
+      {
+        "grupo": "graph_hvg_dir",
+        "n": 168,
+        "intra": 0.04673803891547383,
+        "inter": 0.018642181831564568,
+        "razao": 2.5071120611181854
+      },
+      {
+        "grupo": "graph_lphvg1_line",
+        "n": 313,
+        "intra": 0.059103140094456004,
+        "inter": 0.031094918919483315,
+        "razao": 1.9007330505506939
+      },
+      {
+        "grupo": "graph_lphvg1",
+        "n": 276,
+        "intra": 0.06286376605860462,
+        "inter": 0.033829274558887894,
+        "razao": 1.858265271079795
+      },
+      {
+        "grupo": "graph_hvg",
+        "n": 276,
+        "intra": 0.06460191473133474,
+        "inter": 0.036049654209187466,
+        "razao": 1.7920259194849797
+      },
+      {
+        "grupo": "graph_hvg_line",
+        "n": 312,
+        "intra": 0.055816062957057475,
+        "inter": 0.031202990000288387,
+        "razao": 1.7888049496712208
+      },
+      {
+        "grupo": "catch22",
+        "n": 264,
+        "intra": 0.030571361243111723,
+        "inter": 0.02403642459216209,
+        "razao": 1.2718764026610088
+      }
+    ],
+    "coesao": 0.3673651359786001,
+    "por_grupo": [
+      {
+        "grupo": "catch22",
+        "n": 68,
+        "recuperado": 0.058823529411764705
+      },
+      {
+        "grupo": "graph_hvg",
+        "n": 216,
+        "recuperado": 0.1111111111111111
+      },
+      {
+        "grupo": "graph_hvg_dir",
+        "n": 144,
+        "recuperado": 0.05555555555555555
+      },
+      {
+        "grupo": "graph_hvg_dir_mv",
+        "n": 147,
+        "recuperado": 0.04081632653061224
+      },
+      {
+        "grupo": "graph_hvg_line",
+        "n": 267,
+        "recuperado": 0.1760299625468165
+      },
+      {
+        "grupo": "graph_hvg_line_mv",
+        "n": 249,
+        "recuperado": 0.10441767068273092
+      },
+      {
+        "grupo": "graph_hvg_multiplex",
+        "n": 95,
+        "recuperado": 0.09473684210526316
+      },
+      {
+        "grupo": "graph_lphvg1",
+        "n": 206,
+        "recuperado": 0.1407766990291262
+      },
+      {
+        "grupo": "graph_lphvg1_dir",
+        "n": 144,
+        "recuperado": 0.006944444444444444
+      },
+      {
+        "grupo": "graph_lphvg1_dir_mv",
+        "n": 158,
+        "recuperado": 0.056962025316455694
+      },
+      {
+        "grupo": "graph_lphvg1_line",
+        "n": 267,
+        "recuperado": 0.3707865168539326
+      },
+      {
+        "grupo": "graph_lphvg1_line_mv",
+        "n": 249,
+        "recuperado": 0.2248995983935743
+      },
+      {
+        "grupo": "graph_lphvg1_multiplex",
+        "n": 93,
+        "recuperado": 0.6021505376344086
+      },
+      {
+        "grupo": "graph_takens",
+        "n": 194,
+        "recuperado": 0.9432989690721649
+      },
+      {
+        "grupo": "graph_transition",
+        "n": 250,
+        "recuperado": 0.132
+      },
+      {
+        "grupo": "image_gadf",
+        "n": 333,
+        "recuperado": 0.07807807807807808
+      },
+      {
+        "grupo": "image_gasf",
+        "n": 332,
+        "recuperado": 0.05421686746987952
+      },
+      {
+        "grupo": "image_mtf",
+        "n": 294,
+        "recuperado": 0.9965986394557823
+      },
+      {
+        "grupo": "image_recurrence",
+        "n": 69,
+        "recuperado": 0.8115942028985508
+      },
+      {
+        "grupo": "image_scalogram",
+        "n": 310,
+        "recuperado": 0.9903225806451613
+      },
+      {
+        "grupo": "image_spectrogram",
+        "n": 325,
+        "recuperado": 0.9876923076923076
+      },
+      {
+        "grupo": "series_amplitude",
+        "n": 60,
+        "recuperado": 0.35
+      },
+      {
+        "grupo": "series_interlead",
+        "n": 16,
+        "recuperado": 1.0
+      }
+    ],
+    "densidade": 0.3451917094649687,
+    "arestas": 49097,
+    "isolados": 848
+  }
+}

@@ -1,0 +1,5 @@
+registros: treino 14,955 / val 2,129 / teste 2,146
+tsfresh                                    8898 feats  val 0.9287  teste 0.9139  (23.2 min)  NORM 0.932 MI 0.915 STTC 0.911 CD 0.911 HYP 0.901
+tsfresh + amplitude + interderivacao       8997 feats  val 0.9301  teste 0.9155  (24.2 min)  NORM 0.932 MI 0.917 STTC 0.915 CD 0.910 HYP 0.903
+base(tsfresh) + direcionado                9709 feats  val 0.9351  teste 0.9188  (25.9 min)  NORM 0.938 MI 0.919 STTC 0.919 CD 0.914 HYP 0.904
+base + direcionado + tsfresh               9973 feats  val 0.9349  teste 0.9195  (26.4 min)  NORM 0.939 MI 0.922 STTC 0.921 CD 0.917 HYP 0.900

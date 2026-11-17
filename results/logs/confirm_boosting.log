@@ -1,0 +1,3 @@
+{'train': 17084, 'validation': 2146, 'test': 2158}
+tsfresh            k=268  val 0.9183  teste(fold 10) 0.9086  280,039 parametros
+melhor_multiplex   k=537  val 0.9205  teste(fold 10) 0.9126  263,600 parametros

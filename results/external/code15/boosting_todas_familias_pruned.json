@@ -1,0 +1,49 @@
+{
+  "dataset": "code15",
+  "lists": "pruned",
+  "conjunto": "todas_familias",
+  "k": 268,
+  "labels": [
+    "1dAVb",
+    "RBBB",
+    "LBBB",
+    "SB",
+    "ST",
+    "AF"
+  ],
+  "split_sizes": {
+    "train": 74096,
+    "validation": 9262,
+    "test": 9261
+  },
+  "validation_macro_auroc": 0.9755845596835112,
+  "test_macro_auroc": 0.9770086614155581,
+  "test_per_label": {
+    "1dAVb": 0.9137526188557613,
+    "RBBB": 0.9884516395436316,
+    "LBBB": 0.9965871445899978,
+    "SB": 0.9899698897286088,
+    "ST": 0.9929734011143079,
+    "AF": 0.9803172746610415
+  },
+  "iterations_per_label": [
+    109,
+    166,
+    155,
+    162,
+    196,
+    148
+  ],
+  "parametros": 236576,
+  "inf_replaced_by_nan": 0,
+  "sha256_lista": "6bd673ea27279bcc30f330c1f85201f5769b367544e99756849c4b83c8af0e33",
+  "boosting": {
+    "learning_rate": 0.03,
+    "max_leaf_nodes": 127,
+    "min_samples_leaf": 80,
+    "l2_regularization": 0.0,
+    "max_features": 0.5
+  },
+  "seed": 42,
+  "finished": "2026-11-15T15:30:43.557159+00:00"
+}

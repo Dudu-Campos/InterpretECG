@@ -1,0 +1,110 @@
+ 8898 features  val 0.9287  teste 0.9139  (ajuste 23.0 min)
+[Parallel(n_jobs=16)]: Using backend LokyBackend with 16 concurrent workers.
+[Parallel(n_jobs=16)]: Done   9 tasks      | elapsed:  4.6min
+[Parallel(n_jobs=16)]: Done  18 tasks      | elapsed:  8.8min
+[Parallel(n_jobs=16)]: Done  29 tasks      | elapsed:  9.1min
+[Parallel(n_jobs=16)]: Done  40 tasks      | elapsed: 13.4min
+[Parallel(n_jobs=16)]: Done  53 tasks      | elapsed: 17.7min
+[Parallel(n_jobs=16)]: Done  66 tasks      | elapsed: 22.0min
+[Parallel(n_jobs=16)]: Done  81 tasks      | elapsed: 26.3min
+[Parallel(n_jobs=16)]: Done  96 tasks      | elapsed: 26.8min
+[Parallel(n_jobs=16)]: Done 110 out of 128 | elapsed: 31.1min remaining:  5.1min
+[Parallel(n_jobs=16)]: Done 123 out of 128 | elapsed: 35.3min remaining:  1.4min
+[Parallel(n_jobs=16)]: Done 128 out of 128 | elapsed: 35.3min finished
+      permutacao 35.3 min
+ 4449 features  val 0.9311  teste 0.9145  (ajuste 11.9 min)
+[Parallel(n_jobs=16)]: Using backend LokyBackend with 16 concurrent workers.
+[Parallel(n_jobs=16)]: Done   9 tasks      | elapsed:  1.7min
+[Parallel(n_jobs=16)]: Done  18 tasks      | elapsed:  3.2min
+[Parallel(n_jobs=16)]: Done  29 tasks      | elapsed:  3.4min
+[Parallel(n_jobs=16)]: Done  40 tasks      | elapsed:  4.9min
+[Parallel(n_jobs=16)]: Done  53 tasks      | elapsed:  6.5min
+[Parallel(n_jobs=16)]: Done  66 tasks      | elapsed:  8.1min
+[Parallel(n_jobs=16)]: Done  81 tasks      | elapsed:  9.6min
+[Parallel(n_jobs=16)]: Done  96 tasks      | elapsed:  9.9min
+[Parallel(n_jobs=16)]: Done 110 out of 128 | elapsed: 11.5min remaining:  1.9min
+[Parallel(n_jobs=16)]: Done 123 out of 128 | elapsed: 12.9min remaining:   31.5s
+[Parallel(n_jobs=16)]: Done 128 out of 128 | elapsed: 13.0min finished
+      permutacao 13.0 min
+ 2150 features  val 0.9354  teste 0.9155  (ajuste 5.1 min)
+[Parallel(n_jobs=16)]: Using backend LokyBackend with 16 concurrent workers.
+[Parallel(n_jobs=16)]: Done   9 tasks      | elapsed:   41.8s
+[Parallel(n_jobs=16)]: Done  18 tasks      | elapsed:  1.3min
+[Parallel(n_jobs=16)]: Done  29 tasks      | elapsed:  1.4min
+[Parallel(n_jobs=16)]: Done  40 tasks      | elapsed:  1.9min
+[Parallel(n_jobs=16)]: Done  53 tasks      | elapsed:  2.5min
+[Parallel(n_jobs=16)]: Done  66 tasks      | elapsed:  3.1min
+[Parallel(n_jobs=16)]: Done  81 tasks      | elapsed:  3.7min
+[Parallel(n_jobs=16)]: Done  96 tasks      | elapsed:  3.9min
+[Parallel(n_jobs=16)]: Done 110 out of 128 | elapsed:  4.4min remaining:   43.7s
+[Parallel(n_jobs=16)]: Done 123 out of 128 | elapsed:  5.0min remaining:   12.2s
+[Parallel(n_jobs=16)]: Done 128 out of 128 | elapsed:  5.0min finished
+      permutacao 5.0 min
+ 1075 features  val 0.9363  teste 0.9156  (ajuste 2.6 min)
+[Parallel(n_jobs=16)]: Using backend LokyBackend with 16 concurrent workers.
+[Parallel(n_jobs=16)]: Done   9 tasks      | elapsed:   19.3s
+[Parallel(n_jobs=16)]: Done  18 tasks      | elapsed:   33.5s
+[Parallel(n_jobs=16)]: Done  29 tasks      | elapsed:   38.8s
+[Parallel(n_jobs=16)]: Done  40 tasks      | elapsed:   54.1s
+[Parallel(n_jobs=16)]: Done  53 tasks      | elapsed:  1.2min
+[Parallel(n_jobs=16)]: Done  66 tasks      | elapsed:  1.4min
+[Parallel(n_jobs=16)]: Done  81 tasks      | elapsed:  1.6min
+[Parallel(n_jobs=16)]: Done  96 tasks      | elapsed:  1.8min
+[Parallel(n_jobs=16)]: Done 110 out of 128 | elapsed:  2.0min remaining:   19.8s
+[Parallel(n_jobs=16)]: Done 123 out of 128 | elapsed:  2.2min remaining:    5.4s
+[Parallel(n_jobs=16)]: Done 128 out of 128 | elapsed:  2.2min finished
+      permutacao 2.2 min
+  537 features  val 0.9377  teste 0.9147  (ajuste 1.0 min)
+[Parallel(n_jobs=16)]: Using backend LokyBackend with 16 concurrent workers.
+[Parallel(n_jobs=16)]: Done   9 tasks      | elapsed:   11.0s
+[Parallel(n_jobs=16)]: Done  18 tasks      | elapsed:   17.0s
+[Parallel(n_jobs=16)]: Done  29 tasks      | elapsed:   20.4s
+[Parallel(n_jobs=16)]: Done  40 tasks      | elapsed:   26.4s
+[Parallel(n_jobs=16)]: Done  53 tasks      | elapsed:   33.5s
+[Parallel(n_jobs=16)]: Done  66 tasks      | elapsed:   40.2s
+[Parallel(n_jobs=16)]: Done  81 tasks      | elapsed:   47.2s
+[Parallel(n_jobs=16)]: Done  96 tasks      | elapsed:   53.7s
+[Parallel(n_jobs=16)]: Done 110 out of 128 | elapsed:  1.0min remaining:    9.9s
+[Parallel(n_jobs=16)]: Done 123 out of 128 | elapsed:  1.1min remaining:    2.7s
+[Parallel(n_jobs=16)]: Done 128 out of 128 | elapsed:  1.1min finished
+      permutacao 1.1 min
+  268 features  val 0.9387  teste 0.9166  (ajuste 0.5 min)
+[Parallel(n_jobs=16)]: Using backend LokyBackend with 16 concurrent workers.
+[Parallel(n_jobs=16)]: Done   9 tasks      | elapsed:    6.4s
+[Parallel(n_jobs=16)]: Done  18 tasks      | elapsed:    7.7s
+[Parallel(n_jobs=16)]: Done  29 tasks      | elapsed:   11.3s
+[Parallel(n_jobs=16)]: Done  40 tasks      | elapsed:   14.3s
+[Parallel(n_jobs=16)]: Done  53 tasks      | elapsed:   18.3s
+[Parallel(n_jobs=16)]: Done  66 tasks      | elapsed:   21.6s
+[Parallel(n_jobs=16)]: Done  81 tasks      | elapsed:   25.6s
+[Parallel(n_jobs=16)]: Done  96 tasks      | elapsed:   29.9s
+[Parallel(n_jobs=16)]: Done 110 out of 128 | elapsed:   33.3s remaining:    5.4s
+[Parallel(n_jobs=16)]: Done 123 out of 128 | elapsed:   36.7s remaining:    1.5s
+[Parallel(n_jobs=16)]: Done 128 out of 128 | elapsed:   37.0s finished
+      permutacao 0.6 min
+  134 features  val 0.9368  teste 0.9163  (ajuste 0.3 min)
+[Parallel(n_jobs=16)]: Using backend LokyBackend with 16 concurrent workers.
+[Parallel(n_jobs=16)]: Done   9 tasks      | elapsed:    2.5s
+[Parallel(n_jobs=16)]: Done  18 tasks      | elapsed:    3.8s
+[Parallel(n_jobs=16)]: Done  29 tasks      | elapsed:    5.6s
+[Parallel(n_jobs=16)]: Done  40 tasks      | elapsed:    7.4s
+[Parallel(n_jobs=16)]: Done  53 tasks      | elapsed:    9.5s
+[Parallel(n_jobs=16)]: Done  66 tasks      | elapsed:   11.7s
+[Parallel(n_jobs=16)]: Done  81 tasks      | elapsed:   14.1s
+[Parallel(n_jobs=16)]: Done  96 tasks      | elapsed:   16.6s
+[Parallel(n_jobs=16)]: Done 110 out of 128 | elapsed:   18.9s remaining:    3.1s
+[Parallel(n_jobs=16)]: Done 123 out of 128 | elapsed:   21.0s remaining:    0.9s
+[Parallel(n_jobs=16)]: Done 128 out of 128 | elapsed:   21.7s finished
+      permutacao 0.4 min
+   67 features  val 0.9307  teste 0.9095  (ajuste 0.2 min)
+[Parallel(n_jobs=16)]: Using backend LokyBackend with 16 concurrent workers.
+[Parallel(n_jobs=16)]: Done   9 tasks      | elapsed:    1.8s
+[Parallel(n_jobs=16)]: Done  18 tasks      | elapsed:    3.2s
+[Parallel(n_jobs=16)]: Done  29 tasks      | elapsed:    4.8s
+[Parallel(n_jobs=16)]: Done  43 out of  67 | elapsed:    6.9s remaining:    3.9s
+[Parallel(n_jobs=16)]: Done  50 out of  67 | elapsed:    8.0s remaining:    2.7s
+[Parallel(n_jobs=16)]: Done  57 out of  67 | elapsed:    9.0s remaining:    1.6s
+[Parallel(n_jobs=16)]: Done  64 out of  67 | elapsed:   10.0s remaining:    0.5s
+[Parallel(n_jobs=16)]: Done  67 out of  67 | elapsed:   10.4s finished
+      permutacao 0.2 min
+   33 features  val 0.9201  teste 0.8979  (ajuste 0.2 min)

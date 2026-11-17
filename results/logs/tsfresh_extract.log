@@ -1,0 +1,6 @@
+21,388 registros em 214 blocos
+[Parallel(n_jobs=14)]: Using backend LokyBackend with 14 concurrent workers.
+[Parallel(n_jobs=14)]: Done  44 tasks      | elapsed: 17.4min
+[Parallel(n_jobs=14)]: Done 134 tasks      | elapsed: 44.8min
+[Parallel(n_jobs=14)]: Done 214 out of 214 | elapsed: 68.8min finished
+(21388, 9325) -> /exp/duducampos/InterpretECG/data/features/tsfresh_12leads.parquet (69.1 min)

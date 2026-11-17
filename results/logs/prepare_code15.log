@@ -1,0 +1,63 @@
+exams_part0.hdf5 20001 exames, 7660 de 10 s
+exams_part1.hdf5 20001 exames, 7554 de 10 s
+exams_part2.hdf5 20001 exames, 7668 de 10 s
+/exp/duducampos/InterpretECG/scripts/prepare_external.py:123: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  "label_counts": rot.sum().to_dict(), "normal_or_other": int((rot.sum(1) == 0).sum()),
+{
+  "parts": [
+    "exams_part0.hdf5",
+    "exams_part1.hdf5",
+    "exams_part2.hdf5"
+  ],
+  "exams_in_parts": 60000,
+  "exams_10s": 22882,
+  "records_one_per_patient": 21174,
+  "labels": [
+    "1dAVb",
+    "RBBB",
+    "LBBB",
+    "SB",
+    "ST",
+    "AF"
+  ],
+  "label_counts": {
+    "1dAVb": 351,
+    "RBBB": 473,
+    "LBBB": 358,
+    "SB": 349,
+    "ST": 438,
+    "AF": 414
+  },
+  "normal_or_other": 19029,
+  "records_with_flat_lead": 116,
+  "fs_in": 400,
+  "resample": "scipy.signal.resample_poly(1, 4) sobre as 4.000 amostras validas",
+  "fold_counts": {
+    "1": 2118,
+    "2": 2118,
+    "3": 2118,
+    "4": 2118,
+    "5": 2117,
+    "6": 2117,
+    "7": 2117,
+    "8": 2117,
+    "9": 2117,
+    "10": 2117
+  },
+  "seed": 42,
+  "leads": [
+    "I",
+    "II",
+    "III",
+    "AVR",
+    "AVL",
+    "AVF",
+    "V1",
+    "V2",
+    "V3",
+    "V4",
+    "V5",
+    "V6"
+  ],
+  "split": "train 1-8 / validation 9 / test 10"
+}

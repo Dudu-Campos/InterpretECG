@@ -1,0 +1,64 @@
+{
+  "task": "PTB-XL diagnostic superclasses",
+  "labels": [
+    "NORM",
+    "MI",
+    "STTC",
+    "CD",
+    "HYP"
+  ],
+  "feature_count": 312,
+  "families": [
+    "graph_hvg_line"
+  ],
+  "protocol": {
+    "regime": "exploratory",
+    "train_folds": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "validation_fold": 8,
+    "test_fold": 9,
+    "classifier": "boosting lr=0.03 folhas=127 msl=80 l2=0.0 mf=0.5",
+    "preprocessing": "median imputation",
+    "grid": "boosting",
+    "random_state": 42
+  },
+  "selection_metric": "validation macro-AUROC",
+  "selected_c": null,
+  "model_comparison_validation": [
+    {
+      "modelo": "boosting lr=0.03 folhas=127 msl=80 l2=0.0 mf=0.5",
+      "familia_modelo": "nao-linear",
+      "val_auroc": 0.8646055979660383
+    }
+  ],
+  "best_linear_validation": null,
+  "validation_macro_auroc": 0.8646055979660383,
+  "test": {
+    "macro_auroc": 0.8617362231186894,
+    "macro_average_precision": 0.6807788143328957,
+    "per_label": {
+      "NORM": {
+        "auroc": 0.9092346173966177
+      },
+      "MI": {
+        "auroc": 0.872681149393478
+      },
+      "STTC": {
+        "auroc": 0.882490307899764
+      },
+      "CD": {
+        "auroc": 0.8707266486794046
+      },
+      "HYP": {
+        "auroc": 0.7735483922241826
+      }
+    }
+  }
+}

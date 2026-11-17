@@ -1,0 +1,105 @@
+{
+  "task": "PTB-XL diagnostic superclasses",
+  "labels": [
+    "NORM",
+    "MI",
+    "STTC",
+    "CD",
+    "HYP"
+  ],
+  "feature_count": 264,
+  "protocol": {
+    "train_folds": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "validation_fold": 9,
+    "test_fold": 10,
+    "classifier": "one-vs-rest logistic regression",
+    "class_weight": "balanced",
+    "preprocessing": "median imputation followed by standard scaling",
+    "threshold_selection": "maximum F1 on validation, independently per label",
+    "random_state": 42
+  },
+  "split_sizes": {
+    "train": 17084,
+    "validation": 2146,
+    "test": 2158
+  },
+  "selection_metric": "validation macro-AUROC",
+  "c_grid_validation_macro_auroc": {
+    "0.01": 0.8430818476645563,
+    "0.1": 0.8431124888274452,
+    "1.0": 0.8428973052693483,
+    "10.0": 0.8428918666420232
+  },
+  "selected_c": 0.1,
+  "validation_macro_auroc": 0.8431124888274452,
+  "test": {
+    "macro_auroc": 0.8455740488845664,
+    "micro_auroc": 0.8592893208975597,
+    "macro_average_precision": 0.660594139600639,
+    "macro_f1": 0.6279901389491459,
+    "micro_f1": 0.6613492854769026,
+    "exact_match_accuracy": 0.4318813716404078,
+    "hamming_loss": 0.18887859128822984,
+    "per_label": {
+      "NORM": {
+        "support": 963,
+        "prevalence": 0.4462465245597776,
+        "auroc": 0.8708290427838388,
+        "average_precision": 0.8205413191620471,
+        "f1": 0.7764705882352941,
+        "sensitivity": 0.822429906542056,
+        "specificity": 0.7615062761506276,
+        "threshold": 0.5463671435190192
+      },
+      "MI": {
+        "support": 550,
+        "prevalence": 0.2548656163113994,
+        "auroc": 0.8170115332428766,
+        "average_precision": 0.6168365542066279,
+        "f1": 0.594238683127572,
+        "sensitivity": 0.6563636363636364,
+        "specificity": 0.8109452736318408,
+        "threshold": 0.5225415564319967
+      },
+      "STTC": {
+        "support": 521,
+        "prevalence": 0.24142724745134383,
+        "auroc": 0.8760782621644153,
+        "average_precision": 0.6872151522968469,
+        "f1": 0.6626916524701874,
+        "sensitivity": 0.746641074856046,
+        "specificity": 0.8387293830177154,
+        "threshold": 0.5646894380651967
+      },
+      "CD": {
+        "support": 496,
+        "prevalence": 0.22984244670991658,
+        "auroc": 0.8559365416715189,
+        "average_precision": 0.7307957088361909,
+        "f1": 0.6354515050167224,
+        "sensitivity": 0.5745967741935484,
+        "specificity": 0.9302045728038508,
+        "threshold": 0.7084031552142359
+      },
+      "HYP": {
+        "support": 262,
+        "prevalence": 0.12140871177015755,
+        "auroc": 0.8080148645601829,
+        "average_precision": 0.44758196350148266,
+        "f1": 0.47109826589595377,
+        "sensitivity": 0.6221374045801527,
+        "specificity": 0.8591772151898734,
+        "threshold": 0.5805334600475931
+      }
+    }
+  }
+}

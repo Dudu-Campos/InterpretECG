@@ -1,0 +1,31 @@
+21,388 registros; treino 14,955 / validacao 2,129 / teste 2,146
+
+rodando 11 de 48 conjuntos: catch22 + amplitude + interderivacao, todas + amplitude + interderivacao, base + visoes boas, amplitude + interderivacao + visoes boas, base + espectro e escalograma, base + gaf, base + visibilidade, todas + amplitude + interderivacao sem image_mtf, todas + amplitude + interderivacao sem graph_transition, todas + amplitude + interderivacao sem image_recurrence, todas + amplitude + interderivacao sem graph_takens
+
+  catch22 + amplitude + interderivacao   363f  val 0.9163  teste 0.9053  [boosting lr=0.03 folhas=127 msl=80 l2=0.0 mf=0.5]  (1.2 min)
+  todas + amplitude + interderivacao  3297f  val 0.9222  teste 0.9151  [boosting lr=0.03 folhas=127 msl=80 l2=0.0 mf=0.5]  (13.1 min)
+  base + visoes boas      2259f  val 0.9233  teste 0.9131  [boosting lr=0.03 folhas=127 msl=80 l2=0.0 mf=0.5]  (9.8 min)
+  amplitude + interderivacao + visoes boas  1995f  val 0.9160  teste 0.9042  [boosting lr=0.03 folhas=127 msl=80 l2=0.0 mf=0.5]  (10.5 min)
+  base + espectro e escalograma  1035f  val 0.9173  teste 0.9067  [boosting lr=0.03 folhas=127 msl=80 l2=0.0 mf=0.5]  (5.6 min)
+  base + gaf              1035f  val 0.9179  teste 0.9093  [boosting lr=0.03 folhas=127 msl=80 l2=0.0 mf=0.5]  (5.4 min)
+  base + visibilidade      915f  val 0.9234  teste 0.9116  [boosting lr=0.03 folhas=127 msl=80 l2=0.0 mf=0.5]  (4.8 min)
+  todas + amplitude + interderivacao sem image_mtf  2961f  val 0.9231  teste 0.9151  [boosting lr=0.03 folhas=127 msl=80 l2=0.0 mf=0.5]  (11.1 min)
+  todas + amplitude + interderivacao sem graph_transition  2991f  val 0.9227  teste 0.9131  [boosting lr=0.03 folhas=127 msl=80 l2=0.0 mf=0.5]  (9.7 min)
+  todas + amplitude + interderivacao sem image_recurrence  3201f  val 0.9219  teste 0.9144  [boosting lr=0.03 folhas=127 msl=80 l2=0.0 mf=0.5]  (10.3 min)
+  todas + amplitude + interderivacao sem graph_takens  2997f  val 0.9226  teste 0.9133  [boosting lr=0.03 folhas=127 msl=80 l2=0.0 mf=0.5]  (9.9 min)
+
+============================================================================================
+                                               conjunto  n_features                                    melhor_modelo  val_auroc  test_auroc
+       todas + amplitude + interderivacao sem image_mtf        2961 boosting lr=0.03 folhas=127 msl=80 l2=0.0 mf=0.5     0.9231      0.9151
+                     todas + amplitude + interderivacao        3297 boosting lr=0.03 folhas=127 msl=80 l2=0.0 mf=0.5     0.9222      0.9151
+todas + amplitude + interderivacao sem image_recurrence        3201 boosting lr=0.03 folhas=127 msl=80 l2=0.0 mf=0.5     0.9219      0.9144
+    todas + amplitude + interderivacao sem graph_takens        2997 boosting lr=0.03 folhas=127 msl=80 l2=0.0 mf=0.5     0.9226      0.9133
+                                     base + visoes boas        2259 boosting lr=0.03 folhas=127 msl=80 l2=0.0 mf=0.5     0.9233      0.9131
+todas + amplitude + interderivacao sem graph_transition        2991 boosting lr=0.03 folhas=127 msl=80 l2=0.0 mf=0.5     0.9227      0.9131
+                                    base + visibilidade         915 boosting lr=0.03 folhas=127 msl=80 l2=0.0 mf=0.5     0.9234      0.9116
+                                             base + gaf        1035 boosting lr=0.03 folhas=127 msl=80 l2=0.0 mf=0.5     0.9179      0.9093
+                          base + espectro e escalograma        1035 boosting lr=0.03 folhas=127 msl=80 l2=0.0 mf=0.5     0.9173      0.9067
+                   catch22 + amplitude + interderivacao         363 boosting lr=0.03 folhas=127 msl=80 l2=0.0 mf=0.5     0.9163      0.9053
+               amplitude + interderivacao + visoes boas        1995 boosting lr=0.03 folhas=127 msl=80 l2=0.0 mf=0.5     0.9160      0.9042
+
+-> results/views_key_coalitions_exploratory/

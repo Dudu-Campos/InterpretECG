@@ -1,0 +1,86 @@
+{
+  "reader": "LDA binaria por rotulo, shrinkage Ledoit-Wolf, z-score do treino, corte +-5; PCA por jogador, 20 componentes (treino)",
+  "value": "AUROC macro; validacao = fold 8 (decisao), teste = fold 9 (descricao)",
+  "players": {
+    "catch22": [
+      "catch22"
+    ],
+    "amplitude+inter": [
+      "series_amplitude",
+      "series_interlead"
+    ],
+    "espectro+escalograma": [
+      "image_spectrogram",
+      "image_scalogram"
+    ],
+    "gaf": [
+      "image_gasf",
+      "image_gadf"
+    ],
+    "mtf": [
+      "image_mtf"
+    ],
+    "rqa": [
+      "image_recurrence"
+    ],
+    "visibilidade": [
+      "graph_hvg",
+      "graph_lphvg1"
+    ],
+    "takens": [
+      "graph_takens"
+    ],
+    "transicao": [
+      "graph_transition"
+    ],
+    "line graph mV": [
+      "graph_hvg_line_mv",
+      "graph_lphvg1_line_mv"
+    ],
+    "direcionado mV": [
+      "graph_hvg_dir_mv",
+      "graph_lphvg1_dir_mv"
+    ],
+    "placebo": [
+      "series_placebo"
+    ]
+  },
+  "shapley": {
+    "validation": {
+      "catch22": 0.03889033099623555,
+      "amplitude+inter": 0.04309886597164514,
+      "espectro+escalograma": 0.03788125405683452,
+      "gaf": 0.027944317501723936,
+      "mtf": 0.01684965102802039,
+      "rqa": 0.033934985139180925,
+      "visibilidade": 0.043991410508907515,
+      "takens": 0.03539991055189284,
+      "transicao": 0.019435559017964104,
+      "line graph mV": 0.057571620578416555,
+      "direcionado mV": 0.051272778677080924,
+      "placebo": -0.0012683104728510965
+    },
+    "test": {
+      "catch22": 0.03777506645099673,
+      "amplitude+inter": 0.04418651134027029,
+      "espectro+escalograma": 0.03217302887846451,
+      "gaf": 0.027534953497933373,
+      "mtf": 0.01657151161974542,
+      "rqa": 0.030074745536261712,
+      "visibilidade": 0.044075830323687726,
+      "takens": 0.03650109834442564,
+      "transicao": 0.019654407273201585,
+      "line graph mV": 0.05602353413407061,
+      "direcionado mV": 0.05155598617682236,
+      "placebo": -0.0008242040809153841
+    }
+  },
+  "full": {
+    "validation": 0.9050023735550518,
+    "test": 0.8953024694949645
+  },
+  "base_catch22_amplitude_inter": {
+    "validation": 0.8430677276600476,
+    "test": 0.8425461300676315
+  }
+}

@@ -1,0 +1,28 @@
+[Parallel(n_jobs=6)]: Using backend LokyBackend with 6 concurrent workers.
+[Parallel(n_jobs=6)]: Done   6 tasks      | elapsed:  2.4min
+[Parallel(n_jobs=6)]: Done  17 out of  23 | elapsed:  5.5min remaining:  1.9min
+[Parallel(n_jobs=6)]: Done  23 out of  23 | elapsed:  6.4min finished
+               familia  n_features  val_fold8  teste_fold9
+      image_recurrence          96   0.940625     0.926491
+     graph_lphvg1_line         336   0.932954     0.928163
+        graph_hvg_line         336   0.924740     0.917329
+             graph_hvg         300   0.924187     0.913050
+          graph_lphvg1         300   0.924157     0.917054
+          graph_takens         300   0.921067     0.916096
+     image_spectrogram         336   0.918803     0.924946
+  graph_lphvg1_line_mv         252   0.918655     0.919752
+       image_scalogram         336   0.918330     0.922643
+   graph_lphvg1_dir_mv         192   0.916607     0.904722
+               catch22         264   0.914327     0.926594
+     graph_hvg_line_mv         252   0.908365     0.902577
+      graph_hvg_dir_mv         192   0.908230     0.906289
+            image_gasf         336   0.907241     0.901521
+      graph_lphvg1_dir         168   0.905817     0.891926
+            image_gadf         336   0.896340     0.890735
+         graph_hvg_dir         168   0.886558     0.876310
+      series_amplitude          60   0.846423     0.849502
+graph_lphvg1_multiplex          98   0.831891     0.817806
+   graph_hvg_multiplex          98   0.823954     0.810820
+      graph_transition         324   0.819897     0.800796
+             image_mtf         336   0.809124     0.820213
+      series_interlead          39   0.730510     0.684646

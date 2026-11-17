@@ -1,0 +1,91 @@
+{
+  "set": "catch22 + amplitude + interderivacao",
+  "families": [
+    "catch22",
+    "series_amplitude",
+    "series_interlead"
+  ],
+  "source": "CS",
+  "target": "AT",
+  "regime": "exploratory, folds 1-7/8/9 restritos por aparelho",
+  "feature_count": 363,
+  "split_sizes": {
+    "train": 9123,
+    "validation": 1302,
+    "test_id": 1149,
+    "test_ood": 997
+  },
+  "prevalence": {
+    "train": {
+      "NORM": 0.439,
+      "MI": 0.275,
+      "STTC": 0.227,
+      "CD": 0.229,
+      "HYP": 0.112
+    },
+    "test_id": {
+      "NORM": 0.483,
+      "MI": 0.247,
+      "STTC": 0.203,
+      "CD": 0.201,
+      "HYP": 0.103
+    },
+    "test_ood": {
+      "NORM": 0.401,
+      "MI": 0.257,
+      "STTC": 0.296,
+      "CD": 0.265,
+      "HYP": 0.15
+    }
+  },
+  "readers": {
+    "boosting": {
+      "test_id": {
+        "macro": 0.8899312974149153,
+        "per_label": {
+          "NORM": 0.9104741104741104,
+          "MI": 0.8893959130505577,
+          "STTC": 0.9114596023014787,
+          "CD": 0.8727282158654708,
+          "HYP": 0.8655986453829587
+        }
+      },
+      "test_ood": {
+        "macro": 0.9027990296841077,
+        "per_label": {
+          "NORM": 0.9189530988274708,
+          "MI": 0.8876676366396762,
+          "STTC": 0.8966826017673476,
+          "CD": 0.908889371201786,
+          "HYP": 0.9018024399842582
+        }
+      },
+      "drop_macro": -0.012867732269192467,
+      "minutes": 0.3
+    },
+    "mlp": {
+      "test_id": {
+        "macro": 0.8796343642741814,
+        "per_label": {
+          "NORM": 0.9008038341371676,
+          "MI": 0.8772490433933079,
+          "STTC": 0.9024261109132823,
+          "CD": 0.857001386413151,
+          "HYP": 0.8606914465139982
+        }
+      },
+      "test_ood": {
+        "macro": 0.8917015374967272,
+        "per_label": {
+          "NORM": 0.91821189279732,
+          "MI": 0.8704506157219973,
+          "STTC": 0.8971220242406683,
+          "CD": 0.8902910413824466,
+          "HYP": 0.8824321133412043
+        }
+      },
+      "drop_macro": -0.012067173222545802,
+      "minutes": 0.1
+    }
+  }
+}

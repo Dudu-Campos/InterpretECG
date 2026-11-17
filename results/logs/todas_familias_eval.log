@@ -1,0 +1,53 @@
+21,388 registros; treino 14,955 / validacao 2,129 / teste 2,146
+
+rodando 1 de 78 conjuntos: todas as familias
+
+  todas as familias       5334f  val 0.9327  teste 0.9216  [boosting lr=0.03 folhas=127 msl=80 l2=0.0 mf=0.5]  (13.2 min)
+
+============================================================================================
+                                                       conjunto  n_features                                    melhor_modelo  val_auroc  test_auroc
+                                              todas as familias        5334 boosting lr=0.03 folhas=127 msl=80 l2=0.0 mf=0.5     0.9327      0.9216
+base + visibilidade + line graph + mv + direcionado + multiplex        2952 boosting lr=0.03 folhas=127 msl=80 l2=0.0 mf=0.5     0.9333      0.9210
+            base + visibilidade + line graph + mv + direcionado        2756 boosting lr=0.03 folhas=127 msl=80 l2=0.0 mf=0.5     0.9317      0.9199
+                           base + visoes boas + line graph + mv        3388 boosting lr=0.03 folhas=127 msl=80 l2=0.0 mf=0.5     0.9273      0.9192
+                          base + visibilidade + line graph + mv        2044 boosting lr=0.03 folhas=127 msl=80 l2=0.0 mf=0.5     0.9280      0.9179
+                   visibilidade + line graph + mv + direcionado        2393 boosting lr=0.03 folhas=127 msl=80 l2=0.0 mf=0.5     0.9291      0.9178
+                                 base + direcionado + multiplex        1271 boosting lr=0.03 folhas=127 msl=80 l2=0.0 mf=0.5     0.9300      0.9170
+                                             base + direcionado        1075 boosting lr=0.03 folhas=127 msl=80 l2=0.0 mf=0.5     0.9302      0.9169
+               todas + amplitude + interderivacao sem image_mtf        2961 boosting lr=0.03 folhas=127 msl=80 l2=0.0 mf=0.5     0.9231      0.9151
+                             todas + amplitude + interderivacao        3297 boosting lr=0.03 folhas=127 msl=80 l2=0.0 mf=0.5     0.9222      0.9151
+                                           L(HVG) + direcionado         918 boosting lr=0.03 folhas=127 msl=80 l2=0.0 mf=0.5     0.9258      0.9151
+                                              base + line graph         988 boosting lr=0.03 folhas=127 msl=80 l2=0.0 mf=0.5     0.9233      0.9146
+                               base + visibilidade + line graph        1540 boosting lr=0.03 folhas=127 msl=80 l2=0.0 mf=0.5     0.9241      0.9145
+        todas + amplitude + interderivacao sem image_recurrence        3201 boosting lr=0.03 folhas=127 msl=80 l2=0.0 mf=0.5     0.9219      0.9144
+            todas + amplitude + interderivacao sem graph_takens        2997 boosting lr=0.03 folhas=127 msl=80 l2=0.0 mf=0.5     0.9226      0.9133
+                                             base + visoes boas        2259 boosting lr=0.03 folhas=127 msl=80 l2=0.0 mf=0.5     0.9233      0.9131
+        todas + amplitude + interderivacao sem graph_transition        2991 boosting lr=0.03 folhas=127 msl=80 l2=0.0 mf=0.5     0.9227      0.9131
+                                            base + visibilidade         915 boosting lr=0.03 folhas=127 msl=80 l2=0.0 mf=0.5     0.9234      0.9116
+                                 visibilidade + line graph + mv        1681 boosting lr=0.03 folhas=127 msl=80 l2=0.0 mf=0.5     0.9226      0.9111
+                                               base + multiplex         559 boosting lr=0.03 folhas=127 msl=80 l2=0.0 mf=0.5     0.9232      0.9097
+                                                     base + gaf        1035 boosting lr=0.03 folhas=127 msl=80 l2=0.0 mf=0.5     0.9179      0.9093
+                                catch22 + amplitude + multiplex         520 boosting lr=0.03 folhas=127 msl=80 l2=0.0 mf=0.5     0.9214      0.9085
+                                  base + espectro e escalograma        1035 boosting lr=0.03 folhas=127 msl=80 l2=0.0 mf=0.5     0.9173      0.9067
+                                         L(HVG) nao direcionado         564 boosting lr=0.03 folhas=127 msl=80 l2=0.0 mf=0.5     0.9170      0.9063
+                                                    direcionado         712 boosting lr=0.03 folhas=127 msl=80 l2=0.0 mf=0.5     0.9167      0.9063
+                           catch22 + amplitude + interderivacao         363 boosting lr=0.03 folhas=127 msl=80 l2=0.0 mf=0.5     0.9163      0.9053
+                       amplitude + interderivacao + visoes boas        1995 boosting lr=0.03 folhas=127 msl=80 l2=0.0 mf=0.5     0.9160      0.9042
+                                            graph_lphvg1_dir_mv         190 boosting lr=0.03 folhas=127 msl=80 l2=0.0 mf=0.5     0.9121      0.9035
+                                           graph_lphvg1_line_mv         252 boosting lr=0.03 folhas=127 msl=80 l2=0.0 mf=0.5     0.9110      0.9009
+                                              graph_hvg_line_mv         252 boosting lr=0.03 folhas=127 msl=80 l2=0.0 mf=0.5     0.9119      0.9006
+                                               graph_hvg_dir_mv         186 boosting lr=0.03 folhas=127 msl=80 l2=0.0 mf=0.5     0.9053      0.8951
+                                      visibilidade + line graph        1177 boosting lr=0.03 folhas=127 msl=80 l2=0.0 mf=0.5     0.8844      0.8741
+                                                     line graph         625 boosting lr=0.03 folhas=127 msl=80 l2=0.0 mf=0.5     0.8807      0.8697
+                                              graph_lphvg1_line         313 boosting lr=0.03 folhas=127 msl=80 l2=0.0 mf=0.5     0.8729      0.8654
+                                                   visibilidade         552 boosting lr=0.03 folhas=127 msl=80 l2=0.0 mf=0.5     0.8728      0.8628
+                                                 graph_hvg_line         312 boosting lr=0.03 folhas=127 msl=80 l2=0.0 mf=0.5     0.8646      0.8617
+                                               graph_lphvg1_dir         168 boosting lr=0.03 folhas=127 msl=80 l2=0.0 mf=0.5     0.8747      0.8616
+                                                      graph_hvg         276 boosting lr=0.03 folhas=127 msl=80 l2=0.0 mf=0.5     0.8608      0.8552
+                                                  graph_hvg_dir         168 boosting lr=0.03 folhas=127 msl=80 l2=0.0 mf=0.5     0.8633      0.8546
+                                                   graph_lphvg1         276 boosting lr=0.03 folhas=127 msl=80 l2=0.0 mf=0.5     0.8645      0.8496
+                                                      multiplex         196 boosting lr=0.03 folhas=127 msl=80 l2=0.0 mf=0.5     0.8553      0.8465
+                                         graph_lphvg1_multiplex          98 boosting lr=0.03 folhas=127 msl=80 l2=0.0 mf=0.5     0.8384      0.8293
+                                            graph_hvg_multiplex          98 boosting lr=0.03 folhas=127 msl=80 l2=0.0 mf=0.5     0.8335      0.8237
+
+-> results/views_key_coalitions_exploratory/

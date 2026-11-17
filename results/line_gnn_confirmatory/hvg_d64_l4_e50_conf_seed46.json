@@ -1,0 +1,293 @@
+{
+  "model": "LineGNN sobre L(HVG), 12 derivacoes, pesos compartilhados",
+  "regime": "confirmatory: treino 1-8, validacao 9, teste 10",
+  "test_fold": 10,
+  "val_fold": 9,
+  "selection": "epoca de melhor AUROC macro no fold 9",
+  "args": {
+    "cache": "/exp/duducampos/InterpretECG/data/features/graphs/hvg_edges.npz",
+    "output": "results/line_gnn_confirmatory",
+    "tag": "hvg_d64_l4_e50_conf_seed46",
+    "test_fold": 10,
+    "val_fold": 9,
+    "epochs": 50,
+    "batch": 32,
+    "lr": 0.001,
+    "wd": 0.01,
+    "hidden": 64,
+    "layers": 4,
+    "dropout": 0.1,
+    "seed": 46,
+    "directed": false,
+    "graph": "line",
+    "limit_train": null,
+    "confirm_test_fold": "GNN em L(HVG) nao direcionada semente 46: configuracao congelada no pre-registro de 09/nov/2026 (results/confirmatory/PREREGISTRATION.md), identica a exploratoria; epoca escolhida no fold 9, fold 10 nao usado para selecao; decisao do Eduardo 09/nov/2026"
+  },
+  "scale": {
+    "mean": -0.000825253373477608,
+    "std": 0.23222258687019348
+  },
+  "best_epoch": 39,
+  "validation_macro_auroc": 0.9246928614211323,
+  "test_macro_auroc": 0.9203538249110312,
+  "test_per_label": {
+    "NORM": 0.944259353397898,
+    "MI": 0.9212415196743554,
+    "STTC": 0.9322141410777873,
+    "CD": 0.9050763508792359,
+    "HYP": 0.8989777595258802
+  },
+  "history": [
+    {
+      "epoch": 1,
+      "loss": 0.5162453600083398,
+      "val_auroc": 0.7702328372563926
+    },
+    {
+      "epoch": 2,
+      "loss": 0.4645974560176835,
+      "val_auroc": 0.8053662437338993
+    },
+    {
+      "epoch": 3,
+      "loss": 0.42774450014369764,
+      "val_auroc": 0.8626287975090745
+    },
+    {
+      "epoch": 4,
+      "loss": 0.3831195028198792,
+      "val_auroc": 0.8818246617146684
+    },
+    {
+      "epoch": 5,
+      "loss": 0.36117527377181285,
+      "val_auroc": 0.8890597157120672
+    },
+    {
+      "epoch": 6,
+      "loss": 0.3514225957880306,
+      "val_auroc": 0.8970214302671696
+    },
+    {
+      "epoch": 7,
+      "loss": 0.34079054946756543,
+      "val_auroc": 0.9027487287688224
+    },
+    {
+      "epoch": 8,
+      "loss": 0.33428177070081905,
+      "val_auroc": 0.908609522852289
+    },
+    {
+      "epoch": 9,
+      "loss": 0.32865952228785456,
+      "val_auroc": 0.9090235695871837
+    },
+    {
+      "epoch": 10,
+      "loss": 0.3232657230469618,
+      "val_auroc": 0.9090939364195142
+    },
+    {
+      "epoch": 11,
+      "loss": 0.31811613438839326,
+      "val_auroc": 0.9074146137616953
+    },
+    {
+      "epoch": 12,
+      "loss": 0.3134011527460613,
+      "val_auroc": 0.9085878407971896
+    },
+    {
+      "epoch": 13,
+      "loss": 0.3084289329440406,
+      "val_auroc": 0.914721186074552
+    },
+    {
+      "epoch": 14,
+      "loss": 0.3041279412499081,
+      "val_auroc": 0.9135022059777842
+    },
+    {
+      "epoch": 15,
+      "loss": 0.30083696717180114,
+      "val_auroc": 0.9154856145147082
+    },
+    {
+      "epoch": 16,
+      "loss": 0.29752959065446244,
+      "val_auroc": 0.9113902068458761
+    },
+    {
+      "epoch": 17,
+      "loss": 0.2903558677725131,
+      "val_auroc": 0.9154331305433242
+    },
+    {
+      "epoch": 18,
+      "loss": 0.28706615242395506,
+      "val_auroc": 0.9093490045336925
+    },
+    {
+      "epoch": 19,
+      "loss": 0.28394403883468794,
+      "val_auroc": 0.9182870335923277
+    },
+    {
+      "epoch": 20,
+      "loss": 0.2802929501241066,
+      "val_auroc": 0.9175566810019482
+    },
+    {
+      "epoch": 21,
+      "loss": 0.27521254489205305,
+      "val_auroc": 0.9169102985258784
+    },
+    {
+      "epoch": 22,
+      "loss": 0.27148537435446785,
+      "val_auroc": 0.9202597878636063
+    },
+    {
+      "epoch": 23,
+      "loss": 0.2685434893610772,
+      "val_auroc": 0.9187856339251456
+    },
+    {
+      "epoch": 24,
+      "loss": 0.26730683175253955,
+      "val_auroc": 0.9197173149101949
+    },
+    {
+      "epoch": 25,
+      "loss": 0.26138473469554707,
+      "val_auroc": 0.9233063312758183
+    },
+    {
+      "epoch": 26,
+      "loss": 0.260130689245708,
+      "val_auroc": 0.9226534064275855
+    },
+    {
+      "epoch": 27,
+      "loss": 0.2547650399725982,
+      "val_auroc": 0.9223635977291449
+    },
+    {
+      "epoch": 28,
+      "loss": 0.25097044024351384,
+      "val_auroc": 0.9218711401949642
+    },
+    {
+      "epoch": 29,
+      "loss": 0.24731408718150208,
+      "val_auroc": 0.9239364672055512
+    },
+    {
+      "epoch": 30,
+      "loss": 0.24222481433539356,
+      "val_auroc": 0.922086114236297
+    },
+    {
+      "epoch": 31,
+      "loss": 0.24084573809741142,
+      "val_auroc": 0.9226981500730519
+    },
+    {
+      "epoch": 32,
+      "loss": 0.23447134682022677,
+      "val_auroc": 0.9238609210884323
+    },
+    {
+      "epoch": 33,
+      "loss": 0.23003546763839347,
+      "val_auroc": 0.9243013299221936
+    },
+    {
+      "epoch": 34,
+      "loss": 0.22765637426340624,
+      "val_auroc": 0.9234029423340548
+    },
+    {
+      "epoch": 35,
+      "loss": 0.22233018717180925,
+      "val_auroc": 0.9233394647644371
+    },
+    {
+      "epoch": 36,
+      "loss": 0.2202817907745249,
+      "val_auroc": 0.9239590436578775
+    },
+    {
+      "epoch": 37,
+      "loss": 0.21679146592034382,
+      "val_auroc": 0.9242488216894049
+    },
+    {
+      "epoch": 38,
+      "loss": 0.21143677084242807,
+      "val_auroc": 0.9243779052405061
+    },
+    {
+      "epoch": 39,
+      "loss": 0.20934194258034006,
+      "val_auroc": 0.9246928614211323
+    },
+    {
+      "epoch": 40,
+      "loss": 0.20516369452748853,
+      "val_auroc": 0.9244539426196979
+    },
+    {
+      "epoch": 41,
+      "loss": 0.2036945897290546,
+      "val_auroc": 0.9218546094340857
+    },
+    {
+      "epoch": 42,
+      "loss": 0.19982380284631296,
+      "val_auroc": 0.9236778419536632
+    },
+    {
+      "epoch": 43,
+      "loss": 0.19667582642217254,
+      "val_auroc": 0.923763848966623
+    },
+    {
+      "epoch": 44,
+      "loss": 0.19819375600540237,
+      "val_auroc": 0.9243291947297608
+    },
+    {
+      "epoch": 45,
+      "loss": 0.19586011301377293,
+      "val_auroc": 0.9238065353547533
+    },
+    {
+      "epoch": 46,
+      "loss": 0.1928767819892378,
+      "val_auroc": 0.9237486200374064
+    },
+    {
+      "epoch": 47,
+      "loss": 0.1922534668908807,
+      "val_auroc": 0.9237731854858792
+    },
+    {
+      "epoch": 48,
+      "loss": 0.1917427679181992,
+      "val_auroc": 0.9237527756243231
+    },
+    {
+      "epoch": 49,
+      "loss": 0.19202857979395416,
+      "val_auroc": 0.9238532717044375
+    },
+    {
+      "epoch": 50,
+      "loss": 0.19033221142847886,
+      "val_auroc": 0.9238418174346519
+    }
+  ],
+  "finished": "2026-11-12T07:47:26.763076+00:00"
+}

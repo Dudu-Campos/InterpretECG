@@ -1,0 +1,8 @@
+serie k16/k8: ['tsfresh::II__skewness', 'tsfresh::III__change_quantiles__f_agg_"mean"__isabs_True__qh_0.2__ql_0.0', 'tsfresh::AVR__quantile__q_0.1', 'tsfresh::AVR__change_quantiles__f_agg_"var"__isabs_True__qh_0.6__ql_0.0', 'tsfresh::V1__c3__lag_3', 'tsfresh::V1__change_quantiles__f_agg_"mean"__isabs_True__qh_1.0__ql_0.8', 'tsfresh::V5__quantile__q_0.9', 'tsfresh::V6__spkt_welch_density__coeff_5']
+multiview k16/k8: ['catch22::AVR__CO_FirstMin_ac', 'series_interlead::corr_I_II', 'graph_lphvg1_line::V2__graph_lphvg1_line__lg_degree_q90', 'graph_hvg_line_mv::AVR__graph_hvg_line_mv__level_q10', 'graph_lphvg1_line_mv::II__graph_lphvg1_line_mv__wedge_outer_amplitude_distance_q90', 'graph_lphvg1_line_mv::AVL__graph_lphvg1_line_mv__wedge_outer_amplitude_distance_std', 'graph_lphvg1_line_mv::V5__graph_lphvg1_line_mv__wedge_outer_amplitude_distance_std', 'graph_lphvg1_dir_mv::V5__graph_lphvg1_dir_mv__dir_signed_step_long_mean']
+256 ajustes
+[Parallel(n_jobs=16)]: Using backend LokyBackend with 16 concurrent workers.
+[Parallel(n_jobs=16)]: Done  40 tasks      | elapsed: 27.8min
+[Parallel(n_jobs=16)]: Done 130 tasks      | elapsed: 34.2min
+[Parallel(n_jobs=16)]: Done 256 out of 256 | elapsed: 35.6min finished
+35.6 min

@@ -1,0 +1,88 @@
+{
+  "task": "chapman",
+  "dataset": "chapman",
+  "labels": [
+    "SB",
+    "AFIB",
+    "GSVT",
+    "SR"
+  ],
+  "feature_count": null,
+  "families": [
+    "raw_signal"
+  ],
+  "protocol": {
+    "regime": "exploratory",
+    "train_folds": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "validation_fold": 8,
+    "test_fold": 9,
+    "classifier": "xresnet1d101 (Strodthoff et al. 2021, fastai_model)",
+    "preprocessing": "standardization by scalar train mean/std",
+    "training": {
+      "epochs": 50,
+      "batch": 128,
+      "max_lr": 0.01,
+      "weight_decay": 0.01,
+      "schedule": "one-cycle",
+      "crop": 250,
+      "eval_stride": 125,
+      "aggregate": "max",
+      "early_stopping": null,
+      "precision": "bf16"
+    },
+    "random_state": 42
+  },
+  "split_sizes": {
+    "train": 7453,
+    "validation": 1064,
+    "test": 1065
+  },
+  "selection_metric": null,
+  "selected_c": null,
+  "validation": {
+    "macro_auroc": 0.9959858751591104,
+    "macro_average_precision": 0.9887179706237983,
+    "per_label": {
+      "SB": {
+        "auroc": 0.9974350185661239
+      },
+      "AFIB": {
+        "auroc": 0.9980098863709315
+      },
+      "GSVT": {
+        "auroc": 0.9935720988426651
+      },
+      "SR": {
+        "auroc": 0.9949264968567209
+      }
+    }
+  },
+  "validation_macro_auroc": 0.9959858751591104,
+  "test": {
+    "macro_auroc": 0.9962692859777148,
+    "macro_average_precision": 0.9882904814009024,
+    "per_label": {
+      "SB": {
+        "auroc": 0.9985568366772638
+      },
+      "AFIB": {
+        "auroc": 0.9972855417695276
+      },
+      "GSVT": {
+        "auroc": 0.9926033199414493
+      },
+      "SR": {
+        "auroc": 0.9966314455226186
+      }
+    }
+  },
+  "training_minutes": 5.245568556367653
+}

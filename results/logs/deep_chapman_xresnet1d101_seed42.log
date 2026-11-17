@@ -1,0 +1,4 @@
+treino 8,517 / validacao 1,065 / teste 1,064  [confirmatory]
+xresnet1d101: 33,555,204 parametros, lr 0.01
+  epoca 10  perda 0.1081  val AUROC 0.9935  (1.2 min)
+  epoca 20  perda 0.0825  val AUROC 0.9957  (2.4 min)

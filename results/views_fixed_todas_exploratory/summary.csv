@@ -1,0 +1,4 @@
+conjunto,n_features,melhor_modelo,val_auroc,test_auroc,test_ap,melhor_linear_val,ganho_nao_linear,NORM,MI,STTC,CD,HYP
+todas + amplitude + interderivacao,3297,boosting lr=0.06 folhas=31 msl=20 l2=1.0 mf=0.5,0.9244,0.9147,0.7880,0.9116,0.0128,0.9330,0.9157,0.9197,0.9123,0.8926
+todas + placebo,3297,boosting lr=0.06 folhas=31 msl=20 l2=1.0 mf=0.5,0.9127,0.9022,0.7562,0.9063,0.0064,0.9225,0.9076,0.9151,0.9110,0.8549
+todas as visoes,3198,boosting lr=0.06 folhas=31 msl=20 l2=1.0 mf=0.5,0.9143,0.9007,0.7563,0.9068,0.0075,0.9220,0.9070,0.9172,0.9041,0.8532

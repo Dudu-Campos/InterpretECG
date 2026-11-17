@@ -1,0 +1,2 @@
+takens variancia restante apos k=1..4 medias: [0.862 0.802 0.76  0.729] nan: 1 | fracao do grafo alcancada em k=1..4 saltos: [0.044 0.171 0.321 0.439]
+hvg variancia restante apos k=1..4 medias: [0.777 0.607 0.533 0.468] nan: 1 | fracao do grafo alcancada em k=1..4 saltos: [0.005 0.014 0.03  0.055]

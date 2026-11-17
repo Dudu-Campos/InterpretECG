@@ -1,0 +1,112 @@
+{
+  "task": "PTB-XL diagnostic superclasses",
+  "labels": [
+    "NORM",
+    "MI",
+    "STTC",
+    "CD",
+    "HYP"
+  ],
+  "feature_count": 3297,
+  "families": [
+    "catch22",
+    "image_spectrogram",
+    "image_scalogram",
+    "image_gasf",
+    "image_gadf",
+    "image_mtf",
+    "image_recurrence",
+    "graph_hvg",
+    "graph_lphvg1",
+    "graph_takens",
+    "graph_transition",
+    "series_amplitude",
+    "series_interlead"
+  ],
+  "protocol": {
+    "regime": "exploratory",
+    "train_folds": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "validation_fold": 8,
+    "test_fold": 9,
+    "classifier": "boosting lr=0.06 folhas=31 msl=20 l2=1.0 mf=0.5",
+    "preprocessing": "median imputation",
+    "grid": "fixa",
+    "fixed_boosting": {
+      "learning_rate": 0.06,
+      "max_leaf_nodes": 31,
+      "min_samples_leaf": 20,
+      "l2_regularization": 1.0,
+      "max_features": 0.5
+    },
+    "random_state": 42
+  },
+  "selection_metric": "validation macro-AUROC",
+  "selected_c": null,
+  "model_comparison_validation": [
+    {
+      "modelo": "logistica C=0.001",
+      "familia_modelo": "linear",
+      "val_auroc": 0.9115819360635877
+    },
+    {
+      "modelo": "logistica C=0.01",
+      "familia_modelo": "linear",
+      "val_auroc": 0.9057190763189162
+    },
+    {
+      "modelo": "logistica C=0.1",
+      "familia_modelo": "linear",
+      "val_auroc": 0.8912426345552769
+    },
+    {
+      "modelo": "logistica C=1.0",
+      "familia_modelo": "linear",
+      "val_auroc": 0.8752882000723516
+    },
+    {
+      "modelo": "logistica C=10.0",
+      "familia_modelo": "linear",
+      "val_auroc": 0.8631284845520308
+    },
+    {
+      "modelo": "boosting lr=0.06 folhas=31 msl=20 l2=1.0 mf=0.5",
+      "familia_modelo": "nao-linear",
+      "val_auroc": 0.9244011011913124
+    }
+  ],
+  "best_linear_validation": {
+    "modelo": "logistica C=0.001",
+    "familia_modelo": "linear",
+    "val_auroc": 0.9115819360635877
+  },
+  "validation_macro_auroc": 0.9244011011913124,
+  "test": {
+    "macro_auroc": 0.9146835305686503,
+    "macro_average_precision": 0.7880109579629012,
+    "per_label": {
+      "NORM": {
+        "auroc": 0.9330291321033404
+      },
+      "MI": {
+        "auroc": 0.9156980766569808
+      },
+      "STTC": {
+        "auroc": 0.9197252968498332
+      },
+      "CD": {
+        "auroc": 0.9123237217725406
+      },
+      "HYP": {
+        "auroc": 0.8926414254605567
+      }
+    }
+  }
+}

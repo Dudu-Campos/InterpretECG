@@ -1,0 +1,10 @@
+treino 8,494 / validacao 1,062 / teste 1,059  [confirmatory]
+transformer: 829,832 parametros, lr 0.001
+  epoca 10  perda 0.2099  val AUROC 0.8744  (0.5 min)
+  epoca 20  perda 0.1452  val AUROC 0.9282  (0.9 min)
+  epoca 30  perda 0.1065  val AUROC 0.9455  (1.3 min)
+  epoca 40  perda 0.0827  val AUROC 0.9545  (1.8 min)
+  epoca 50  perda 0.0723  val AUROC 0.9573  (2.2 min)
+Registrado uso #101 do fold 10 em /exp/duducampos/InterpretECG/results/test_fold_usage.jsonl
+
+validacao 0.9573  teste 0.9668  -> results/external/chapman8/deep/transformer_confirmatory_seed42/

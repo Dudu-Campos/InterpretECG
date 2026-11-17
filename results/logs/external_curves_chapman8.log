@@ -1,0 +1,32 @@
+27 passos, 27 a ajustar
+[Parallel(n_jobs=4)]: Using backend LokyBackend with 4 concurrent workers.
+[Parallel(n_jobs=4)]: Done  10 tasks      | elapsed: 72.7min
+[Parallel(n_jobs=4)]: Done  27 out of  27 | elapsed: 76.3min finished
+        conjunto    k  val_fold8  teste_fold9  erro_fold9
+         catch22  264   0.914327     0.926594    0.073406
+melhor_multiplex   33   0.958753     0.946617    0.053383
+melhor_multiplex   67   0.970842     0.947191    0.052809
+melhor_multiplex  134   0.973803     0.947836    0.052164
+melhor_multiplex  268   0.973347     0.949234    0.050766
+melhor_multiplex  537   0.969789     0.951139    0.048861
+melhor_multiplex 1075   0.960345     0.946273    0.053727
+melhor_multiplex 2150   0.950901     0.944391    0.055609
+melhor_multiplex 2957   0.943647     0.943493    0.056507
+  todas_familias   33   0.973177     0.952740    0.047260
+  todas_familias   67   0.983529     0.956029    0.043971
+  todas_familias  134   0.984351     0.963434    0.036566
+  todas_familias  268   0.981610     0.960529    0.039471
+  todas_familias  537   0.980592     0.959419    0.040581
+  todas_familias 1075   0.973687     0.960516    0.039484
+  todas_familias 2150   0.970789     0.958877    0.041123
+  todas_familias 4449   0.967435     0.960018    0.039982
+  todas_familias 5339   0.958433     0.963166    0.036834
+         tsfresh   33   0.972485     0.947827    0.052173
+         tsfresh   67   0.975770     0.957127    0.042873
+         tsfresh  134   0.975796     0.956660    0.043340
+         tsfresh  268   0.979507     0.958776    0.041224
+         tsfresh  537   0.976872     0.959251    0.040749
+         tsfresh 1075   0.967920     0.954304    0.045696
+         tsfresh 2150   0.953218     0.957132    0.042868
+         tsfresh 4449   0.957802     0.956857    0.043143
+         tsfresh 8943   0.930500     0.955471    0.044529

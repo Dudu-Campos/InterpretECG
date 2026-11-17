@@ -1,0 +1,7 @@
+conjunto,n_features,melhor_modelo,val_auroc,test_auroc,test_ap,melhor_linear_val,ganho_nao_linear,NORM,MI,STTC,CD,HYP
+catch22 + amplitude + interderivacao,363,boosting lr=0.03 folhas=127 msl=80 l2=0.0 mf=0.5,0.9163,0.9053,0.7703,0.8813,0.0350,0.9251,0.8985,0.9146,0.8991,0.8892
+catch22 + amplitude,324,boosting lr=0.03 folhas=127 msl=80 l2=0.0 mf=0.5,0.9169,0.9026,0.7632,0.8762,0.0407,0.9204,0.8993,0.9131,0.8937,0.8864
+catch22 + interderivacao,303,boosting lr=0.03 folhas=127 msl=80 l2=0.0 mf=0.5,0.8971,0.8844,0.7239,0.8681,0.0290,0.9119,0.8890,0.9049,0.9006,0.8154
+catch22,264,boosting lr=0.03 folhas=127 msl=80 l2=0.0 mf=0.5,0.8927,0.8768,0.7090,0.8564,0.0363,0.9061,0.8844,0.9006,0.8935,0.7994
+catch22 + placebo,363,boosting lr=0.03 folhas=127 msl=80 l2=0.0 mf=0.5,0.8894,0.8741,0.7046,0.8537,0.0358,0.9045,0.8796,0.9003,0.8913,0.7946
+series_placebo,99,boosting lr=0.03 folhas=127 msl=80 l2=0.0 mf=0.5,0.5005,0.4964,0.2581,0.4989,0.0015,0.4826,0.4915,0.5028,0.5044,0.5007

@@ -1,0 +1,142 @@
+{
+  "model": "ECG-IMN (Thambawita et al., CBMS 2026), configuracao do repositorio original",
+  "source": "github.com/vlbthambawita/mesomorphic_ecg@53d9bc74",
+  "task": "code15_multilabel5_confirmatory_seed45",
+  "dataset": "code15",
+  "labels": [
+    "1dAVb",
+    "RBBB",
+    "LBBB",
+    "SB",
+    "ST",
+    "AF"
+  ],
+  "regime": "confirmatory (folds 1-8 / 9 early stopping / 10)",
+  "seed": 45,
+  "cache": "/exp/duducampos/InterpretECG/data/external/code15/signals.npz",
+  "n_test": 9261,
+  "best_epoch": 12,
+  "validation_macro_auroc": 0.9824311731818192,
+  "test_macro_auroc": 0.9852042050056907,
+  "test_per_label": {
+    "1dAVb": 0.9797348912167608,
+    "RBBB": 0.9916803837386234,
+    "LBBB": 0.9968162500259504,
+    "SB": 0.9796445055273746,
+    "ST": 0.991948553721687,
+    "AF": 0.9714006458037487
+  },
+  "history": [
+    {
+      "epoch": 1,
+      "loss": 14.545068465057433,
+      "val_auroc": 0.9053772503611195
+    },
+    {
+      "epoch": 2,
+      "loss": 1.466076391284227,
+      "val_auroc": 0.9400387855785789
+    },
+    {
+      "epoch": 3,
+      "loss": 1.1211212210370056,
+      "val_auroc": 0.9398876021869635
+    },
+    {
+      "epoch": 4,
+      "loss": 0.9419937685440859,
+      "val_auroc": 0.9549067395148846
+    },
+    {
+      "epoch": 5,
+      "loss": 0.7421708691974583,
+      "val_auroc": 0.9640042411800093
+    },
+    {
+      "epoch": 6,
+      "loss": 0.6497892863559497,
+      "val_auroc": 0.9624980217990412
+    },
+    {
+      "epoch": 7,
+      "loss": 0.5257132063154936,
+      "val_auroc": 0.963813113914012
+    },
+    {
+      "epoch": 8,
+      "loss": 0.4636232784349272,
+      "val_auroc": 0.9703102302909045
+    },
+    {
+      "epoch": 9,
+      "loss": 0.4055408648953537,
+      "val_auroc": 0.9706489329741048
+    },
+    {
+      "epoch": 10,
+      "loss": 0.3696869695575229,
+      "val_auroc": 0.9750120518535527
+    },
+    {
+      "epoch": 11,
+      "loss": 0.27105310951103817,
+      "val_auroc": 0.9821424631995749
+    },
+    {
+      "epoch": 12,
+      "loss": 0.24666753266527863,
+      "val_auroc": 0.9824311731818192
+    },
+    {
+      "epoch": 13,
+      "loss": 0.23733675304883914,
+      "val_auroc": 0.982297580721637
+    },
+    {
+      "epoch": 14,
+      "loss": 0.22695094240195599,
+      "val_auroc": 0.9819159350685291
+    },
+    {
+      "epoch": 15,
+      "loss": 0.21519315390427804,
+      "val_auroc": 0.9818461358738112
+    },
+    {
+      "epoch": 16,
+      "loss": 0.20558944248975558,
+      "val_auroc": 0.9819935311905761
+    },
+    {
+      "epoch": 17,
+      "loss": 0.19825428674103682,
+      "val_auroc": 0.9822348321607343
+    },
+    {
+      "epoch": 18,
+      "loss": 0.18836409119898792,
+      "val_auroc": 0.9811827454681256
+    },
+    {
+      "epoch": 19,
+      "loss": 0.18185413776637926,
+      "val_auroc": 0.9813334456877416
+    },
+    {
+      "epoch": 20,
+      "loss": 0.17423309218492328,
+      "val_auroc": 0.9815291386408228
+    },
+    {
+      "epoch": 21,
+      "loss": 0.14923026996933322,
+      "val_auroc": 0.9819348361308271
+    },
+    {
+      "epoch": 22,
+      "loss": 0.14097563591375561,
+      "val_auroc": 0.9817921617537498
+    }
+  ],
+  "finished": "2026-11-14T06:21:45.068061+00:00"
+}

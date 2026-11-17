@@ -1,0 +1,90 @@
+{
+  "reader": "LDA binaria por rotulo, shrinkage Ledoit-Wolf, z-score do treino, corte +-5; PCA por jogador, 20 componentes (treino)",
+  "value": "AUROC macro; validacao = fold 8 (decisao), teste = fold 9 (descricao)",
+  "players": {
+    "catch22": [
+      "catch22"
+    ],
+    "amplitude": [
+      "series_amplitude"
+    ],
+    "interderivacao": [
+      "series_interlead"
+    ],
+    "espectro+escalograma": [
+      "image_spectrogram",
+      "image_scalogram"
+    ],
+    "gaf": [
+      "image_gasf",
+      "image_gadf"
+    ],
+    "mtf": [
+      "image_mtf"
+    ],
+    "rqa": [
+      "image_recurrence"
+    ],
+    "visibilidade": [
+      "graph_hvg",
+      "graph_lphvg1"
+    ],
+    "takens": [
+      "graph_takens"
+    ],
+    "transicao": [
+      "graph_transition"
+    ],
+    "line graph mV": [
+      "graph_hvg_line_mv",
+      "graph_lphvg1_line_mv"
+    ],
+    "direcionado mV": [
+      "graph_hvg_dir_mv",
+      "graph_lphvg1_dir_mv"
+    ],
+    "placebo": [
+      "series_placebo"
+    ]
+  },
+  "shapley": {
+    "validation": {
+      "catch22": 0.03593232801793582,
+      "amplitude": 0.03774501858908632,
+      "interderivacao": 0.029766427742925528,
+      "espectro+escalograma": 0.035065575283086556,
+      "gaf": 0.026199607911652555,
+      "mtf": 0.015636831648663623,
+      "rqa": 0.031761208526127585,
+      "visibilidade": 0.04158763075361672,
+      "takens": 0.0331895098876608,
+      "transicao": 0.018023474932653646,
+      "line graph mV": 0.05366219527562487,
+      "direcionado mV": 0.04817843067783005,
+      "placebo": -0.0012008927408936657
+    },
+    "test": {
+      "catch22": 0.035132821321378065,
+      "amplitude": 0.03841854228627664,
+      "interderivacao": 0.029742857321209647,
+      "espectro+escalograma": 0.02957340955329492,
+      "gaf": 0.02598092157171468,
+      "mtf": 0.015428712809644217,
+      "rqa": 0.02809707273269297,
+      "visibilidade": 0.04155692383710819,
+      "takens": 0.034089214626092997,
+      "transicao": 0.018346919243740104,
+      "line graph mV": 0.05205971702598621,
+      "direcionado mV": 0.04857056709826798,
+      "placebo": -0.0007866288521919444
+    }
+  },
+  "full": {
+    "validation": 0.9055473465059711,
+    "test": 0.8962110505752146
+  },
+  "base_catch22_amplitude_inter": {
+    "validation": 0.8477855714154139,
+    "test": 0.8462614356023164
+  }
+}

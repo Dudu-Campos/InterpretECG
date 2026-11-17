@@ -1,0 +1,3 @@
+bins 0 semente 42 exit 0 Sun Nov 15 07:10:40 PM -03 2026
+results/logs/run_posthoc_takens_gnn.sh: line 19: 2423632 Killed                  CUDA_VISIBLE_DEVICES=${GPU:-0} .venv/bin/python -u scripts/train_line_gnn.py --dataset chapman8 --graph takens --cache data/features/graphs/takens_edges_chapman.npz --directed --epochs 50 --hidden 64 --layers 4 --dropout $DROPOUT --wd $WD --span-bins $b --seed $s --test-fold 9 --val-fold 8 --output $OUT --tag $tag > results/logs/posthoc_takens_do30_bins${b}_seed$s.log 2>&1
+bins 12 semente 42 exit 137 Sun Nov 15 08:42:52 PM -03 2026

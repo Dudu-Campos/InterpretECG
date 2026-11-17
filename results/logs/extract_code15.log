@@ -1,0 +1,11 @@
+[Parallel(n_jobs=13)]: Using backend LokyBackend with 13 concurrent workers.
+[Parallel(n_jobs=13)]: Done  46 tasks      | elapsed: 37.6min
+[Parallel(n_jobs=13)]: Done 136 tasks      | elapsed: 113.1min
+[Parallel(n_jobs=13)]: Done 262 tasks      | elapsed: 246.8min
+[Parallel(n_jobs=13)]: Done 424 out of 424 | elapsed: 411.0min finished
+21,174 registros, 15 familias, 411.0 min -> data/features/external/code15
+[Parallel(n_jobs=13)]: Using backend LokyBackend with 13 concurrent workers.
+[Parallel(n_jobs=13)]: Done  46 tasks      | elapsed: 16.6min
+[Parallel(n_jobs=13)]: Done 136 tasks      | elapsed: 45.3min
+[Parallel(n_jobs=13)]: Done 212 out of 212 | elapsed: 68.2min finished
+tsfresh (21174, 9325) em 68.4 min

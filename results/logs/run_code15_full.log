@@ -1,0 +1,40 @@
+++ seq 0 17
++ for p in $(seq 0 17)
++ '[' -f data/code15/exams_part0.hdf5 ']'
++ continue
++ for p in $(seq 0 17)
++ '[' -f data/code15/exams_part1.hdf5 ']'
++ continue
++ for p in $(seq 0 17)
++ '[' -f data/code15/exams_part2.hdf5 ']'
++ continue
++ for p in $(seq 0 17)
++ '[' -f data/code15/exams_part3.hdf5 ']'
++ for tentativa in 1 2 3 4 5 6
++ curl -sL -C - --retry 5 -o data/code15/exams_part3.zip 'https://zenodo.org/records/4916206/files/exams_part3.zip?download=1'
++ unzip -tq data/code15/exams_part3.zip
+No errors detected in compressed data of data/code15/exams_part3.zip.
++ break
++ unzip -tq data/code15/exams_part3.zip
+No errors detected in compressed data of data/code15/exams_part3.zip.
++ cd data/code15
++ unzip -o -q exams_part3.zip
++ echo 'parte 3 ok'
+parte 3 ok
++ for p in $(seq 0 17)
++ '[' -f data/code15/exams_part4.hdf5 ']'
++ for tentativa in 1 2 3 4 5 6
++ curl -sL -C - --retry 5 -o data/code15/exams_part4.zip 'https://zenodo.org/records/4916206/files/exams_part4.zip?download=1'
++ unzip -tq data/code15/exams_part4.zip
+[data/code15/exams_part4.zip]
+  End-of-central-directory signature not found.  Either this file is not
+  a zipfile, or it constitutes one disk of a multi-part archive.  In the
+  latter case the central directory and zipfile comment will be found on
+  the last disk(s) of this archive.
+unzip:  cannot find zipfile directory in one of data/code15/exams_part4.zip or
+        data/code15/exams_part4.zip.zip, and cannot find data/code15/exams_part4.zip.ZIP, period.
++ echo 'parte 4 incompleta/corrompida (tentativa 1)'
+parte 4 incompleta/corrompida (tentativa 1)
++ sleep 60
++ for tentativa in 1 2 3 4 5 6
++ curl -sL -C - --retry 5 -o data/code15/exams_part4.zip 'https://zenodo.org/records/4916206/files/exams_part4.zip?download=1'

@@ -1,0 +1,15 @@
+14,955 registros de treino x 2 copias = 29,910 sinais
+[Parallel(n_jobs=12)]: Using backend LokyBackend with 12 concurrent workers.
+[Parallel(n_jobs=12)]: Done  12 tasks      | elapsed:    6.3s
+[Parallel(n_jobs=12)]: Done 792 tasks      | elapsed:  2.3min
+[Parallel(n_jobs=12)]: Done 2232 tasks      | elapsed:  6.2min
+[Parallel(n_jobs=12)]: Done 4248 tasks      | elapsed: 10.8min
+[Parallel(n_jobs=12)]: Done 6840 tasks      | elapsed: 16.8min
+[Parallel(n_jobs=12)]: Done 10008 tasks      | elapsed: 23.8min
+[Parallel(n_jobs=12)]: Done 13752 tasks      | elapsed: 31.9min
+[Parallel(n_jobs=12)]: Done 18072 tasks      | elapsed: 41.3min
+[Parallel(n_jobs=12)]: Done 22968 tasks      | elapsed: 52.0min
+[Parallel(n_jobs=12)]: Done 28440 tasks      | elapsed: 64.0min
+[Parallel(n_jobs=12)]: Done 29887 out of 29910 | elapsed: 67.0min remaining:    3.1s
+[Parallel(n_jobs=12)]: Done 29910 out of 29910 | elapsed: 67.0min finished
+-> /exp/duducampos/InterpretECG/data/features/augmented/k2_gain10_wander10_noise1

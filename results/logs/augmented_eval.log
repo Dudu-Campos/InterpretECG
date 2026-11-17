@@ -1,0 +1,2 @@
+k2_gain10_wander10_noise1: treino 44,865 linhas (29,910 aumentadas), 1075 features
+val 0.9314  teste 0.9186  NORM 0.9358 MI 0.9216 STTC 0.9217 CD 0.9174 HYP 0.8966

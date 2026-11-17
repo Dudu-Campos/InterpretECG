@@ -1,0 +1,10 @@
+treino 8,494 / validacao 1,062 / teste 1,059  [confirmatory]
+inception1d: 508,040 parametros, lr 0.01
+  epoca 10  perda 0.0981  val AUROC 0.9482  (0.2 min)
+  epoca 20  perda 0.0747  val AUROC 0.9760  (0.4 min)
+  epoca 30  perda 0.0555  val AUROC 0.9862  (0.7 min)
+  epoca 40  perda 0.0415  val AUROC 0.9864  (0.9 min)
+  epoca 50  perda 0.0328  val AUROC 0.9855  (1.1 min)
+Registrado uso #72 do fold 10 em /exp/duducampos/InterpretECG/results/test_fold_usage.jsonl
+
+validacao 0.9855  teste 0.9843  -> results/external/chapman8/deep/inception1d_confirmatory_seed43/

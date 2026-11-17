@@ -1,0 +1,28 @@
+modelo,k,erro,tipo,dp,parametros,sementes,pareto
+melhor + multiplex,8,0.14560496812680568,raso,,,,True
+tsfresh (só série),8,0.15318580485512423,raso,,,,False
+melhor + multiplex,16,0.11716944980017696,raso,,,,True
+tsfresh (só série),16,0.1263779653344681,raso,,,,False
+melhor + multiplex,33,0.0980952016822687,raso,,,,True
+tsfresh (só série),33,0.10209927320300594,raso,,,,False
+melhor + multiplex,67,0.08812676420666354,raso,,,,True
+tsfresh (só série),67,0.0904668178577207,raso,,,,False
+melhor + multiplex,134,0.08217995153805935,raso,,,,True
+tsfresh (só série),134,0.08370172354052574,raso,,,,False
+catch22,264,0.12319999999999998,raso,,,,False
+melhor + multiplex,268,0.0801039632455176,raso,,,,True
+tsfresh (só série),268,0.08339628173163549,raso,,,,False
+melhor + multiplex,537,0.08044306784077404,raso,,,,False
+tsfresh (só série),537,0.08526171653690928,raso,,,,False
+melhor + multiplex,1075,0.07938461482377535,raso,,,,True
+tsfresh (só série),1075,0.08436743318696838,raso,,,,False
+melhor + multiplex,2150,0.07954359769054375,raso,,,,False
+tsfresh (só série),2150,0.0845365416224153,raso,,,,False
+melhor + multiplex,2952,0.07898193310398738,raso,,,,True
+tsfresh (só série),4449,0.08554020413986552,raso,,,,False
+tsfresh (só série),8898,0.08608240300553349,raso,,,,False
+xresnet1d101,12000,0.07154302410421054,profundo,0.0009371312871568209,33555333.0,5.0,True
+LSTM bidirecional,12000,0.07937714681477837,profundo,0.0007921619359934609,2330629.0,5.0,False
+inception1d,12000,0.07946698380659922,profundo,0.000984686032971999,507653.0,5.0,False
+Transformer,12000,0.0954880809018368,profundo,0.0017245835399877678,1469061.0,5.0,False
+ECG-IMN,12000,0.10748567921491747,profundo,0.002356497800851817,140330.0,5.0,False

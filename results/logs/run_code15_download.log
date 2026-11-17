@@ -1,0 +1,208 @@
++ ETAPA=download
++ NJOBS_EXTRACT=14
++ NJOBS_PRUNE=10
++ '[' download '!=' extract ']'
+++ seq 0 17
++ for p in $(seq 0 17)
++ '[' -f data/code15/exams_part0.hdf5 ']'
++ continue
++ for p in $(seq 0 17)
++ '[' -f data/code15/exams_part1.hdf5 ']'
++ continue
++ for p in $(seq 0 17)
++ '[' -f data/code15/exams_part2.hdf5 ']'
++ continue
++ for p in $(seq 0 17)
++ '[' -f data/code15/exams_part3.hdf5 ']'
++ continue
++ for p in $(seq 0 17)
++ '[' -f data/code15/exams_part4.hdf5 ']'
++ for tentativa in 1 2 3 4 5 6
++ curl -sL -C - --retry 5 -o data/code15/exams_part4.zip 'https://zenodo.org/records/4916206/files/exams_part4.zip?download=1'
++ unzip -tq data/code15/exams_part4.zip
+No errors detected in compressed data of data/code15/exams_part4.zip.
++ break
++ unzip -tq data/code15/exams_part4.zip
+No errors detected in compressed data of data/code15/exams_part4.zip.
++ cd data/code15
++ unzip -o -q exams_part4.zip
++ echo 'parte 4 ok'
+parte 4 ok
++ for p in $(seq 0 17)
++ '[' -f data/code15/exams_part5.hdf5 ']'
++ for tentativa in 1 2 3 4 5 6
++ curl -sL -C - --retry 5 -o data/code15/exams_part5.zip 'https://zenodo.org/records/4916206/files/exams_part5.zip?download=1'
++ unzip -tq data/code15/exams_part5.zip
+No errors detected in compressed data of data/code15/exams_part5.zip.
++ break
++ unzip -tq data/code15/exams_part5.zip
+No errors detected in compressed data of data/code15/exams_part5.zip.
++ cd data/code15
++ unzip -o -q exams_part5.zip
++ echo 'parte 5 ok'
+parte 5 ok
++ for p in $(seq 0 17)
++ '[' -f data/code15/exams_part6.hdf5 ']'
++ for tentativa in 1 2 3 4 5 6
++ curl -sL -C - --retry 5 -o data/code15/exams_part6.zip 'https://zenodo.org/records/4916206/files/exams_part6.zip?download=1'
++ unzip -tq data/code15/exams_part6.zip
+No errors detected in compressed data of data/code15/exams_part6.zip.
++ break
++ unzip -tq data/code15/exams_part6.zip
+No errors detected in compressed data of data/code15/exams_part6.zip.
++ cd data/code15
++ unzip -o -q exams_part6.zip
++ echo 'parte 6 ok'
+parte 6 ok
++ for p in $(seq 0 17)
++ '[' -f data/code15/exams_part7.hdf5 ']'
++ for tentativa in 1 2 3 4 5 6
++ curl -sL -C - --retry 5 -o data/code15/exams_part7.zip 'https://zenodo.org/records/4916206/files/exams_part7.zip?download=1'
++ unzip -tq data/code15/exams_part7.zip
+No errors detected in compressed data of data/code15/exams_part7.zip.
++ break
++ unzip -tq data/code15/exams_part7.zip
+No errors detected in compressed data of data/code15/exams_part7.zip.
++ cd data/code15
++ unzip -o -q exams_part7.zip
++ echo 'parte 7 ok'
+parte 7 ok
++ for p in $(seq 0 17)
++ '[' -f data/code15/exams_part8.hdf5 ']'
++ for tentativa in 1 2 3 4 5 6
++ curl -sL -C - --retry 5 -o data/code15/exams_part8.zip 'https://zenodo.org/records/4916206/files/exams_part8.zip?download=1'
++ unzip -tq data/code15/exams_part8.zip
+No errors detected in compressed data of data/code15/exams_part8.zip.
++ break
++ unzip -tq data/code15/exams_part8.zip
+No errors detected in compressed data of data/code15/exams_part8.zip.
++ cd data/code15
++ unzip -o -q exams_part8.zip
++ echo 'parte 8 ok'
+parte 8 ok
++ for p in $(seq 0 17)
++ '[' -f data/code15/exams_part9.hdf5 ']'
++ for tentativa in 1 2 3 4 5 6
++ curl -sL -C - --retry 5 -o data/code15/exams_part9.zip 'https://zenodo.org/records/4916206/files/exams_part9.zip?download=1'
++ unzip -tq data/code15/exams_part9.zip
+No errors detected in compressed data of data/code15/exams_part9.zip.
++ break
++ unzip -tq data/code15/exams_part9.zip
+No errors detected in compressed data of data/code15/exams_part9.zip.
++ cd data/code15
++ unzip -o -q exams_part9.zip
++ echo 'parte 9 ok'
+parte 9 ok
++ for p in $(seq 0 17)
++ '[' -f data/code15/exams_part10.hdf5 ']'
++ for tentativa in 1 2 3 4 5 6
++ curl -sL -C - --retry 5 -o data/code15/exams_part10.zip 'https://zenodo.org/records/4916206/files/exams_part10.zip?download=1'
++ unzip -tq data/code15/exams_part10.zip
+No errors detected in compressed data of data/code15/exams_part10.zip.
++ break
++ unzip -tq data/code15/exams_part10.zip
+No errors detected in compressed data of data/code15/exams_part10.zip.
++ cd data/code15
++ unzip -o -q exams_part10.zip
++ echo 'parte 10 ok'
+parte 10 ok
++ for p in $(seq 0 17)
++ '[' -f data/code15/exams_part11.hdf5 ']'
++ for tentativa in 1 2 3 4 5 6
++ curl -sL -C - --retry 5 -o data/code15/exams_part11.zip 'https://zenodo.org/records/4916206/files/exams_part11.zip?download=1'
++ unzip -tq data/code15/exams_part11.zip
+No errors detected in compressed data of data/code15/exams_part11.zip.
++ break
++ unzip -tq data/code15/exams_part11.zip
+No errors detected in compressed data of data/code15/exams_part11.zip.
++ cd data/code15
++ unzip -o -q exams_part11.zip
++ echo 'parte 11 ok'
+parte 11 ok
++ for p in $(seq 0 17)
++ '[' -f data/code15/exams_part12.hdf5 ']'
++ for tentativa in 1 2 3 4 5 6
++ curl -sL -C - --retry 5 -o data/code15/exams_part12.zip 'https://zenodo.org/records/4916206/files/exams_part12.zip?download=1'
++ unzip -tq data/code15/exams_part12.zip
+No errors detected in compressed data of data/code15/exams_part12.zip.
++ break
++ unzip -tq data/code15/exams_part12.zip
+No errors detected in compressed data of data/code15/exams_part12.zip.
++ cd data/code15
++ unzip -o -q exams_part12.zip
++ echo 'parte 12 ok'
+parte 12 ok
++ for p in $(seq 0 17)
++ '[' -f data/code15/exams_part13.hdf5 ']'
++ for tentativa in 1 2 3 4 5 6
++ curl -sL -C - --retry 5 -o data/code15/exams_part13.zip 'https://zenodo.org/records/4916206/files/exams_part13.zip?download=1'
++ unzip -tq data/code15/exams_part13.zip
+No errors detected in compressed data of data/code15/exams_part13.zip.
++ break
++ unzip -tq data/code15/exams_part13.zip
+No errors detected in compressed data of data/code15/exams_part13.zip.
++ cd data/code15
++ unzip -o -q exams_part13.zip
++ echo 'parte 13 ok'
+parte 13 ok
++ for p in $(seq 0 17)
++ '[' -f data/code15/exams_part14.hdf5 ']'
++ for tentativa in 1 2 3 4 5 6
++ curl -sL -C - --retry 5 -o data/code15/exams_part14.zip 'https://zenodo.org/records/4916206/files/exams_part14.zip?download=1'
++ unzip -tq data/code15/exams_part14.zip
+No errors detected in compressed data of data/code15/exams_part14.zip.
++ break
++ unzip -tq data/code15/exams_part14.zip
+No errors detected in compressed data of data/code15/exams_part14.zip.
++ cd data/code15
++ unzip -o -q exams_part14.zip
++ echo 'parte 14 ok'
+parte 14 ok
++ for p in $(seq 0 17)
++ '[' -f data/code15/exams_part15.hdf5 ']'
++ for tentativa in 1 2 3 4 5 6
++ curl -sL -C - --retry 5 -o data/code15/exams_part15.zip 'https://zenodo.org/records/4916206/files/exams_part15.zip?download=1'
++ unzip -tq data/code15/exams_part15.zip
+No errors detected in compressed data of data/code15/exams_part15.zip.
++ break
++ unzip -tq data/code15/exams_part15.zip
+No errors detected in compressed data of data/code15/exams_part15.zip.
++ cd data/code15
++ unzip -o -q exams_part15.zip
++ echo 'parte 15 ok'
+parte 15 ok
++ for p in $(seq 0 17)
++ '[' -f data/code15/exams_part16.hdf5 ']'
++ for tentativa in 1 2 3 4 5 6
++ curl -sL -C - --retry 5 -o data/code15/exams_part16.zip 'https://zenodo.org/records/4916206/files/exams_part16.zip?download=1'
++ unzip -tq data/code15/exams_part16.zip
+No errors detected in compressed data of data/code15/exams_part16.zip.
++ break
++ unzip -tq data/code15/exams_part16.zip
+No errors detected in compressed data of data/code15/exams_part16.zip.
++ cd data/code15
++ unzip -o -q exams_part16.zip
++ echo 'parte 16 ok'
+parte 16 ok
++ for p in $(seq 0 17)
++ '[' -f data/code15/exams_part17.hdf5 ']'
++ for tentativa in 1 2 3 4 5 6
++ curl -sL -C - --retry 5 -o data/code15/exams_part17.zip 'https://zenodo.org/records/4916206/files/exams_part17.zip?download=1'
++ unzip -tq data/code15/exams_part17.zip
+No errors detected in compressed data of data/code15/exams_part17.zip.
++ break
++ unzip -tq data/code15/exams_part17.zip
+No errors detected in compressed data of data/code15/exams_part17.zip.
++ cd data/code15
++ unzip -o -q exams_part17.zip
++ echo 'parte 17 ok'
+parte 17 ok
++ '[' -f data/external/code15/signals.npz ']'
++ .venv/bin/python scripts/prepare_external.py code15
+++ date
++ echo 'prepare ok Wed Nov 11 06:37:08 PM -03 2026'
+prepare ok Wed Nov 11 06:37:08 PM -03 2026
++ '[' download = download ']'
++ echo 'ETAPA=download concluida'
+ETAPA=download concluida
++ exit 0

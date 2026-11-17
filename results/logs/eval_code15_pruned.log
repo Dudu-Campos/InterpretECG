@@ -1,0 +1,4 @@
+{'train': 74096, 'validation': 9262, 'test': 9261} {'1dAVb': 136, 'RBBB': 195, 'LBBB': 148, 'SB': 143, 'ST': 187, 'AF': 149}
+tsfresh            k=537  val 0.9658  teste 0.9676  1dAVb 0.887 RBBB 0.978 LBBB 0.993 SB 0.990 ST 0.994 AF 0.963
+melhor_multiplex   k=134  val 0.9744  teste 0.9746  1dAVb 0.916 RBBB 0.989 LBBB 0.997 SB 0.988 ST 0.992 AF 0.966
+melhor_multiplex - tsfresh: +0.0070 [+0.0021, +0.0122]

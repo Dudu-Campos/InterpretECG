@@ -1,0 +1,23 @@
++ DL=1436864
++ nice -n 5 .venv/bin/python scripts/extract_external_features.py --signals data/external/chapman/signals.npz --output data/features/external/chapman --n-jobs 13 --tsfresh
++ echo 'chapman extract exit 0'
+chapman extract exit 0
++ wait 1436864
++ grep -q 'part2 ok' results/logs/download_part2.log
++ cd data/code15
++ for p in 0 1 2
++ '[' -f exams_part0.hdf5 ']'
++ unzip -o -q exams_part0.zip
++ for p in 0 1 2
++ '[' -f exams_part1.hdf5 ']'
++ unzip -o -q exams_part1.zip
++ for p in 0 1 2
++ '[' -f exams_part2.hdf5 ']'
++ unzip -o -q exams_part2.zip
++ cd ../..
++ .venv/bin/python scripts/prepare_external.py code15
++ echo 'code15 prepare exit 0'
+code15 prepare exit 0
++ nice -n 5 .venv/bin/python scripts/extract_external_features.py --signals data/external/code15/signals.npz --output data/features/external/code15 --n-jobs 13 --tsfresh
++ echo 'code15 extract exit 0'
+code15 extract exit 0

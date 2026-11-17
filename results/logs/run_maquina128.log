@@ -1,0 +1,130 @@
++ NJOBS_EXTRACT=120
++ NJOBS_PRUNE=100
++ PY=.venv/bin/python
++ OMP_NUM_THREADS=1
++ nice -n 5 .venv/bin/python -u scripts/extract_external_features.py --extra --signals data/external/chapman/signals.npz --output data/features/external/chapman --n-jobs 120 --chunk 20 --shard-size 5000
+++ date
++ echo 'chapman extra ok Wed Nov 11 03:42:15 PM -03 2026'
+chapman extra ok Wed Nov 11 03:42:15 PM -03 2026
++ poda chapman todas_familias
++ '[' -f results/external/chapman/pruning_todas_familias/selected.json ']'
++ OMP_NUM_THREADS=100
++ .venv/bin/python -u scripts/prune_external.py chapman todas_familias --n-jobs 100
+++ date
++ echo 'poda chapman todas_familias ok Wed Nov 11 04:18:15 PM -03 2026'
+poda chapman todas_familias ok Wed Nov 11 04:18:15 PM -03 2026
++ poda chapman8 todas_familias
++ '[' -f results/external/chapman8/pruning_todas_familias/selected.json ']'
++ OMP_NUM_THREADS=100
++ .venv/bin/python -u scripts/prune_external.py chapman8 todas_familias --n-jobs 100
+++ date
++ echo 'poda chapman8 todas_familias ok Wed Nov 11 05:16:34 PM -03 2026'
+poda chapman8 todas_familias ok Wed Nov 11 05:16:34 PM -03 2026
++ grep -q 'ETAPA=download concluida' results/logs/run_code15_download.log
++ sleep 300
++ grep -q 'ETAPA=download concluida' results/logs/run_code15_download.log
++ sleep 300
++ grep -q 'ETAPA=download concluida' results/logs/run_code15_download.log
++ sleep 300
++ grep -q 'ETAPA=download concluida' results/logs/run_code15_download.log
++ sleep 300
++ grep -q 'ETAPA=download concluida' results/logs/run_code15_download.log
++ sleep 300
++ grep -q 'ETAPA=download concluida' results/logs/run_code15_download.log
++ sleep 300
++ grep -q 'ETAPA=download concluida' results/logs/run_code15_download.log
++ sleep 300
++ grep -q 'ETAPA=download concluida' results/logs/run_code15_download.log
++ sleep 300
++ grep -q 'ETAPA=download concluida' results/logs/run_code15_download.log
++ sleep 300
++ grep -q 'ETAPA=download concluida' results/logs/run_code15_download.log
++ sleep 300
++ grep -q 'ETAPA=download concluida' results/logs/run_code15_download.log
++ sleep 300
++ grep -q 'ETAPA=download concluida' results/logs/run_code15_download.log
++ sleep 300
++ grep -q 'ETAPA=download concluida' results/logs/run_code15_download.log
++ sleep 300
++ grep -q 'ETAPA=download concluida' results/logs/run_code15_download.log
++ sleep 300
++ grep -q 'ETAPA=download concluida' results/logs/run_code15_download.log
++ sleep 300
++ grep -q 'ETAPA=download concluida' results/logs/run_code15_download.log
++ sleep 300
++ grep -q 'ETAPA=download concluida' results/logs/run_code15_download.log
++ sleep 300
++ grep -q 'ETAPA=download concluida' results/logs/run_code15_download.log
+++ date
++ echo 'CODE-15% preparado Wed Nov 11 06:41:35 PM -03 2026'
+CODE-15% preparado Wed Nov 11 06:41:35 PM -03 2026
++ TRAVA=data/features/external/code15.LOCK
++ '[' -f data/features/external/code15.LOCK ']'
++ hostname
++ OMP_NUM_THREADS=1
++ nice -n 5 .venv/bin/python -u scripts/extract_external_features.py --signals data/external/code15/signals.npz --output data/features/external/code15 --n-jobs 120 --tsfresh --shard-size 10000
+++ date
++ echo 'code15 extract ok Wed Nov 11 10:12:40 PM -03 2026'
+code15 extract ok Wed Nov 11 10:12:40 PM -03 2026
++ poda code15 melhor_multiplex
++ '[' -f results/external/code15/pruning_melhor_multiplex/selected.json ']'
++ OMP_NUM_THREADS=100
++ .venv/bin/python -u scripts/prune_external.py code15 melhor_multiplex --n-jobs 100
+++ date
++ echo 'poda code15 melhor_multiplex ok Wed Nov 11 10:51:32 PM -03 2026'
+poda code15 melhor_multiplex ok Wed Nov 11 10:51:32 PM -03 2026
++ poda code15 tsfresh
++ '[' -f results/external/code15/pruning_tsfresh/selected.json ']'
++ OMP_NUM_THREADS=100
++ .venv/bin/python -u scripts/prune_external.py code15 tsfresh --n-jobs 100
++ NJOBS_EXTRACT=120
++ NJOBS_PRUNE=100
++ PY=.venv/bin/python
++ OMP_NUM_THREADS=1
++ nice -n 5 .venv/bin/python -u scripts/extract_external_features.py --extra --signals data/external/chapman/signals.npz --output data/features/external/chapman --n-jobs 120 --chunk 20 --shard-size 5000
+++ date
++ echo 'chapman extra ok Sat Nov 14 04:08:55 PM -03 2026'
+chapman extra ok Sat Nov 14 04:08:55 PM -03 2026
++ poda chapman todas_familias
++ '[' -f results/external/chapman/pruning_todas_familias/selected.json ']'
++ return 0
++ poda chapman8 todas_familias
++ '[' -f results/external/chapman8/pruning_todas_familias/selected.json ']'
++ return 0
++ grep -q 'ETAPA=download concluida' results/logs/run_code15_download.log
+++ date
++ echo 'CODE-15% preparado Sat Nov 14 04:08:55 PM -03 2026'
+CODE-15% preparado Sat Nov 14 04:08:55 PM -03 2026
++ TRAVA=data/features/external/code15.LOCK
++ '[' -f data/features/external/code15.LOCK ']'
+++ cat data/features/external/code15.LOCK
+++ hostname
++ '[' margarita '!=' margarita ']'
++ hostname
++ OMP_NUM_THREADS=1
++ nice -n 5 .venv/bin/python -u scripts/extract_external_features.py --signals data/external/code15/signals.npz --output data/features/external/code15 --n-jobs 120 --tsfresh --shard-size 10000
+++ date
++ echo 'code15 extract ok Sat Nov 14 04:14:20 PM -03 2026'
+code15 extract ok Sat Nov 14 04:14:20 PM -03 2026
++ poda code15 melhor_multiplex
++ '[' -f results/external/code15/pruning_melhor_multiplex/selected.json ']'
++ return 0
++ poda code15 tsfresh
++ '[' -f results/external/code15/pruning_tsfresh/selected.json ']'
++ return 0
++ OMP_NUM_THREADS=1
++ nice -n 5 .venv/bin/python -u scripts/extract_external_features.py --extra --signals data/external/code15/signals.npz --output data/features/external/code15 --n-jobs 120 --chunk 20 --shard-size 10000
+++ date
++ echo 'code15 extra ok Sun Nov 15 05:46:08 AM -03 2026'
+code15 extra ok Sun Nov 15 05:46:08 AM -03 2026
++ poda code15 todas_familias
++ '[' -f results/external/code15/pruning_todas_familias/selected.json ']'
++ OMP_NUM_THREADS=100
++ .venv/bin/python -u scripts/prune_external.py code15 todas_familias --n-jobs 100
+++ date
++ echo 'poda code15 todas_familias ok Sun Nov 15 07:17:51 AM -03 2026'
+poda code15 todas_familias ok Sun Nov 15 07:17:51 AM -03 2026
++ rm -f data/features/external/code15.LOCK
+++ date
++ echo 'fila da maquina de 128 threads completa Sun Nov 15 07:17:51 AM -03 2026'
+fila da maquina de 128 threads completa Sun Nov 15 07:17:51 AM -03 2026

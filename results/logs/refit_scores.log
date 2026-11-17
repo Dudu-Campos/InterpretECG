@@ -1,0 +1,2 @@
+base_visibilidade_line_graph_mv {'validation': 0.928, 'test': 0.9179}
+catch22 {'validation': 0.8927, 'test': 0.8768}

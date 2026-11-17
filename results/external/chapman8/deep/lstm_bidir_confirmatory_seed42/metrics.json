@@ -1,0 +1,117 @@
+{
+  "task": "chapman8",
+  "dataset": "chapman8",
+  "labels": [
+    "SB",
+    "SR",
+    "AFIB",
+    "ST",
+    "SVT",
+    "AF",
+    "SA",
+    "AT"
+  ],
+  "feature_count": null,
+  "families": [
+    "raw_signal"
+  ],
+  "protocol": {
+    "regime": "confirmatory",
+    "train_folds": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "validation_fold": 9,
+    "test_fold": 10,
+    "classifier": "lstm_bidir (Strodthoff et al. 2021, fastai_model, lr 1e-3)",
+    "preprocessing": "standardization by scalar train mean/std",
+    "training": {
+      "epochs": 50,
+      "batch": 128,
+      "max_lr": 0.001,
+      "weight_decay": 0.01,
+      "schedule": "one-cycle",
+      "crop": 250,
+      "eval_stride": 125,
+      "aggregate": "max",
+      "early_stopping": null,
+      "precision": "bf16"
+    },
+    "random_state": 42
+  },
+  "split_sizes": {
+    "train": 8494,
+    "validation": 1062,
+    "test": 1059
+  },
+  "selection_metric": null,
+  "selected_c": null,
+  "validation": {
+    "macro_auroc": 0.9745756313720185,
+    "macro_average_precision": 0.8086968615492329,
+    "per_label": {
+      "SB": {
+        "auroc": 0.9956913180823309
+      },
+      "SR": {
+        "auroc": 0.9870438539831056
+      },
+      "AFIB": {
+        "auroc": 0.9935963923337091
+      },
+      "ST": {
+        "auroc": 0.9915123456790124
+      },
+      "SVT": {
+        "auroc": 0.9943901116367784
+      },
+      "AF": {
+        "auroc": 0.9727387066345248
+      },
+      "SA": {
+        "auroc": 0.964624183006536
+      },
+      "AT": {
+        "auroc": 0.897008139620151
+      }
+    }
+  },
+  "validation_macro_auroc": 0.9745756313720185,
+  "test": {
+    "macro_auroc": 0.9808830313973904,
+    "macro_average_precision": 0.8048840795771135,
+    "per_label": {
+      "SB": {
+        "auroc": 0.9976978858918774
+      },
+      "SR": {
+        "auroc": 0.9870963091118801
+      },
+      "AFIB": {
+        "auroc": 0.9941893238247556
+      },
+      "ST": {
+        "auroc": 0.9908931990947603
+      },
+      "SVT": {
+        "auroc": 0.9929789368104313
+      },
+      "AF": {
+        "auroc": 0.9454073295985062
+      },
+      "SA": {
+        "auroc": 0.9857304826692582
+      },
+      "AT": {
+        "auroc": 0.9530707841776545
+      }
+    }
+  },
+  "training_minutes": 2.5493339643328605
+}

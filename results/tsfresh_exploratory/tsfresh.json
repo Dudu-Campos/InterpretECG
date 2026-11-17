@@ -1,0 +1,25 @@
+{
+  "set": "tsfresh",
+  "families": [
+    "tsfresh"
+  ],
+  "n_features": 8898,
+  "regime": "exploratory (folds 1-7 / 8 / 9)",
+  "boosting": {
+    "learning_rate": 0.03,
+    "max_leaf_nodes": 127,
+    "min_samples_leaf": 80,
+    "l2_regularization": 0.0,
+    "max_features": 0.5
+  },
+  "validation_macro_auroc": 0.9287243306722426,
+  "test_macro_auroc": 0.9139175969944665,
+  "test_per_label": {
+    "NORM": 0.931913434528598,
+    "MI": 0.9147975185646419,
+    "STTC": 0.9109953833764094,
+    "CD": 0.9109887487840242,
+    "HYP": 0.9008928997186592
+  },
+  "minutes": 23.2
+}

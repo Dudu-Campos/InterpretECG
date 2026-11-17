@@ -1,0 +1,12 @@
+{'train': 74096, 'validation': 9262, 'test': 9261} {'1dAVb': 136, 'RBBB': 195, 'LBBB': 148, 'SB': 143, 'ST': 187, 'AF': 149}
+todas_familias     k=268  val 0.9756  teste 0.9770  1dAVb 0.914 RBBB 0.988 LBBB 0.997 SB 0.990 ST 0.993 AF 0.980
+melhor_multiplex - tsfresh: +0.0070 [+0.0021, +0.0122]
+todas_familias - tsfresh: +0.0094 [+0.0047, +0.0144]
+eval ok Sun Nov 15 12:31:48 PM -03 2026
+code15/nosso           semente 42  teste 0.9770
+code15/nosso           semente 43  teste 0.9766
+code15/nosso           semente 44  teste 0.9774
+code15/nosso           semente 45  teste 0.9777
+code15/nosso           semente 46  teste 0.9772
+== code15/nosso: 0.9772 ± 0.0004
+sementes ok Sun Nov 15 12:36:45 PM -03 2026

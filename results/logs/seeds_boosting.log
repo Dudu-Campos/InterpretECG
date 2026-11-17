@@ -1,0 +1,8 @@
+none: treino 14,955 linhas (0 aumentadas), 1075 features
+val 0.9302  teste 0.9156  NORM 0.9351 MI 0.9144 STTC 0.9207 CD 0.9136 HYP 0.8945
+none: treino 14,955 linhas (0 aumentadas), 1075 features
+val 0.9303  teste 0.9166  NORM 0.9371 MI 0.9164 STTC 0.9216 CD 0.9115 HYP 0.8966
+none: treino 14,955 linhas (0 aumentadas), 1075 features
+val 0.9294  teste 0.9156  NORM 0.9368 MI 0.9157 STTC 0.9197 CD 0.9115 HYP 0.8941
+none: treino 14,955 linhas (0 aumentadas), 1075 features
+val 0.9299  teste 0.9155  NORM 0.9358 MI 0.9150 STTC 0.9195 CD 0.9107 HYP 0.8965

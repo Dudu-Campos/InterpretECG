@@ -1,0 +1,44 @@
+conjunto,n_features,melhor_modelo,val_auroc,test_auroc,test_ap,melhor_linear_val,ganho_nao_linear,NORM,MI,STTC,CD,HYP
+todas as familias,5334,boosting lr=0.03 folhas=127 msl=80 l2=0.0 mf=0.5,0.9327,0.9216,0.8038,,,0.9402,0.9245,0.9244,0.9197,0.8990
+base + visibilidade + line graph + mv + direcionado + multiplex,2952,boosting lr=0.03 folhas=127 msl=80 l2=0.0 mf=0.5,0.9333,0.9210,0.8030,,,0.9425,0.9225,0.9263,0.9152,0.8987
+base + visibilidade + line graph + mv + direcionado,2756,boosting lr=0.03 folhas=127 msl=80 l2=0.0 mf=0.5,0.9317,0.9199,0.8014,,,0.9401,0.9187,0.9259,0.9132,0.9012
+base + visoes boas + line graph + mv,3388,boosting lr=0.03 folhas=127 msl=80 l2=0.0 mf=0.5,0.9273,0.9192,0.7958,,,0.9391,0.9164,0.9249,0.9150,0.9007
+base + visibilidade + line graph + mv,2044,boosting lr=0.03 folhas=127 msl=80 l2=0.0 mf=0.5,0.9280,0.9179,0.7953,,,0.9392,0.9143,0.9248,0.9136,0.8977
+visibilidade + line graph + mv + direcionado,2393,boosting lr=0.03 folhas=127 msl=80 l2=0.0 mf=0.5,0.9291,0.9178,0.7973,,,0.9399,0.9155,0.9242,0.9108,0.8989
+base + direcionado + multiplex,1271,boosting lr=0.03 folhas=127 msl=80 l2=0.0 mf=0.5,0.9300,0.9170,0.7943,,,0.9371,0.9188,0.9211,0.9122,0.8954
+base + direcionado,1075,boosting lr=0.03 folhas=127 msl=80 l2=0.0 mf=0.5,0.9302,0.9169,0.7918,,,0.9365,0.9157,0.9207,0.9132,0.8985
+todas + amplitude + interderivacao sem image_mtf,2961,boosting lr=0.03 folhas=127 msl=80 l2=0.0 mf=0.5,0.9231,0.9151,0.7859,,,0.9319,0.9138,0.9210,0.9108,0.8982
+todas + amplitude + interderivacao,3297,boosting lr=0.03 folhas=127 msl=80 l2=0.0 mf=0.5,0.9222,0.9151,0.7840,,,0.9321,0.9120,0.9183,0.9125,0.9006
+L(HVG) + direcionado,918,boosting lr=0.03 folhas=127 msl=80 l2=0.0 mf=0.5,0.9258,0.9151,0.7887,,,0.9357,0.9096,0.9219,0.9092,0.8989
+base + line graph,988,boosting lr=0.03 folhas=127 msl=80 l2=0.0 mf=0.5,0.9233,0.9146,0.7877,,,0.9360,0.9121,0.9229,0.9101,0.8917
+base + visibilidade + line graph,1540,boosting lr=0.03 folhas=127 msl=80 l2=0.0 mf=0.5,0.9241,0.9145,0.7872,,,0.9333,0.9123,0.9211,0.9117,0.8941
+todas + amplitude + interderivacao sem image_recurrence,3201,boosting lr=0.03 folhas=127 msl=80 l2=0.0 mf=0.5,0.9219,0.9144,0.7849,,,0.9324,0.9118,0.9192,0.9101,0.8986
+todas + amplitude + interderivacao sem graph_takens,2997,boosting lr=0.03 folhas=127 msl=80 l2=0.0 mf=0.5,0.9226,0.9133,0.7822,,,0.9316,0.9098,0.9201,0.9093,0.8960
+base + visoes boas,2259,boosting lr=0.03 folhas=127 msl=80 l2=0.0 mf=0.5,0.9233,0.9131,0.7829,,,0.9312,0.9109,0.9179,0.9080,0.8975
+todas + amplitude + interderivacao sem graph_transition,2991,boosting lr=0.03 folhas=127 msl=80 l2=0.0 mf=0.5,0.9227,0.9131,0.7827,,,0.9313,0.9105,0.9171,0.9101,0.8964
+base + visibilidade,915,boosting lr=0.03 folhas=127 msl=80 l2=0.0 mf=0.5,0.9234,0.9116,0.7834,,,0.9313,0.9070,0.9167,0.9070,0.8962
+visibilidade + line graph + mv,1681,boosting lr=0.03 folhas=127 msl=80 l2=0.0 mf=0.5,0.9226,0.9111,0.7843,,,0.9333,0.8964,0.9246,0.9052,0.8961
+base + multiplex,559,boosting lr=0.03 folhas=127 msl=80 l2=0.0 mf=0.5,0.9232,0.9097,0.7792,,,0.9279,0.9008,0.9221,0.9029,0.8948
+base + gaf,1035,boosting lr=0.03 folhas=127 msl=80 l2=0.0 mf=0.5,0.9179,0.9093,0.7793,,,0.9253,0.9058,0.9176,0.9060,0.8920
+catch22 + amplitude + multiplex,520,boosting lr=0.03 folhas=127 msl=80 l2=0.0 mf=0.5,0.9214,0.9085,0.7759,,,0.9276,0.9038,0.9172,0.9008,0.8930
+base + espectro e escalograma,1035,boosting lr=0.03 folhas=127 msl=80 l2=0.0 mf=0.5,0.9173,0.9067,0.7712,,,0.9264,0.9002,0.9125,0.8988,0.8954
+L(HVG) nao direcionado,564,boosting lr=0.03 folhas=127 msl=80 l2=0.0 mf=0.5,0.9170,0.9063,0.7756,,,0.9306,0.8881,0.9238,0.8942,0.8948
+direcionado,712,boosting lr=0.03 folhas=127 msl=80 l2=0.0 mf=0.5,0.9167,0.9063,0.7689,,,0.9312,0.9098,0.9114,0.9011,0.8777
+catch22 + amplitude + interderivacao,363,boosting lr=0.03 folhas=127 msl=80 l2=0.0 mf=0.5,0.9163,0.9053,0.7703,,,0.9251,0.8985,0.9146,0.8991,0.8892
+amplitude + interderivacao + visoes boas,1995,boosting lr=0.03 folhas=127 msl=80 l2=0.0 mf=0.5,0.9160,0.9042,0.7731,,,0.9284,0.8935,0.9130,0.8921,0.8939
+graph_lphvg1_dir_mv,190,boosting lr=0.03 folhas=127 msl=80 l2=0.0 mf=0.5,0.9121,0.9035,0.7633,,,0.9261,0.9032,0.9079,0.8965,0.8838
+graph_lphvg1_line_mv,252,boosting lr=0.03 folhas=127 msl=80 l2=0.0 mf=0.5,0.9110,0.9009,0.7679,,,0.9256,0.8802,0.9171,0.8830,0.8987
+graph_hvg_line_mv,252,boosting lr=0.03 folhas=127 msl=80 l2=0.0 mf=0.5,0.9119,0.9006,0.7641,,,0.9224,0.8817,0.9175,0.8844,0.8971
+graph_hvg_dir_mv,186,boosting lr=0.03 folhas=127 msl=80 l2=0.0 mf=0.5,0.9053,0.8951,0.7436,,,0.9230,0.8944,0.9002,0.8953,0.8628
+visibilidade + line graph,1177,boosting lr=0.03 folhas=127 msl=80 l2=0.0 mf=0.5,0.8844,0.8741,0.7032,,,0.9123,0.8804,0.9023,0.8825,0.7928
+line graph,625,boosting lr=0.03 folhas=127 msl=80 l2=0.0 mf=0.5,0.8807,0.8697,0.6986,,,0.9139,0.8803,0.8953,0.8792,0.7797
+graph_lphvg1_line,313,boosting lr=0.03 folhas=127 msl=80 l2=0.0 mf=0.5,0.8729,0.8654,0.6897,,,0.9105,0.8789,0.8896,0.8758,0.7722
+visibilidade,552,boosting lr=0.03 folhas=127 msl=80 l2=0.0 mf=0.5,0.8728,0.8628,0.6844,,,0.9066,0.8726,0.8889,0.8645,0.7814
+graph_hvg_line,312,boosting lr=0.03 folhas=127 msl=80 l2=0.0 mf=0.5,0.8646,0.8617,0.6808,,,0.9092,0.8727,0.8825,0.8707,0.7735
+graph_lphvg1_dir,168,boosting lr=0.03 folhas=127 msl=80 l2=0.0 mf=0.5,0.8747,0.8616,0.6849,,,0.9124,0.8778,0.8889,0.8652,0.7635
+graph_hvg,276,boosting lr=0.03 folhas=127 msl=80 l2=0.0 mf=0.5,0.8608,0.8552,0.6704,,,0.9011,0.8649,0.8746,0.8568,0.7784
+graph_hvg_dir,168,boosting lr=0.03 folhas=127 msl=80 l2=0.0 mf=0.5,0.8633,0.8546,0.6711,,,0.9083,0.8767,0.8856,0.8593,0.7432
+graph_lphvg1,276,boosting lr=0.03 folhas=127 msl=80 l2=0.0 mf=0.5,0.8645,0.8496,0.6643,,,0.8980,0.8607,0.8749,0.8570,0.7574
+multiplex,196,boosting lr=0.03 folhas=127 msl=80 l2=0.0 mf=0.5,0.8553,0.8465,0.6522,,,0.8935,0.8561,0.8638,0.8444,0.7747
+graph_lphvg1_multiplex,98,boosting lr=0.03 folhas=127 msl=80 l2=0.0 mf=0.5,0.8384,0.8293,0.6187,,,0.8813,0.8439,0.8255,0.8278,0.7680
+graph_hvg_multiplex,98,boosting lr=0.03 folhas=127 msl=80 l2=0.0 mf=0.5,0.8335,0.8237,0.6123,,,0.8803,0.8403,0.8526,0.8144,0.7307

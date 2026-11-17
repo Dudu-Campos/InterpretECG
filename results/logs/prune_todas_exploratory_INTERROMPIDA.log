@@ -1,0 +1,22 @@
+ 5334 features  val 0.9330  teste 0.9227  (ajuste 85.9 min)
+[Parallel(n_jobs=32)]: Using backend LokyBackend with 32 concurrent workers.
+[Parallel(n_jobs=32)]: Done   8 tasks      | elapsed:  1.1min
+[Parallel(n_jobs=32)]: Done  21 tasks      | elapsed:  1.3min
+[Parallel(n_jobs=32)]: Done  34 tasks      | elapsed:  2.0min
+[Parallel(n_jobs=32)]: Done  49 tasks      | elapsed:  2.3min
+[Parallel(n_jobs=32)]: Done  64 tasks      | elapsed:  2.5min
+[Parallel(n_jobs=32)]: Done  81 tasks      | elapsed:  3.4min
+[Parallel(n_jobs=32)]: Done  98 tasks      | elapsed:  4.3min
+[Parallel(n_jobs=32)]: Done 117 tasks      | elapsed:  4.7min
+[Parallel(n_jobs=32)]: Done 136 tasks      | elapsed:  5.8min
+[Parallel(n_jobs=32)]: Done 157 tasks      | elapsed:  6.2min
+[Parallel(n_jobs=32)]: Done 178 tasks      | elapsed:  7.3min
+[Parallel(n_jobs=32)]: Done 219 out of 256 | elapsed:  8.5min remaining:  1.4min
+[Parallel(n_jobs=32)]: Done 245 out of 256 | elapsed:  9.4min remaining:   25.3s
+[Parallel(n_jobs=32)]: Done 256 out of 256 | elapsed:  9.5min finished
+      permutacao 9.5 min
+/exp/duducampos/InterpretECG/.venv/lib/python3.12/site-packages/joblib/externals/loky/backend/resource_tracker.py:444: UserWarning: resource_tracker: There appear to be 6 leaked semlock objects to clean up at shutdown: {'/loky-3814445-uygxy_11': 1, '/loky-3814445-_lxvmayg': 1, '/loky-3814445-5n4dhe_k': 1, '/loky-3814445-yszfgmqm': 1, '/loky-3814445-cu6ty3gl': 1, '/loky-3814445-kxfy_rfw': 1}
+  warnings.warn(
+/exp/duducampos/InterpretECG/.venv/lib/python3.12/site-packages/joblib/externals/loky/backend/resource_tracker.py:444: UserWarning: resource_tracker: There appear to be 1 leaked folder objects to clean up at shutdown: {'/dev/shm/joblib_memmapping_folder_3814445_1db86aba3a93437c9f65f2286b622c26_11a239ac8c214292bcbdebbf43cef9b9': 1}
+  warnings.warn(
+/tmp/claude-20005/-exp-duducampos-InterpretECG/cc4b9ddb-219d-4e4a-9588-17d67928e098/scratchpad/poda_todas.sh: line 9: 3814445 Killed                  .venv/bin/python -u scripts/prune_features.py --families catch22 series_amplitude series_interlead graph_hvg graph_lphvg1 graph_hvg_line graph_lphvg1_line graph_hvg_line_mv graph_lphvg1_line_mv graph_hvg_dir graph_lphvg1_dir graph_hvg_dir_mv graph_lphvg1_dir_mv graph_hvg_multiplex graph_lphvg1_multiplex image_spectrogram image_scalogram image_gasf image_gadf image_mtf image_recurrence graph_takens graph_transition --schedule 4449 2150 1075 537 268 134 67 33 --n-jobs 32 --repeats 2 --seed 42 --output results/pruning_todas_exploratory

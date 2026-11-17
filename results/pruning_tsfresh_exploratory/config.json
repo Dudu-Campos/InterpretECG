@@ -1,0 +1,26 @@
+{
+  "families": [
+    "tsfresh"
+  ],
+  "schedule": [
+    4449,
+    2150,
+    1075,
+    537,
+    268,
+    134,
+    67,
+    33
+  ],
+  "repeats": 2,
+  "seed": 42,
+  "boosting": {
+    "learning_rate": 0.03,
+    "max_leaf_nodes": 127,
+    "min_samples_leaf": 80,
+    "l2_regularization": 0.0,
+    "max_features": 0.5
+  },
+  "regime": "exploratory (1-7 / 8 / 9)",
+  "ranking": "importancia por permutacao no fold 8, reajuste a cada passo"
+}

@@ -1,0 +1,23 @@
+treino 74,096 / validacao 9,262 / teste 9,261  [confirmatory]
+lstm_bidir: 2,330,758 parametros, lr 0.001
+  epoca 10  perda 0.0859  val AUROC 0.6260  (4.3 min)
+  epoca 20  perda 0.0678  val AUROC 0.7686  (8.6 min)
+Traceback (most recent call last):
+  File "/exp/duducampos/InterpretECG/scripts/train_cnn.py", line 320, in <module>
+    main()
+  File "/exp/duducampos/InterpretECG/scripts/train_cnn.py", line 265, in main
+    val = roc_auc_score(alvos["validation"], prever(modelo, x["validation"]),
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/exp/duducampos/InterpretECG/.venv/lib/python3.12/site-packages/sklearn/utils/_param_validation.py", line 218, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/exp/duducampos/InterpretECG/.venv/lib/python3.12/site-packages/sklearn/metrics/_ranking.py", line 710, in roc_auc_score
+    y_score = check_array(y_score, ensure_2d=False)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/exp/duducampos/InterpretECG/.venv/lib/python3.12/site-packages/sklearn/utils/validation.py", line 1090, in check_array
+    _assert_all_finite(
+  File "/exp/duducampos/InterpretECG/.venv/lib/python3.12/site-packages/sklearn/utils/validation.py", line 137, in _assert_all_finite
+    _assert_all_finite_element_wise(
+  File "/exp/duducampos/InterpretECG/.venv/lib/python3.12/site-packages/sklearn/utils/validation.py", line 186, in _assert_all_finite_element_wise
+    raise ValueError(msg_err)
+ValueError: Input contains NaN.

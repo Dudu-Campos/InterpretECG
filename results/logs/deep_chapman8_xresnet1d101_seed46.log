@@ -1,0 +1,10 @@
+treino 8,494 / validacao 1,062 / teste 1,059  [confirmatory]
+xresnet1d101: 33,555,720 parametros, lr 0.01
+  epoca 10  perda 0.0940  val AUROC 0.9523  (1.2 min)
+  epoca 20  perda 0.0764  val AUROC 0.9798  (2.3 min)
+  epoca 30  perda 0.0603  val AUROC 0.9852  (3.5 min)
+  epoca 40  perda 0.0450  val AUROC 0.9896  (4.6 min)
+  epoca 50  perda 0.0373  val AUROC 0.9899  (5.8 min)
+Registrado uso #66 do fold 10 em /exp/duducampos/InterpretECG/results/test_fold_usage.jsonl
+
+validacao 0.9899  teste 0.9866  -> results/external/chapman8/deep/xresnet1d101_confirmatory_seed46/

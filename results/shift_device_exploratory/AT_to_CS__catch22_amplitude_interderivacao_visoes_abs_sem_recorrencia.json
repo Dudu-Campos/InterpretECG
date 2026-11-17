@@ -1,0 +1,99 @@
+{
+  "set": "catch22 + amplitude + interderivacao + visoes abs sem recorrencia",
+  "families": [
+    "catch22",
+    "series_amplitude",
+    "series_interlead",
+    "image_spectrogram_abs",
+    "image_scalogram_abs",
+    "image_gasf_abs",
+    "image_gadf_abs",
+    "image_mtf_abs",
+    "graph_hvg",
+    "graph_lphvg1",
+    "graph_transition_abs"
+  ],
+  "source": "AT",
+  "target": "CS",
+  "regime": "exploratory, folds 1-7/8/9 restritos por aparelho",
+  "feature_count": 2919,
+  "split_sizes": {
+    "train": 5832,
+    "validation": 827,
+    "test_id": 997,
+    "test_ood": 1149
+  },
+  "prevalence": {
+    "train": {
+      "NORM": 0.456,
+      "MI": 0.228,
+      "STTC": 0.275,
+      "CD": 0.228,
+      "HYP": 0.142
+    },
+    "test_id": {
+      "NORM": 0.401,
+      "MI": 0.257,
+      "STTC": 0.296,
+      "CD": 0.265,
+      "HYP": 0.15
+    },
+    "test_ood": {
+      "NORM": 0.483,
+      "MI": 0.247,
+      "STTC": 0.203,
+      "CD": 0.201,
+      "HYP": 0.103
+    }
+  },
+  "readers": {
+    "boosting": {
+      "test_id": {
+        "macro": 0.9139211585405219,
+        "per_label": {
+          "NORM": 0.9346901172529314,
+          "MI": 0.8945207068151148,
+          "STTC": 0.918325365782993,
+          "CD": 0.914057009384431,
+          "HYP": 0.9080125934671389
+        }
+      },
+      "test_ood": {
+        "macro": 0.886824094793465,
+        "per_label": {
+          "NORM": 0.9233536566869902,
+          "MI": 0.8920499877879996,
+          "STTC": 0.9031757782484023,
+          "CD": 0.8577511812805931,
+          "HYP": 0.85778986996334
+        }
+      },
+      "drop_macro": 0.027097063747056893,
+      "minutes": 2.6
+    },
+    "mlp": {
+      "test_id": {
+        "macro": 0.9055717353838147,
+        "per_label": {
+          "NORM": 0.9313484087102178,
+          "MI": 0.8849527665317137,
+          "STTC": 0.9154618764788257,
+          "CD": 0.9000940510149241,
+          "HYP": 0.8960015741833924
+        }
+      },
+      "test_ood": {
+        "macro": 0.8831535253818357,
+        "per_label": {
+          "NORM": 0.9180013346680014,
+          "MI": 0.8936294064967842,
+          "STTC": 0.900561313417171,
+          "CD": 0.8616416263475086,
+          "HYP": 0.8419339459797136
+        }
+      },
+      "drop_macro": 0.022418210001979078,
+      "minutes": 0.1
+    }
+  }
+}

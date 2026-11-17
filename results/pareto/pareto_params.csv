@@ -1,0 +1,11 @@
+modelo,parametros,erro,tipo,k,pareto
+ECG-IMN,140330.0,0.10748567921491747,profundo,,True
+melhor + multiplex,335882.0,0.08044306784077404,raso,537.0,True
+tsfresh (só série),350837.0,0.08339628173163549,raso,268.0,False
+inception1d,507653.0,0.07946698380659922,profundo,,True
+GNN em L(HVG),520453.0,0.07555882401308589,gnn,,True
+GNN em L(HVG) direcionado,571141.0,0.07193393857924046,gnn,,True
+inception1d + GNN em L(HVG),1078794.0,0.06655768039015664,fusao,,True
+Transformer,1469061.0,0.0954880809018368,profundo,,False
+LSTM bidirecional,2330629.0,0.07937714681477837,profundo,,False
+xresnet1d101,33555333.0,0.07154302410421054,profundo,,False

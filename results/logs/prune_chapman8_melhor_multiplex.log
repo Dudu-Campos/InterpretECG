@@ -1,0 +1,17 @@
+{'train': (7431, 2957), 'validation': (1063, 2957)}
+ 2957 features  val(fold 8) 0.9436  (11.1 min)
+      permutacao 22.5 min
+ 2150 features  val(fold 8) 0.9509  (8.1 min)
+      permutacao 16.1 min
+ 1075 features  val(fold 8) 0.9603  (4.0 min)
+      permutacao 7.9 min
+  537 features  val(fold 8) 0.9698  (1.9 min)
+      permutacao 3.7 min
+  268 features  val(fold 8) 0.9733  (0.9 min)
+      permutacao 1.8 min
+  134 features  val(fold 8) 0.9738  (0.6 min)
+      permutacao 1.1 min
+   67 features  val(fold 8) 0.9708  (0.5 min)
+      permutacao 0.9 min
+   33 features  val(fold 8) 0.9588  (0.4 min)
+escolhido k=134 (val 0.9738) sha 0be29a556f0f9167

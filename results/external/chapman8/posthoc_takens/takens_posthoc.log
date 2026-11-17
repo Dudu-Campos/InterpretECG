@@ -1,0 +1,30 @@
+/exp/duducampos/InterpretECG/.venv/lib/python3.12/site-packages/numpy/lib/_function_base_impl.py:3037: RuntimeWarning: invalid value encountered in divide
+  c /= stddev[:, None]
+/exp/duducampos/InterpretECG/.venv/lib/python3.12/site-packages/numpy/lib/_function_base_impl.py:3037: RuntimeWarning: invalid value encountered in divide
+  c /= stddev[:, None]
+/exp/duducampos/InterpretECG/.venv/lib/python3.12/site-packages/numpy/lib/_function_base_impl.py:3037: RuntimeWarning: invalid value encountered in divide
+  c /= stddev[:, None]
+/exp/duducampos/InterpretECG/.venv/lib/python3.12/site-packages/numpy/lib/_function_base_impl.py:3037: RuntimeWarning: invalid value encountered in divide
+  c /= stddev[:, None]
+/exp/duducampos/InterpretECG/.venv/lib/python3.12/site-packages/numpy/lib/_function_base_impl.py:3037: RuntimeWarning: invalid value encountered in divide
+  c /= stddev[:, None]
+/exp/duducampos/InterpretECG/.venv/lib/python3.12/site-packages/numpy/lib/_function_base_impl.py:3037: RuntimeWarning: invalid value encountered in divide
+  c /= stddev[:, None]
+/exp/duducampos/InterpretECG/.venv/lib/python3.12/site-packages/numpy/lib/_function_base_impl.py:3037: RuntimeWarning: invalid value encountered in divide
+  c /= stddev[:, None]
+/exp/duducampos/InterpretECG/.venv/lib/python3.12/site-packages/numpy/lib/_function_base_impl.py:3037: RuntimeWarning: invalid value encountered in divide
+  c /= stddev[:, None]
+takens homofilia (corr x_no vs media x_vizinhos), mediana por derivacao: [0.973 0.98  0.975 0.981 0.968 0.976 0.968 0.966 0.971 0.969 0.966 0.965]
+/exp/duducampos/InterpretECG/.venv/lib/python3.12/site-packages/numpy/lib/_function_base_impl.py:3037: RuntimeWarning: invalid value encountered in divide
+  c /= stddev[:, None]
+/exp/duducampos/InterpretECG/.venv/lib/python3.12/site-packages/numpy/lib/_function_base_impl.py:3037: RuntimeWarning: invalid value encountered in divide
+  c /= stddev[:, None]
+/exp/duducampos/InterpretECG/.venv/lib/python3.12/site-packages/numpy/lib/_function_base_impl.py:3037: RuntimeWarning: invalid value encountered in divide
+  c /= stddev[:, None]
+/exp/duducampos/InterpretECG/.venv/lib/python3.12/site-packages/numpy/lib/_function_base_impl.py:3037: RuntimeWarning: invalid value encountered in divide
+  c /= stddev[:, None]
+hvg homofilia (corr x_no vs media x_vizinhos), mediana por derivacao: [0.905 0.917 0.912 0.933 0.905 0.917 0.956 0.938 0.871 0.806 0.823 0.884]
+0.8634  takens: media log vao por no (o que a GNN ve), 6x12
+0.9418  takens: histograma completo dos vaos, 23x12
+0.8869  hvg: media log vao por no (o que a GNN ve), 6x12
+0.9715  hvg: histograma completo dos vaos, 23x12

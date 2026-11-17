@@ -1,0 +1,92 @@
+{
+  "set": "visao: grafo abs",
+  "families": [
+    "graph_hvg",
+    "graph_lphvg1",
+    "graph_takens_abs",
+    "graph_transition_abs"
+  ],
+  "source": "CS",
+  "target": "AT",
+  "regime": "exploratory, folds 1-7/8/9 restritos por aparelho",
+  "feature_count": 1176,
+  "split_sizes": {
+    "train": 9123,
+    "validation": 1302,
+    "test_id": 1149,
+    "test_ood": 997
+  },
+  "prevalence": {
+    "train": {
+      "NORM": 0.439,
+      "MI": 0.275,
+      "STTC": 0.227,
+      "CD": 0.229,
+      "HYP": 0.112
+    },
+    "test_id": {
+      "NORM": 0.483,
+      "MI": 0.247,
+      "STTC": 0.203,
+      "CD": 0.201,
+      "HYP": 0.103
+    },
+    "test_ood": {
+      "NORM": 0.401,
+      "MI": 0.257,
+      "STTC": 0.296,
+      "CD": 0.265,
+      "HYP": 0.15
+    }
+  },
+  "readers": {
+    "boosting": {
+      "test_id": {
+        "macro": 0.8647802343454281,
+        "per_label": {
+          "NORM": 0.9083052749719417,
+          "MI": 0.8673328991288773,
+          "STTC": 0.8987761680754165,
+          "CD": 0.8482160540984071,
+          "HYP": 0.8012707754524979
+        }
+      },
+      "test_ood": {
+        "macro": 0.871209999796758,
+        "per_label": {
+          "NORM": 0.9021021775544389,
+          "MI": 0.8762282810391363,
+          "STTC": 0.8846395287073253,
+          "CD": 0.8826274339575841,
+          "HYP": 0.810452577725305
+        }
+      },
+      "drop_macro": -0.006429765451329894,
+      "minutes": 2.9
+    },
+    "mlp": {
+      "test_id": {
+        "macro": 0.8721691135962246,
+        "per_label": {
+          "NORM": 0.9124184790851457,
+          "MI": 0.8716844419115851,
+          "STTC": 0.9095666922803007,
+          "CD": 0.8589348197191334,
+          "HYP": 0.8082411349849579
+        }
+      },
+      "test_ood": {
+        "macro": 0.8791977887429795,
+        "per_label": {
+          "NORM": 0.9165117252931324,
+          "MI": 0.8862864794197031,
+          "STTC": 0.8950552899705442,
+          "CD": 0.8855419818925958,
+          "HYP": 0.8125934671389217
+        }
+      },
+      "drop_macro": -0.00702867514675487,
+      "minutes": 0.1
+    }
+  }
+}

@@ -1,0 +1,138 @@
+{
+  "task": "PTB-XL diagnostic superclasses",
+  "labels": [
+    "NORM",
+    "MI",
+    "STTC",
+    "CD",
+    "HYP"
+  ],
+  "feature_count": 1176,
+  "families": [
+    "graph_hvg",
+    "graph_lphvg1",
+    "graph_takens_abs",
+    "graph_transition_abs"
+  ],
+  "protocol": {
+    "regime": "exploratory",
+    "train_folds": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "validation_fold": 8,
+    "test_fold": 9,
+    "classifier": "mlp 512x512 dropout=0.5 entrada=0.2 wd=0.01 (ensemble de 5 sementes)",
+    "preprocessing": "median imputation, standard scaling, clip \u00b15.0",
+    "optimizer": {
+      "name": "AdamW",
+      "lr": 0.0003,
+      "batch": 256,
+      "max_epochs": 200,
+      "patience": 20,
+      "early_stopping": "validation macro-AUROC"
+    },
+    "random_state": 42
+  },
+  "selection_metric": "validation macro-AUROC (semente unica)",
+  "selected_c": null,
+  "model_comparison_validation": [
+    {
+      "modelo": "mlp 512x512 dropout=0.5 entrada=0.0 wd=0.01",
+      "familia_modelo": "mlp",
+      "val_auroc": 0.9005663502164744,
+      "epocas": 20
+    },
+    {
+      "modelo": "mlp 512x512 dropout=0.5 entrada=0.2 wd=0.01",
+      "familia_modelo": "mlp",
+      "val_auroc": 0.9039805257622684,
+      "epocas": 22
+    },
+    {
+      "modelo": "mlp 1024x1024 dropout=0.5 entrada=0.2 wd=0.01",
+      "familia_modelo": "mlp",
+      "val_auroc": 0.9029351486055193,
+      "epocas": 12
+    },
+    {
+      "modelo": "mlp 1024x1024 dropout=0.6 entrada=0.3 wd=0.05",
+      "familia_modelo": "mlp",
+      "val_auroc": 0.9026033088622973,
+      "epocas": 35
+    },
+    {
+      "modelo": "mlp 256x256x256 dropout=0.5 entrada=0.2 wd=0.01",
+      "familia_modelo": "mlp",
+      "val_auroc": 0.9011099369890374,
+      "epocas": 24
+    },
+    {
+      "modelo": "mlp 2048 dropout=0.5 entrada=0.2 wd=0.01",
+      "familia_modelo": "mlp",
+      "val_auroc": 0.9000909673982246,
+      "epocas": 12
+    }
+  ],
+  "seeds": [
+    {
+      "seed": 42,
+      "val_auroc": 0.9039805257622684,
+      "epocas": 22,
+      "test_auroc": 0.8820259978656478
+    },
+    {
+      "seed": 43,
+      "val_auroc": 0.9025649944396005,
+      "epocas": 17,
+      "test_auroc": 0.8818729059562835
+    },
+    {
+      "seed": 44,
+      "val_auroc": 0.902896725133461,
+      "epocas": 21,
+      "test_auroc": 0.8820400695961397
+    },
+    {
+      "seed": 45,
+      "val_auroc": 0.9025100874042928,
+      "epocas": 20,
+      "test_auroc": 0.882109813589053
+    },
+    {
+      "seed": 46,
+      "val_auroc": 0.903953039479503,
+      "epocas": 23,
+      "test_auroc": 0.882085066249871
+    }
+  ],
+  "test_auroc_seed_mean": 0.882026770651399,
+  "test_auroc_seed_std": 9.239360073543357e-05,
+  "validation_macro_auroc": 0.9039805257622684,
+  "test": {
+    "macro_auroc": 0.8849898238650663,
+    "macro_average_precision": 0.7299705363365468,
+    "per_label": {
+      "NORM": {
+        "auroc": 0.9219627133694681
+      },
+      "MI": {
+        "auroc": 0.8832653014159864
+      },
+      "STTC": {
+        "auroc": 0.9123965239540023
+      },
+      "CD": {
+        "auroc": 0.8799637807511823
+      },
+      "HYP": {
+        "auroc": 0.8273607998346924
+      }
+    }
+  }
+}

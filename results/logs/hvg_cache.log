@@ -1,0 +1,9 @@
+[Parallel(n_jobs=6)]: Using backend LokyBackend with 6 concurrent workers.
+[Parallel(n_jobs=6)]: Done 204 tasks      | elapsed:   10.4s
+[Parallel(n_jobs=6)]: Done 1932 tasks      | elapsed:   56.0s
+[Parallel(n_jobs=6)]: Done 4812 tasks      | elapsed:  2.2min
+[Parallel(n_jobs=6)]: Done 8844 tasks      | elapsed:  3.9min
+[Parallel(n_jobs=6)]: Done 14028 tasks      | elapsed:  6.1min
+[Parallel(n_jobs=6)]: Done 20364 tasks      | elapsed:  8.8min
+[Parallel(n_jobs=6)]: Done 21388 out of 21388 | elapsed:  9.0min finished
+21,388 registros, 481,139,572 arestas (por derivacao: mediana 1887, max 1988) -> /exp/duducampos/InterpretECG/data/features/graphs/hvg_edges.npz

@@ -1,0 +1,49 @@
+{
+  "input": "/exp/duducampos/InterpretECG/results/shapley_lda_lg_exploratory",
+  "permutations": 20000,
+  "override": [],
+  "formato_val": {
+    "razao": 1.0600426499317053,
+    "p": 0.16444177791110445,
+    "nulo_p95": 1.11172627649504,
+    "intra_por_grupo": {
+      "grafo": 0.1358,
+      "imagem": 0.122,
+      "serie": 0.1109
+    },
+    "inter": 0.122125100470458
+  },
+  "formato_test": {
+    "razao": 1.0534386901011346,
+    "p": 0.19754012299385032,
+    "nulo_p95": 1.1092552722419977,
+    "intra_por_grupo": {
+      "grafo": 0.1346,
+      "imagem": 0.1219,
+      "serie": 0.1086
+    },
+    "inter": 0.12205137456295906
+  },
+  "invariancia_val": {
+    "razao": 1.187343846216289,
+    "p": 0.011049447527623619,
+    "nulo_p95": 1.1176906867576797,
+    "intra_por_grupo": {
+      "afim": 0.1256,
+      "mV": 0.1993,
+      "monotonica": 0.1171
+    },
+    "inter": 0.11950673558366201
+  },
+  "invariancia_test": {
+    "razao": 1.129077957413032,
+    "p": 0.0375981200939953,
+    "nulo_p95": 1.1178735873555354,
+    "intra_por_grupo": {
+      "afim": 0.1204,
+      "mV": 0.1875,
+      "monotonica": 0.1166
+    },
+    "inter": 0.12066901095218771
+  }
+}

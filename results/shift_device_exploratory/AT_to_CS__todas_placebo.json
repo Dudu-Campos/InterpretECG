@@ -1,0 +1,100 @@
+{
+  "set": "todas + placebo",
+  "families": [
+    "catch22",
+    "image_spectrogram",
+    "image_scalogram",
+    "image_gasf",
+    "image_gadf",
+    "image_mtf",
+    "image_recurrence",
+    "graph_hvg",
+    "graph_lphvg1",
+    "graph_takens",
+    "graph_transition",
+    "series_placebo"
+  ],
+  "source": "AT",
+  "target": "CS",
+  "regime": "exploratory, folds 1-7/8/9 restritos por aparelho",
+  "feature_count": 3297,
+  "split_sizes": {
+    "train": 5832,
+    "validation": 827,
+    "test_id": 997,
+    "test_ood": 1149
+  },
+  "prevalence": {
+    "train": {
+      "NORM": 0.456,
+      "MI": 0.228,
+      "STTC": 0.275,
+      "CD": 0.228,
+      "HYP": 0.142
+    },
+    "test_id": {
+      "NORM": 0.401,
+      "MI": 0.257,
+      "STTC": 0.296,
+      "CD": 0.265,
+      "HYP": 0.15
+    },
+    "test_ood": {
+      "NORM": 0.483,
+      "MI": 0.247,
+      "STTC": 0.203,
+      "CD": 0.201,
+      "HYP": 0.103
+    }
+  },
+  "readers": {
+    "boosting": {
+      "test_id": {
+        "macro": 0.8979642398005593,
+        "per_label": {
+          "NORM": 0.9168802345058626,
+          "MI": 0.8918638242240216,
+          "STTC": 0.9090009174754937,
+          "CD": 0.9177983794286659,
+          "HYP": 0.8542778433687525
+        }
+      },
+      "test_ood": {
+        "macro": 0.8771313639367397,
+        "per_label": {
+          "NORM": 0.9137137137137137,
+          "MI": 0.8892900757144019,
+          "STTC": 0.8961007927732069,
+          "CD": 0.8577370342076225,
+          "HYP": 0.8288152032747539
+        }
+      },
+      "drop_macro": 0.020832875863819544,
+      "minutes": 2.9
+    },
+    "mlp": {
+      "test_id": {
+        "macro": 0.8926062833445336,
+        "per_label": {
+          "NORM": 0.9225418760469011,
+          "MI": 0.8799236673414306,
+          "STTC": 0.9111980298420976,
+          "CD": 0.9052513539212038,
+          "HYP": 0.8441164895710351
+        }
+      },
+      "test_ood": {
+        "macro": 0.8747734666939992,
+        "per_label": {
+          "NORM": 0.9127915794582462,
+          "MI": 0.8829276235447366,
+          "STTC": 0.8986824596585266,
+          "CD": 0.8604155466900564,
+          "HYP": 0.8190501241184304
+        }
+      },
+      "drop_macro": 0.017832816650534378,
+      "minutes": 0.1
+    }
+  }
+}

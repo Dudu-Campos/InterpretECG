@@ -1,0 +1,11 @@
+ 1075 features  val 0.9302  teste 0.9169  (ajuste 2.4 min)
+      permutacao 5.3 min
+  537 features  val 0.9328  teste 0.9173  (ajuste 1.0 min)
+      permutacao 1.8 min
+  268 features  val 0.9355  teste 0.9147  (ajuste 0.5 min)
+      permutacao 0.9 min
+  134 features  val 0.9328  teste 0.9135  (ajuste 0.3 min)
+      permutacao 0.4 min
+   67 features  val 0.9265  teste 0.9093  (ajuste 0.2 min)
+      permutacao 0.2 min
+   33 features  val 0.9127  teste 0.8970  (ajuste 0.1 min)

@@ -1,0 +1,2 @@
+{"evento": "rampa_inicio", "pid": 1515703, "rampa": [{"hidden": 64, "layers": 4, "batch": 32}, {"hidden": 96, "layers": 5, "batch": 32}, {"hidden": 128, "layers": 6, "batch": 32}, {"hidden": 128, "layers": 6, "batch": 48}, {"hidden": 192, "layers": 8, "batch": 48}, {"hidden": 256, "layers": 8, "batch": 64}], "epochs_por_degrau": 10, "rounds": 99, "timestamp": "2026-11-09T16:00:37.661-03:00"}
+{"evento": "degrau_inicio", "rodada": 1, "degrau": 1, "hidden": 64, "layers": 4, "batch": 32, "tag": "stress_r1_d64_l4_b32", "timestamp": "2026-11-09T16:00:37.664-03:00"}

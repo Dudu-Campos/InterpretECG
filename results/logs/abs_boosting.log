@@ -1,0 +1,58 @@
+21,388 registros; treino 14,955 / validacao 2,129 / teste 2,146
+
+rodando 15 de 39 conjuntos: catch22 + amplitude + interderivacao, todas + amplitude + interderivacao, image_spectrogram_abs, image_scalogram_abs, image_gasf_abs, image_gadf_abs, image_mtf_abs, image_recurrence_abs, graph_takens_abs, graph_transition_abs, visao: imagem abs, visao: grafo abs, catch22 + visoes abs, catch22 + amplitude + interderivacao + visoes abs, catch22 + amplitude + interderivacao + visoes abs sem recorrencia
+
+  catch22 + amplitude + interderivacao   363f  val 0.9164  teste 0.9046  [boosting lr=0.06 folhas=31 msl=80 l2=1.0 mf=1.0]  (5.7 min)
+  todas + amplitude + interderivacao  3297f  val 0.9244  teste 0.9147  [boosting lr=0.06 folhas=31 msl=20 l2=1.0 mf=0.5]  (108.1 min)
+  image_spectrogram_abs    336f  val 0.8593  teste 0.8493  [logistica C=10.0]  (5.1 min)
+  image_scalogram_abs      336f  val 0.8801  teste 0.8650  [boosting lr=0.03 folhas=127 msl=80 l2=0.0 mf=0.5]  (4.4 min)
+  image_gasf_abs           336f  val 0.8846  teste 0.8700  [boosting lr=0.03 folhas=127 msl=80 l2=0.0 mf=0.5]  (5.9 min)
+  image_gadf_abs           336f  val 0.8688  teste 0.8573  [logistica C=10.0]  (6.0 min)
+  image_mtf_abs            336f  val 0.7699  teste 0.7657  [logistica C=10.0]  (4.3 min)
+  image_recurrence_abs     108f  val 0.8342  teste 0.8184  [boosting lr=0.06 folhas=127 msl=80 l2=1.0 mf=0.5]  (1.3 min)
+  graph_takens_abs         300f  val 0.8326  teste 0.8112  [boosting lr=0.05 folhas=63 msl=20 l2=0.0 mf=1.0]  (3.1 min)
+  graph_transition_abs     324f  val 0.8181  teste 0.7976  [boosting lr=0.03 folhas=127 msl=80 l2=0.0 mf=0.5]  (4.2 min)
+  visao: imagem abs       1788f  val 0.9086  teste 0.8924  [boosting lr=0.06 folhas=31 msl=20 l2=1.0 mf=0.5]  (49.7 min)
+  visao: grafo abs        1176f  val 0.8963  teste 0.8780  [boosting lr=0.06 folhas=31 msl=80 l2=1.0 mf=1.0]  (24.7 min)
+  catch22 + visoes abs    3228f  val 0.9254  teste 0.9106  [boosting lr=0.06 folhas=31 msl=20 l2=1.0 mf=0.5]  (97.4 min)
+  catch22 + amplitude + interderivacao + visoes abs  3327f  val 0.9272  teste 0.9113  [boosting lr=0.06 folhas=15 msl=20 l2=1.0 mf=0.5]  (108.2 min)
+  catch22 + amplitude + interderivacao + visoes abs sem recorrencia  2919f  val 0.9258  teste 0.9128  [boosting lr=0.03 folhas=127 msl=80 l2=0.0 mf=0.5]  (80.8 min)
+
+============================================================================================
+                                                         conjunto  n_features                                    melhor_modelo  val_auroc  test_auroc
+                               todas + amplitude + interderivacao        3297  boosting lr=0.06 folhas=31 msl=20 l2=1.0 mf=0.5     0.9244      0.9147
+catch22 + amplitude + interderivacao + visoes abs sem recorrencia        2919 boosting lr=0.03 folhas=127 msl=80 l2=0.0 mf=0.5     0.9258      0.9128
+                catch22 + amplitude + interderivacao + visoes abs        3327  boosting lr=0.06 folhas=15 msl=20 l2=1.0 mf=0.5     0.9272      0.9113
+                                             catch22 + visoes abs        3228  boosting lr=0.06 folhas=31 msl=20 l2=1.0 mf=0.5     0.9254      0.9106
+                             catch22 + amplitude + interderivacao         363  boosting lr=0.06 folhas=31 msl=80 l2=1.0 mf=1.0     0.9164      0.9046
+                                                  todas as visoes        3198  boosting lr=0.06 folhas=31 msl=20 l2=1.0 mf=0.5     0.9143      0.9007
+                                                 catch22 + imagem        2040  boosting lr=0.06 folhas=31 msl=80 l2=1.0 mf=1.0     0.9087      0.8966
+                                                  catch22 + grafo        1422  boosting lr=0.06 folhas=31 msl=20 l2=1.0 mf=0.5     0.9094      0.8963
+                                                   imagem + grafo        2934  boosting lr=0.06 folhas=15 msl=20 l2=1.0 mf=0.5     0.9061      0.8925
+                                                visao: imagem abs        1788  boosting lr=0.06 folhas=31 msl=20 l2=1.0 mf=0.5     0.9086      0.8924
+                                                    visao: imagem        1776  boosting lr=0.06 folhas=31 msl=80 l2=1.0 mf=1.0     0.8926      0.8796
+                                                     visao: grafo        1158  boosting lr=0.06 folhas=31 msl=20 l2=1.0 mf=0.5     0.8901      0.8794
+                                                 visao: grafo abs        1176  boosting lr=0.06 folhas=31 msl=80 l2=1.0 mf=1.0     0.8963      0.8780
+                                                          catch22         264 boosting lr=0.03 folhas=127 msl=80 l2=0.0 mf=0.5     0.8927      0.8768
+                                                   image_gasf_abs         336 boosting lr=0.03 folhas=127 msl=80 l2=0.0 mf=0.5     0.8846      0.8700
+                                              image_scalogram_abs         336 boosting lr=0.03 folhas=127 msl=80 l2=0.0 mf=0.5     0.8801      0.8650
+                                                   image_gadf_abs         336                                 logistica C=10.0     0.8688      0.8573
+                                                 series_amplitude          60 boosting lr=0.03 folhas=127 msl=80 l2=0.0 mf=0.5     0.8676      0.8568
+                                                        graph_hvg         276  boosting lr=0.06 folhas=31 msl=80 l2=1.0 mf=1.0     0.8626      0.8535
+                                                       image_gadf         336                                 logistica C=10.0     0.8578      0.8498
+                                                     graph_lphvg1         276 boosting lr=0.03 folhas=127 msl=80 l2=0.0 mf=0.5     0.8645      0.8496
+                                            image_spectrogram_abs         336                                 logistica C=10.0     0.8593      0.8493
+                                                  image_scalogram         336                                 logistica C=10.0     0.8572      0.8480
+                                                     graph_takens         300  boosting lr=0.06 folhas=31 msl=20 l2=1.0 mf=0.5     0.8440      0.8371
+                                                       image_gasf         336                                 logistica C=10.0     0.8426      0.8287
+                                             image_recurrence_abs         108 boosting lr=0.06 folhas=127 msl=80 l2=1.0 mf=0.5     0.8342      0.8184
+                                                image_spectrogram         336                                  logistica C=1.0     0.8295      0.8184
+                                                 image_recurrence          96 boosting lr=0.03 folhas=127 msl=80 l2=0.0 mf=1.0     0.8321      0.8180
+                                                 graph_takens_abs         300  boosting lr=0.05 folhas=63 msl=20 l2=0.0 mf=1.0     0.8326      0.8112
+                                             graph_transition_abs         324 boosting lr=0.03 folhas=127 msl=80 l2=0.0 mf=0.5     0.8181      0.7976
+                                                 series_interlead          39 boosting lr=0.03 folhas=127 msl=80 l2=0.0 mf=0.5     0.8016      0.7908
+                                                    image_mtf_abs         336                                 logistica C=10.0     0.7699      0.7657
+                                                 graph_transition         306 boosting lr=0.03 folhas=127 msl=80 l2=0.0 mf=0.5     0.7738      0.7633
+                                                        image_mtf         336                                  logistica C=1.0     0.7352      0.7289
+
+-> results/views_wide_exploratory/

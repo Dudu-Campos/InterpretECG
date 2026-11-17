@@ -1,0 +1,55 @@
+{
+  "dataset": "chapman8",
+  "lists": "pruned",
+  "conjunto": "todas_familias",
+  "k": 134,
+  "labels": [
+    "SB",
+    "SR",
+    "AFIB",
+    "ST",
+    "SVT",
+    "AF",
+    "SA",
+    "AT"
+  ],
+  "split_sizes": {
+    "train": 8494,
+    "validation": 1062,
+    "test": 1059
+  },
+  "validation_macro_auroc": 0.9631053736002955,
+  "test_macro_auroc": 0.9668668202546785,
+  "test_per_label": {
+    "SB": 0.9983654989832329,
+    "SR": 0.9852460592079969,
+    "AFIB": 0.9863532681366509,
+    "ST": 0.9953795044391575,
+    "SVT": 0.9927362733361375,
+    "AF": 0.9290382819794585,
+    "SA": 0.9768059604794298,
+    "AT": 0.8710097154753643
+  },
+  "iterations_per_label": [
+    280,
+    278,
+    290,
+    308,
+    184,
+    140,
+    185,
+    74
+  ],
+  "parametros": 288689,
+  "inf_replaced_by_nan": 0,
+  "sha256_lista": "8b155116c7a2ca2a3f40810bc327cf6b5f64e08f78f5bfdbe63f760626465817",
+  "boosting": {
+    "learning_rate": 0.03,
+    "max_leaf_nodes": 127,
+    "min_samples_leaf": 80,
+    "l2_regularization": 0.0,
+    "max_features": 0.5
+  },
+  "seed": 42,
+  "finished": "2026-11-11T21:28:19.841575+00:00"
+}

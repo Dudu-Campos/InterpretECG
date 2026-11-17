@@ -1,0 +1,42 @@
+{
+  "dataset": "ptbxl",
+  "conjunto": "catch22",
+  "k": 264,
+  "labels": [
+    "NORM",
+    "MI",
+    "STTC",
+    "CD",
+    "HYP"
+  ],
+  "split_sizes": {
+    "train": 17084,
+    "validation": 2146,
+    "test": 2158
+  },
+  "validation_macro_auroc": 0.8761098696347057,
+  "test_macro_auroc": 0.8717610444238044,
+  "test_per_label": {
+    "NORM": 0.9005843837032983,
+    "MI": 0.8627623247399366,
+    "STTC": 0.8953565402748579,
+    "CD": 0.8794168025309577,
+    "HYP": 0.8206851708699713
+  },
+  "iterations_per_label": [
+    276,
+    234,
+    241,
+    223,
+    126
+  ],
+  "boosting": {
+    "learning_rate": 0.03,
+    "max_leaf_nodes": 127,
+    "min_samples_leaf": 80,
+    "l2_regularization": 0.0,
+    "max_features": 0.5
+  },
+  "seed": 42,
+  "finished": "2026-11-13T17:29:38.340176+00:00"
+}

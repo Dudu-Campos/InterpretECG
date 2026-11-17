@@ -1,0 +1,160 @@
+[Parallel(n_jobs=120)]: Using backend LokyBackend with 120 concurrent workers.
+[Parallel(n_jobs=120)]: Done   2 out of 200 | elapsed:  8.5min remaining: 845.8min
+[Parallel(n_jobs=120)]: Done  43 out of 200 | elapsed:  9.9min remaining: 36.1min
+[Parallel(n_jobs=120)]: Done  84 out of 200 | elapsed: 10.2min remaining: 14.1min
+[Parallel(n_jobs=120)]: Done 125 out of 200 | elapsed: 15.6min remaining:  9.3min
+[Parallel(n_jobs=120)]: Done 166 out of 200 | elapsed: 16.6min remaining:  3.4min
+[Parallel(n_jobs=120)]: Done 200 out of 200 | elapsed: 17.8min finished
+shard 1/10 views: 10000 registros, 17.9 min
+[Parallel(n_jobs=120)]: Using backend LokyBackend with 120 concurrent workers.
+[Parallel(n_jobs=120)]: Done   8 out of 100 | elapsed:  3.4min remaining: 38.8min
+[Parallel(n_jobs=120)]: Done  29 out of 100 | elapsed:  3.7min remaining:  9.1min
+[Parallel(n_jobs=120)]: Done  50 out of 100 | elapsed:  3.9min remaining:  3.9min
+[Parallel(n_jobs=120)]: Done  71 out of 100 | elapsed:  4.0min remaining:  1.7min
+[Parallel(n_jobs=120)]: Done  92 out of 100 | elapsed:  4.1min remaining:   21.5s
+[Parallel(n_jobs=120)]: Done 100 out of 100 | elapsed:  4.2min finished
+shard 1/10 tsfresh: 4.4 min
+[Parallel(n_jobs=120)]: Using backend LokyBackend with 120 concurrent workers.
+[Parallel(n_jobs=120)]: Done   2 out of 200 | elapsed:  8.8min remaining: 869.4min
+[Parallel(n_jobs=120)]: Done  43 out of 200 | elapsed: 10.0min remaining: 36.6min
+[Parallel(n_jobs=120)]: Done  84 out of 200 | elapsed: 10.3min remaining: 14.2min
+[Parallel(n_jobs=120)]: Done 125 out of 200 | elapsed: 15.8min remaining:  9.5min
+[Parallel(n_jobs=120)]: Done 166 out of 200 | elapsed: 16.9min remaining:  3.5min
+[Parallel(n_jobs=120)]: Done 200 out of 200 | elapsed: 17.9min finished
+shard 2/10 views: 10000 registros, 18.1 min
+[Parallel(n_jobs=120)]: Using backend LokyBackend with 120 concurrent workers.
+[Parallel(n_jobs=120)]: Done   8 out of 100 | elapsed:  3.5min remaining: 40.2min
+[Parallel(n_jobs=120)]: Done  29 out of 100 | elapsed:  3.7min remaining:  9.1min
+[Parallel(n_jobs=120)]: Done  50 out of 100 | elapsed:  3.9min remaining:  3.9min
+[Parallel(n_jobs=120)]: Done  71 out of 100 | elapsed:  4.0min remaining:  1.6min
+[Parallel(n_jobs=120)]: Done  92 out of 100 | elapsed:  4.1min remaining:   21.4s
+[Parallel(n_jobs=120)]: Done 100 out of 100 | elapsed:  4.2min finished
+shard 2/10 tsfresh: 4.4 min
+[Parallel(n_jobs=120)]: Using backend LokyBackend with 120 concurrent workers.
+[Parallel(n_jobs=120)]: Done   2 out of 200 | elapsed:  8.8min remaining: 875.3min
+[Parallel(n_jobs=120)]: Done  43 out of 200 | elapsed: 10.0min remaining: 36.4min
+[Parallel(n_jobs=120)]: Done  84 out of 200 | elapsed: 10.2min remaining: 14.1min
+[Parallel(n_jobs=120)]: Done 125 out of 200 | elapsed: 16.0min remaining:  9.6min
+[Parallel(n_jobs=120)]: Done 166 out of 200 | elapsed: 16.8min remaining:  3.4min
+[Parallel(n_jobs=120)]: Done 200 out of 200 | elapsed: 18.0min finished
+shard 3/10 views: 10000 registros, 18.2 min
+[Parallel(n_jobs=120)]: Using backend LokyBackend with 120 concurrent workers.
+[Parallel(n_jobs=120)]: Done   8 out of 100 | elapsed:  3.3min remaining: 38.3min
+[Parallel(n_jobs=120)]: Done  29 out of 100 | elapsed:  3.7min remaining:  9.0min
+[Parallel(n_jobs=120)]: Done  50 out of 100 | elapsed:  3.9min remaining:  3.9min
+[Parallel(n_jobs=120)]: Done  71 out of 100 | elapsed:  4.0min remaining:  1.6min
+[Parallel(n_jobs=120)]: Done  92 out of 100 | elapsed:  4.1min remaining:   21.3s
+[Parallel(n_jobs=120)]: Done 100 out of 100 | elapsed:  4.2min finished
+shard 3/10 tsfresh: 4.4 min
+[Parallel(n_jobs=120)]: Using backend LokyBackend with 120 concurrent workers.
+[Parallel(n_jobs=120)]: Done   2 out of 200 | elapsed:  8.6min remaining: 855.9min
+[Parallel(n_jobs=120)]: Done  43 out of 200 | elapsed: 10.0min remaining: 36.4min
+[Parallel(n_jobs=120)]: Done  84 out of 200 | elapsed: 10.3min remaining: 14.2min
+[Parallel(n_jobs=120)]: Done 125 out of 200 | elapsed: 16.0min remaining:  9.6min
+[Parallel(n_jobs=120)]: Done 166 out of 200 | elapsed: 16.8min remaining:  3.5min
+[Parallel(n_jobs=120)]: Done 200 out of 200 | elapsed: 17.7min finished
+shard 4/10 views: 10000 registros, 17.8 min
+[Parallel(n_jobs=120)]: Using backend LokyBackend with 120 concurrent workers.
+[Parallel(n_jobs=120)]: Done   8 out of 100 | elapsed:  3.3min remaining: 37.7min
+[Parallel(n_jobs=120)]: Done  29 out of 100 | elapsed:  3.7min remaining:  9.1min
+[Parallel(n_jobs=120)]: Done  50 out of 100 | elapsed:  3.9min remaining:  3.9min
+[Parallel(n_jobs=120)]: Done  71 out of 100 | elapsed:  4.0min remaining:  1.6min
+[Parallel(n_jobs=120)]: Done  92 out of 100 | elapsed:  4.1min remaining:   21.4s
+[Parallel(n_jobs=120)]: Done 100 out of 100 | elapsed:  4.2min finished
+shard 4/10 tsfresh: 4.4 min
+[Parallel(n_jobs=120)]: Using backend LokyBackend with 120 concurrent workers.
+[Parallel(n_jobs=120)]: Done   2 out of 200 | elapsed:  9.2min remaining: 906.0min
+[Parallel(n_jobs=120)]: Done  43 out of 200 | elapsed: 10.0min remaining: 36.5min
+[Parallel(n_jobs=120)]: Done  84 out of 200 | elapsed: 10.3min remaining: 14.2min
+[Parallel(n_jobs=120)]: Done 125 out of 200 | elapsed: 16.1min remaining:  9.7min
+[Parallel(n_jobs=120)]: Done 166 out of 200 | elapsed: 17.0min remaining:  3.5min
+[Parallel(n_jobs=120)]: Done 200 out of 200 | elapsed: 17.9min finished
+shard 5/10 views: 10000 registros, 18.0 min
+[Parallel(n_jobs=120)]: Using backend LokyBackend with 120 concurrent workers.
+[Parallel(n_jobs=120)]: Done   8 out of 100 | elapsed:  3.2min remaining: 37.3min
+[Parallel(n_jobs=120)]: Done  29 out of 100 | elapsed:  3.7min remaining:  9.2min
+[Parallel(n_jobs=120)]: Done  50 out of 100 | elapsed:  3.9min remaining:  3.9min
+[Parallel(n_jobs=120)]: Done  71 out of 100 | elapsed:  4.0min remaining:  1.6min
+[Parallel(n_jobs=120)]: Done  92 out of 100 | elapsed:  4.1min remaining:   21.3s
+[Parallel(n_jobs=120)]: Done 100 out of 100 | elapsed:  4.1min finished
+shard 5/10 tsfresh: 4.3 min
+[Parallel(n_jobs=120)]: Using backend LokyBackend with 120 concurrent workers.
+[Parallel(n_jobs=120)]: Done   2 out of 200 | elapsed:  9.0min remaining: 893.7min
+[Parallel(n_jobs=120)]: Done  43 out of 200 | elapsed: 10.0min remaining: 36.5min
+[Parallel(n_jobs=120)]: Done  84 out of 200 | elapsed: 10.3min remaining: 14.2min
+[Parallel(n_jobs=120)]: Done 125 out of 200 | elapsed: 16.0min remaining:  9.6min
+[Parallel(n_jobs=120)]: Done 166 out of 200 | elapsed: 16.9min remaining:  3.5min
+[Parallel(n_jobs=120)]: Done 200 out of 200 | elapsed: 17.7min finished
+shard 6/10 views: 10000 registros, 17.9 min
+[Parallel(n_jobs=120)]: Using backend LokyBackend with 120 concurrent workers.
+[Parallel(n_jobs=120)]: Done   8 out of 100 | elapsed:  3.5min remaining: 40.3min
+[Parallel(n_jobs=120)]: Done  29 out of 100 | elapsed:  3.7min remaining:  9.1min
+[Parallel(n_jobs=120)]: Done  50 out of 100 | elapsed:  3.9min remaining:  3.9min
+[Parallel(n_jobs=120)]: Done  71 out of 100 | elapsed:  4.0min remaining:  1.6min
+[Parallel(n_jobs=120)]: Done  92 out of 100 | elapsed:  4.1min remaining:   21.2s
+[Parallel(n_jobs=120)]: Done 100 out of 100 | elapsed:  4.2min finished
+shard 6/10 tsfresh: 4.4 min
+[Parallel(n_jobs=120)]: Using backend LokyBackend with 120 concurrent workers.
+[Parallel(n_jobs=120)]: Done   2 out of 200 | elapsed:  8.9min remaining: 885.5min
+[Parallel(n_jobs=120)]: Done  43 out of 200 | elapsed: 10.0min remaining: 36.4min
+[Parallel(n_jobs=120)]: Done  84 out of 200 | elapsed: 10.2min remaining: 14.1min
+[Parallel(n_jobs=120)]: Done 125 out of 200 | elapsed: 16.0min remaining:  9.6min
+[Parallel(n_jobs=120)]: Done 166 out of 200 | elapsed: 16.9min remaining:  3.5min
+[Parallel(n_jobs=120)]: Done 200 out of 200 | elapsed: 17.8min finished
+shard 7/10 views: 10000 registros, 17.9 min
+[Parallel(n_jobs=120)]: Using backend LokyBackend with 120 concurrent workers.
+[Parallel(n_jobs=120)]: Done   8 out of 100 | elapsed:  3.4min remaining: 39.1min
+[Parallel(n_jobs=120)]: Done  29 out of 100 | elapsed:  3.7min remaining:  9.1min
+[Parallel(n_jobs=120)]: Done  50 out of 100 | elapsed:  3.8min remaining:  3.8min
+[Parallel(n_jobs=120)]: Done  71 out of 100 | elapsed:  4.0min remaining:  1.6min
+[Parallel(n_jobs=120)]: Done  92 out of 100 | elapsed:  4.1min remaining:   21.4s
+[Parallel(n_jobs=120)]: Done 100 out of 100 | elapsed:  4.2min finished
+shard 7/10 tsfresh: 4.3 min
+[Parallel(n_jobs=120)]: Using backend LokyBackend with 120 concurrent workers.
+[Parallel(n_jobs=120)]: Done   2 out of 200 | elapsed:  8.8min remaining: 870.5min
+[Parallel(n_jobs=120)]: Done  43 out of 200 | elapsed: 10.0min remaining: 36.6min
+[Parallel(n_jobs=120)]: Done  84 out of 200 | elapsed: 10.2min remaining: 14.1min
+[Parallel(n_jobs=120)]: Done 125 out of 200 | elapsed: 16.0min remaining:  9.6min
+[Parallel(n_jobs=120)]: Done 166 out of 200 | elapsed: 16.8min remaining:  3.4min
+[Parallel(n_jobs=120)]: Done 200 out of 200 | elapsed: 17.8min finished
+shard 8/10 views: 10000 registros, 18.0 min
+[Parallel(n_jobs=120)]: Using backend LokyBackend with 120 concurrent workers.
+[Parallel(n_jobs=120)]: Done   8 out of 100 | elapsed:  3.5min remaining: 39.7min
+[Parallel(n_jobs=120)]: Done  29 out of 100 | elapsed:  3.7min remaining:  9.1min
+[Parallel(n_jobs=120)]: Done  50 out of 100 | elapsed:  3.8min remaining:  3.8min
+[Parallel(n_jobs=120)]: Done  71 out of 100 | elapsed:  4.0min remaining:  1.6min
+[Parallel(n_jobs=120)]: Done  92 out of 100 | elapsed:  4.1min remaining:   21.2s
+[Parallel(n_jobs=120)]: Done 100 out of 100 | elapsed:  4.2min finished
+shard 8/10 tsfresh: 4.3 min
+[Parallel(n_jobs=120)]: Using backend LokyBackend with 120 concurrent workers.
+[Parallel(n_jobs=120)]: Done   2 out of 200 | elapsed:  8.9min remaining: 883.5min
+[Parallel(n_jobs=120)]: Done  43 out of 200 | elapsed: 10.0min remaining: 36.5min
+[Parallel(n_jobs=120)]: Done  84 out of 200 | elapsed: 10.3min remaining: 14.2min
+[Parallel(n_jobs=120)]: Done 125 out of 200 | elapsed: 15.8min remaining:  9.5min
+[Parallel(n_jobs=120)]: Done 166 out of 200 | elapsed: 16.7min remaining:  3.4min
+[Parallel(n_jobs=120)]: Done 200 out of 200 | elapsed: 17.8min finished
+shard 9/10 views: 10000 registros, 17.9 min
+[Parallel(n_jobs=120)]: Using backend LokyBackend with 120 concurrent workers.
+[Parallel(n_jobs=120)]: Done   8 out of 100 | elapsed:  3.1min remaining: 35.4min
+[Parallel(n_jobs=120)]: Done  29 out of 100 | elapsed:  3.6min remaining:  8.8min
+[Parallel(n_jobs=120)]: Done  50 out of 100 | elapsed:  3.8min remaining:  3.8min
+[Parallel(n_jobs=120)]: Done  71 out of 100 | elapsed:  3.9min remaining:  1.6min
+[Parallel(n_jobs=120)]: Done  92 out of 100 | elapsed:  4.0min remaining:   20.9s
+[Parallel(n_jobs=120)]: Done 100 out of 100 | elapsed:  4.1min finished
+shard 9/10 tsfresh: 4.2 min
+[Parallel(n_jobs=120)]: Using backend LokyBackend with 120 concurrent workers.
+[Parallel(n_jobs=120)]: Done  12 out of  53 | elapsed:  5.1min remaining: 17.5min
+[Parallel(n_jobs=120)]: Done  23 out of  53 | elapsed:  5.2min remaining:  6.7min
+[Parallel(n_jobs=120)]: Done  34 out of  53 | elapsed:  5.2min remaining:  2.9min
+[Parallel(n_jobs=120)]: Done  45 out of  53 | elapsed:  5.3min remaining:   56.4s
+[Parallel(n_jobs=120)]: Done  53 out of  53 | elapsed:  5.4min finished
+shard 10/10 views: 2619 registros, 5.4 min
+[Parallel(n_jobs=120)]: Using backend LokyBackend with 120 concurrent workers.
+[Parallel(n_jobs=120)]: Done   4 out of  27 | elapsed:  2.2min remaining: 12.4min
+[Parallel(n_jobs=120)]: Done  10 out of  27 | elapsed:  2.2min remaining:  3.7min
+[Parallel(n_jobs=120)]: Done  16 out of  27 | elapsed:  2.2min remaining:  1.5min
+[Parallel(n_jobs=120)]: Done  22 out of  27 | elapsed:  2.2min remaining:   29.8s
+[Parallel(n_jobs=120)]: Done  27 out of  27 | elapsed:  2.3min finished
+shard 10/10 tsfresh: 2.3 min
+92,619 registros, 16 familias, 210.3 min -> data/features/external/code15
+92,619 registros, 16 familias, 4.7 min -> data/features/external/code15

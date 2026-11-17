@@ -1,0 +1,81 @@
+{
+  "reader": "LDA binaria por rotulo, shrinkage Ledoit-Wolf, z-score do treino, corte +-5",
+  "value": "AUROC macro; validacao = fold 8 (decisao), teste = fold 9 (descricao)",
+  "players": {
+    "catch22": [
+      "catch22"
+    ],
+    "amplitude+inter": [
+      "series_amplitude",
+      "series_interlead"
+    ],
+    "espectro+escalograma": [
+      "image_spectrogram",
+      "image_scalogram"
+    ],
+    "gaf": [
+      "image_gasf",
+      "image_gadf"
+    ],
+    "mtf": [
+      "image_mtf"
+    ],
+    "rqa": [
+      "image_recurrence"
+    ],
+    "visibilidade": [
+      "graph_hvg",
+      "graph_lphvg1"
+    ],
+    "takens": [
+      "graph_takens"
+    ],
+    "transicao": [
+      "graph_transition"
+    ],
+    "line graph mV": [
+      "graph_hvg_line_mv",
+      "graph_lphvg1_line_mv"
+    ],
+    "direcionado mV": [
+      "graph_hvg_dir_mv",
+      "graph_lphvg1_dir_mv"
+    ]
+  },
+  "shapley": {
+    "validation": {
+      "catch22": 0.038827391780473154,
+      "amplitude+inter": 0.03824540130043198,
+      "espectro+escalograma": 0.04189895103682954,
+      "gaf": 0.04133553513998363,
+      "mtf": 0.02031157455223841,
+      "rqa": 0.029478382011221948,
+      "visibilidade": 0.040190353213958536,
+      "takens": 0.03194210227411201,
+      "transicao": 0.0232690178606642,
+      "line graph mV": 0.04915971788705039,
+      "direcionado mV": 0.047443485315384316
+    },
+    "test": {
+      "catch22": 0.038561818020337764,
+      "amplitude+inter": 0.03758913007135087,
+      "espectro+escalograma": 0.03891771147811762,
+      "gaf": 0.040733430576685895,
+      "mtf": 0.019547847737806313,
+      "rqa": 0.02909722670490355,
+      "visibilidade": 0.036991805770774225,
+      "takens": 0.03205247091322174,
+      "transicao": 0.021307158949846198,
+      "line graph mV": 0.04857975941291333,
+      "direcionado mV": 0.04600520843534099
+    }
+  },
+  "full": {
+    "validation": 0.902101912372348,
+    "test": 0.8893835680712983
+  },
+  "base_catch22_amplitude_inter": {
+    "validation": 0.8806671356294535,
+    "test": 0.872908543692253
+  }
+}

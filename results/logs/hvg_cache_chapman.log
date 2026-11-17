@@ -1,0 +1,7 @@
+[Parallel(n_jobs=14)]: Using backend LokyBackend with 14 concurrent workers.
+[Parallel(n_jobs=14)]: Done   8 tasks      | elapsed:    2.5s
+[Parallel(n_jobs=14)]: Done 2844 tasks      | elapsed:   45.8s
+[Parallel(n_jobs=14)]: Done 8604 tasks      | elapsed:  2.1min
+[Parallel(n_jobs=14)]: Done 10414 tasks      | elapsed:  2.4min
+[Parallel(n_jobs=14)]: Done 10646 out of 10646 | elapsed:  2.4min finished
+10,646 registros, 252,546,940 arestas (por derivacao: mediana 1979, max 1996) -> data/features/graphs/hvg_edges_chapman.npz

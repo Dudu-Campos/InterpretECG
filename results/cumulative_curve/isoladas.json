@@ -1,0 +1,30 @@
+{
+  "validation_macro_auroc": {
+    "catch22": 0.888454860849258,
+    "graph_hvg": 0.8559584303874577,
+    "graph_lphvg1": 0.8598449417416818,
+    "graph_takens": 0.8372831908364373,
+    "graph_transition": 0.7672634787726522,
+    "image_gadf": 0.847409075075008,
+    "image_gasf": 0.8188822251164354,
+    "image_mtf": 0.7139846434397132,
+    "image_recurrence": 0.8252862958930478,
+    "image_scalogram": 0.8474602572134107,
+    "image_spectrogram": 0.816704968209838
+  },
+  "ordem": [
+    "catch22",
+    "graph_lphvg1",
+    "graph_hvg",
+    "image_scalogram",
+    "image_gadf",
+    "graph_takens",
+    "image_recurrence",
+    "image_gasf",
+    "image_spectrogram",
+    "graph_transition",
+    "image_mtf"
+  ],
+  "n_bootstrap": 2000,
+  "regime": "exploratory"
+}

@@ -1,0 +1,17 @@
+240 features em 12 jogadores; treino 14,955 [cuda]
+4096 coalizoes em 222 s
+                      shapley_val  shapley_test  sozinho_val  loo_val  add_na_base_val
+line graph mV             +0.0576       +0.0560       0.8533  +0.0064          +0.0320
+direcionado mV            +0.0513       +0.0516       0.8350  +0.0046          +0.0264
+visibilidade              +0.0440       +0.0441       0.8025  +0.0043          +0.0266
+amplitude+inter           +0.0431       +0.0442       0.7994  +0.0029          +0.0000
+catch22                   +0.0389       +0.0378       0.7955  +0.0015          +0.0000
+espectro+escalograma      +0.0379       +0.0322       0.7873  +0.0017          +0.0184
+takens                    +0.0354       +0.0365       0.7884  -0.0004          +0.0185
+rqa                       +0.0339       +0.0301       0.7664  +0.0010          +0.0199
+gaf                       +0.0279       +0.0275       0.7166  +0.0022          +0.0146
+transicao                 +0.0194       +0.0197       0.6766  +0.0003          +0.0079
+mtf                       +0.0168       +0.0166       0.6612  +0.0005          +0.0067
+placebo                   -0.0013       -0.0008      +0.4905  -0.0002          -0.0007
+coalizao cheia: val 0.9050  teste 0.8953; soma dos Shapley (val) 0.9050
+-> /exp/duducampos/InterpretECG/results/shapley_lda_lg_pca20_placebo_exploratory

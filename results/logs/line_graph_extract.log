@@ -1,0 +1,15 @@
+[Parallel(n_jobs=8)]: Using backend LokyBackend with 8 concurrent workers.
+[Parallel(n_jobs=8)]: Done  48 tasks      | elapsed:   38.0s
+[Parallel(n_jobs=8)]: Done 912 tasks      | elapsed:  3.9min
+[Parallel(n_jobs=8)]: Done 2352 tasks      | elapsed: 10.0min
+[Parallel(n_jobs=8)]: Done 4368 tasks      | elapsed: 18.2min
+[Parallel(n_jobs=8)]: Done 6960 tasks      | elapsed: 28.8min
+[Parallel(n_jobs=8)]: Done 10128 tasks      | elapsed: 39.5min
+[Parallel(n_jobs=8)]: Done 13872 tasks      | elapsed: 51.8min
+[Parallel(n_jobs=8)]: Done 18192 tasks      | elapsed: 66.5min
+[Parallel(n_jobs=8)]: Done 21378 tasks      | elapsed: 73.7min
+[Parallel(n_jobs=8)]: Done 21388 out of 21388 | elapsed: 73.8min finished
+graph_hvg_line: 336 features, 21,388 registros, NaN 0
+graph_hvg_line_mv: 252 features, 21,388 registros, NaN 0
+graph_lphvg1_line: 336 features, 21,388 registros, NaN 0
+graph_lphvg1_line_mv: 252 features, 21,388 registros, NaN 0

@@ -1,0 +1,6 @@
+{
+  "takens: media log vao por no (o que a GNN ve), 6x12": 0.8633591817857986,
+  "takens: histograma completo dos vaos, 23x12": 0.9418070535824438,
+  "hvg: media log vao por no (o que a GNN ve), 6x12": 0.8869164728371295,
+  "hvg: histograma completo dos vaos, 23x12": 0.9714617737166235
+}

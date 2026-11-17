@@ -1,0 +1,45 @@
+{
+  "dataset": "code15",
+  "conjunto": "catch22",
+  "k": 264,
+  "labels": [
+    "1dAVb",
+    "RBBB",
+    "LBBB",
+    "SB",
+    "ST",
+    "AF"
+  ],
+  "split_sizes": {
+    "train": 74096,
+    "validation": 9262,
+    "test": 9261
+  },
+  "validation_macro_auroc": 0.9608736191191419,
+  "test_macro_auroc": 0.9617719730440459,
+  "test_per_label": {
+    "1dAVb": 0.8925882352941176,
+    "RBBB": 0.9807548066317092,
+    "LBBB": 0.9957122435724433,
+    "SB": 0.9784473039572842,
+    "ST": 0.9903656094453331,
+    "AF": 0.9327636393633884
+  },
+  "iterations_per_label": [
+    104,
+    196,
+    156,
+    149,
+    185,
+    140
+  ],
+  "boosting": {
+    "learning_rate": 0.03,
+    "max_leaf_nodes": 127,
+    "min_samples_leaf": 80,
+    "l2_regularization": 0.0,
+    "max_features": 0.5
+  },
+  "seed": 42,
+  "finished": "2026-11-13T17:34:30.364184+00:00"
+}

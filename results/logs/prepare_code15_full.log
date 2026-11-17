@@ -1,0 +1,93 @@
+exams_part0.hdf5 20001 exames, 7660 de 10 s
+exams_part1.hdf5 20001 exames, 7554 de 10 s
+exams_part10.hdf5 20001 exames, 7621 de 10 s
+exams_part11.hdf5 20001 exames, 7463 de 10 s
+exams_part12.hdf5 20001 exames, 7648 de 10 s
+exams_part13.hdf5 20001 exames, 7523 de 10 s
+exams_part14.hdf5 20001 exames, 7592 de 10 s
+exams_part15.hdf5 20001 exames, 8124 de 10 s
+exams_part16.hdf5 20001 exames, 8724 de 10 s
+exams_part17.hdf5 5780 exames, 2423 de 10 s
+exams_part2.hdf5 20001 exames, 7668 de 10 s
+exams_part3.hdf5 20001 exames, 7668 de 10 s
+exams_part4.hdf5 20001 exames, 7591 de 10 s
+exams_part5.hdf5 20001 exames, 7605 de 10 s
+exams_part6.hdf5 20001 exames, 7504 de 10 s
+exams_part7.hdf5 20001 exames, 7569 de 10 s
+exams_part8.hdf5 20001 exames, 7510 de 10 s
+exams_part9.hdf5 20001 exames, 7483 de 10 s
+/exp/duducampos/InterpretECG/scripts/prepare_external.py:123: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  "label_counts": rot.sum().to_dict(), "normal_or_other": int((rot.sum(1) == 0).sum()),
+{
+  "parts": [
+    "exams_part0.hdf5",
+    "exams_part1.hdf5",
+    "exams_part10.hdf5",
+    "exams_part11.hdf5",
+    "exams_part12.hdf5",
+    "exams_part13.hdf5",
+    "exams_part14.hdf5",
+    "exams_part15.hdf5",
+    "exams_part16.hdf5",
+    "exams_part17.hdf5",
+    "exams_part2.hdf5",
+    "exams_part3.hdf5",
+    "exams_part4.hdf5",
+    "exams_part5.hdf5",
+    "exams_part6.hdf5",
+    "exams_part7.hdf5",
+    "exams_part8.hdf5",
+    "exams_part9.hdf5"
+  ],
+  "exams_in_parts": 345779,
+  "exams_10s": 132930,
+  "records_one_per_patient": 92619,
+  "labels": [
+    "1dAVb",
+    "RBBB",
+    "LBBB",
+    "SB",
+    "ST",
+    "AF"
+  ],
+  "label_counts": {
+    "1dAVb": 1378,
+    "RBBB": 1946,
+    "LBBB": 1475,
+    "SB": 1427,
+    "ST": 1867,
+    "AF": 1492
+  },
+  "normal_or_other": 83873,
+  "records_with_flat_lead": 475,
+  "fs_in": 400,
+  "resample": "scipy.signal.resample_poly(1, 4) sobre as 4.000 amostras validas",
+  "fold_counts": {
+    "1": 9262,
+    "2": 9262,
+    "3": 9262,
+    "4": 9262,
+    "5": 9262,
+    "6": 9262,
+    "7": 9262,
+    "8": 9262,
+    "9": 9262,
+    "10": 9261
+  },
+  "seed": 42,
+  "leads": [
+    "I",
+    "II",
+    "III",
+    "AVR",
+    "AVL",
+    "AVF",
+    "V1",
+    "V2",
+    "V3",
+    "V4",
+    "V5",
+    "V6"
+  ],
+  "split": "train 1-8 / validation 9 / test 10"
+}
